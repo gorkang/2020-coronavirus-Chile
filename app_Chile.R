@@ -78,27 +78,27 @@ ui <-
                 selected = c(top_countries)),
     
     selectInput(inputId = 'highlight', 
-                label = 'Highlight Comunas',
+                label = 'Destacar Comunas',
                 choices = c(top_countries),
                 multiple = TRUE, 
                 selectize = TRUE, 
                 width = "100%"),
     
-    selectInput(inputId = "cases_deaths", label = "Cases", selected = "cases", 
-                 choices = c("cases")),# "deaths", "CFR")),
+    selectInput(inputId = "cases_deaths", label = "Casos", selected = "cases", 
+                choices = c("cases")),# "deaths", "CFR")),
 
-    radioButtons(inputId = "accumulated_daily_pct", label = "Accumulated, daily or %", selected = "accumulated", 
+    radioButtons(inputId = "accumulated_daily_pct", label = "Acumulado, diario o %", selected = "accumulated", 
                  choices = c("accumulated", "daily", "%"), inline = TRUE),
     
     # Dynamically change with cases_deaths
-    sliderInput('min_n_cases', paste0("Day 0 after ___ accumulated cases"), min = 1, max = 1000, value = 100), 
+    sliderInput('min_n_cases', paste0("Dia 0 despues de ___ casos acumulados"), min = 1, max = 1000, value = 100), 
     # sliderInput('min_n_deaths', paste0("Day 0 after ___ accumulated deaths"), min = 1, max = 500, value = 10),
     # sliderInput('min_n_CFR', paste0("Day 0 after ___ accumulated deaths"), min = 1, max = 500, value = 10),
     
     # Dynamically change with accumulated_daily_pct
-    sliderInput("growth_accumulated", "Daily growth (%):", min = 0, max = 100, value = 15),
-    sliderInput("growth_daily", "Daily growth (%):", min = 0, max = 100, value = 5),
-    sliderInput("growth_pct", "Daily growth (%):", min = -50, max = 0, value = -10),
+    sliderInput("growth_accumulated", "Crecimiento diario (%):", min = 0, max = 100, value = 20),
+    sliderInput("growth_daily", "Crecimiento diario (%):", min = 0, max = 100, value = 5),
+    sliderInput("growth_pct", "Crecimiento diario (%):", min = -50, max = 0, value = -10),
     
     HTML("<BR>"),
     
@@ -107,14 +107,14 @@ ui <-
         ), 
     HTML("&nbsp;&nbsp;"),
     div(style="display:inline-block;45%;text-align: center;",
-        shinyWidgets::switchInput(inputId = "smooth", label = "Smooth", value = FALSE, size = "mini", labelWidth = "45%")
+        shinyWidgets::switchInput(inputId = "smooth", label = "Suavizar", value = FALSE, size = "mini", labelWidth = "45%")
         ),
     
     # RELATIVE
     div(style="display:inline-block;45%;text-align: center;",
         HTML("&nbsp;&nbsp;"),
         
-    shinyWidgets::switchInput(inputId = "relative", label = "Relative/million", value = FALSE, size = "mini", labelWidth = "80%")
+    shinyWidgets::switchInput(inputId = "relative", label = "Relativo/millon", value = FALSE, size = "mini", labelWidth = "80%")
     ),
     HTML("<BR><BR>"),
     
@@ -132,10 +132,10 @@ ui <-
     
     hr(),
     
-    HTML(paste0("Based on ",  
+    HTML(paste0("Basado en ",  
             a("Coronavirus Tracker", href="https://gorkang.shinyapps.io/2020-corona/", target = "_blank"), ", ", 
-            "using ", a("@ministeriosalud", href="https://twitter.com/ministeriosalud", target = "_blank"), " ", 
-            "data compiled by ", a("@perez", href="https://twitter.com/perez", target = "_blank"))),
+            "usando datos de ", a("@ministeriosalud", href="https://twitter.com/ministeriosalud", target = "_blank"), " ", 
+            "compilados por ", a("@perez", href="https://twitter.com/perez", target = "_blank"))),
     
     ), 
 
@@ -144,7 +144,7 @@ ui <-
         mainPanel(
             p(HTML(
                 paste0(
-                    a("Raw Data", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " updated on: ", file_info
+                    a("Datos crudos", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " actualizados: ", file_info
 
                     )
                 )
@@ -156,7 +156,7 @@ ui <-
             
             hr(),
            
-            h3("Data shown in plot ", downloadButton('downloadData', '')),
+            h3("Data mostrada en grafica ", downloadButton('downloadData', '')),
             
             hr(),
             
@@ -168,8 +168,8 @@ ui <-
             hr(),
             span(
                 div(
-                    HTML(paste0("Please always check oficial sources (e.g. ", a("WHO", href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019", target = "_blank"), "), and be careful when using this or other information to create predictive models. ",
-                                 "By ", a("@gorkang", href="https://twitter.com/gorkang", target = "_blank"))),
+                    HTML(paste0("Por favor, consulta siempre fuentes oficiales (e.g. ", a("WHO", href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019", target = "_blank"), "), y se prudente su usas esta u otra informacion para crear modelos predictivos. ",
+                                 "Por ", a("@gorkang", href="https://twitter.com/gorkang", target = "_blank"))),
                     align = "center", 
                     style = "color:darkgrey")),
             hr()
@@ -197,7 +197,7 @@ server <- function(input, output, session) {
     # WARNING -----------------------------------------------------------------
     output$WARNING <- renderUI({
         if (input$cases_deaths == "cases") {
-            span(h6("REMEMBER, number os cases is not a trusworthy measure: ", br(), br(), "Number of cases is not equivalent to infections. It is limited by number of tests, and most places are not testing enough. "),#, br(), br(), "Number of cases are not directly comparable (countries employ different testing strategies)."),
+            span(h6("RECUERDA, el numero de casos no es una medida fiable: ", br(), br(), "El numero de casos no es equivalente a infecciones. Esta limitado por el numero de tests, y en muchos lugares no se estan haciendo suficientes tests. "),#, br(), br(), "Number of cases are not directly comparable (countries employ different testing strategies)."),
                  style = "color:darkred")
         }# else if (input$cases_deaths == "deaths") {
         #     span(h6("REMEMBER: ", br(), br(), "Countries count deaths in different ways (e.g. Some count deaths at hospitals but not at nursing homes and other count both)."),
@@ -212,7 +212,7 @@ server <- function(input, output, session) {
     # Launch data downloading -------------------------------------------------
 
     observe({
-        withProgress(message = 'Downloding or loading data', value = 1, min = 0, max = 4, {
+        withProgress(message = 'Descargando o cargando datos', value = 1, min = 0, max = 4, {
 
         auto_invalide()
         message("\n\n* CHECKING IF WE HAVE TO DOWNLOAD DATA ---------------------- \n")
@@ -446,7 +446,7 @@ server <- function(input, output, session) {
     # Prepare plot
     final_plot <- reactive({
 
-        withProgress(message = 'Preparing plot', value = 3, min = 0, max = 4, {
+        withProgress(message = 'Preparando grafica', value = 3, min = 0, max = 4, {
                 
             
             # Show accumulated or daily plot
@@ -558,7 +558,7 @@ server <- function(input, output, session) {
     # Show plot
     output$distPlot <- renderCachedPlot({
         
-        withProgress(message = 'Showing plot', value = 4, min = 0, max = 4, {
+        withProgress(message = 'Mostrando grafica', value = 4, min = 0, max = 4, {
             
             final_plot()
             
