@@ -1,5 +1,5 @@
 # options(shiny.reactlog = TRUE) 
-options(scipen=999)
+options(scipen = 999)
 
 # Libraries ---------------------------------------------------------------
 
@@ -20,6 +20,7 @@ library(shiny)
 library(shinythemes)
 library(shinyWidgets)
 suppressPackageStartupMessages(library(shinyjs))
+library(stringr)
 library(vroom)
 library(zoo)
 
@@ -91,7 +92,7 @@ ui <-
                  choices = c("accumulated", "daily", "%"), inline = TRUE),
     
     # Dynamically change with cases_deaths
-    sliderInput('min_n_cases', paste0("Dia 0 despues de ___ casos acumulados"), min = 1, max = 1000, value = 100), 
+    sliderInput('min_n_cases', paste0("Día 0 despues de ___ casos acumulados"), min = 1, max = 1000, value = 100), 
     # sliderInput('min_n_deaths', paste0("Day 0 after ___ accumulated deaths"), min = 1, max = 500, value = 10),
     # sliderInput('min_n_CFR', paste0("Day 0 after ___ accumulated deaths"), min = 1, max = 500, value = 10),
     
@@ -114,7 +115,7 @@ ui <-
     div(style="display:inline-block;45%;text-align: center;",
         HTML("&nbsp;&nbsp;"),
         
-    shinyWidgets::switchInput(inputId = "relative", label = "Relativo/millon", value = FALSE, size = "mini", labelWidth = "80%")
+    shinyWidgets::switchInput(inputId = "relative", label = "Relativo/millón", value = FALSE, size = "mini", labelWidth = "80%")
     ),
     HTML("<BR><BR>"),
     
@@ -123,7 +124,7 @@ ui <-
     ), 
     HTML("&nbsp;&nbsp;"),
     div(style="display:inline-block;30%;text-align: center;",
-        downloadButton('downloadPlot', 'Plot')
+        downloadButton('downloadPlot', 'Gráfica')
     ),
     
     HTML("<BR><BR>"),
@@ -156,7 +157,7 @@ ui <-
             
             hr(),
            
-            h3("Data mostrada en grafica ", downloadButton('downloadData', '')),
+            h3("Datos mostrados en gráfica ", downloadButton('downloadData', '')),
             
             hr(),
             
@@ -168,7 +169,7 @@ ui <-
             hr(),
             span(
                 div(
-                    HTML(paste0("Por favor, consulta siempre fuentes oficiales (e.g. ", a("WHO", href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019", target = "_blank"), "), y se prudente su usas esta u otra informacion para crear modelos predictivos. ",
+                    HTML(paste0("Por favor, consulta siempre fuentes oficiales (e.g. ", a("WHO", href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019", target = "_blank"), "), y se prudente su usas esta u otra información para crear modelos predictivos. ",
                                  "Por ", a("@gorkang", href="https://twitter.com/gorkang", target = "_blank"))),
                     align = "center", 
                     style = "color:darkgrey")),
@@ -446,8 +447,27 @@ server <- function(input, output, session) {
     # Prepare plot
     final_plot <- reactive({
 
-        withProgress(message = 'Preparando grafica', value = 3, min = 0, max = 4, {
+        withProgress(message = 'Preparando gráfica', value = 3, min = 0, max = 4, {
                 
+
+            # Traduccion --------------------------------------------------------------
+            traduccion_accumulated_daily_pct = 
+                switch(input$accumulated_daily_pct,
+                       accumulated = {"accumulados"},
+                       daily = {"diarios"},
+                       pct = {"porcentaje"},
+                       stop("Opcion no encontrada!")
+                )
+            
+            traduccion_cases_deaths = 
+                switch(input$cases_deaths,
+                       cases = {"casos"},
+                       deaths = {"muertes"},
+                       stop("Opcion no encontrada!")
+                )
+            
+
+            
             
             # Show accumulated or daily plot
             if (input$accumulated_daily_pct == "daily") {
@@ -482,11 +502,12 @@ server <- function(input, output, session) {
                 
                 scale_x_continuous(breaks = seq(0, max(final_df()$days_after_100, na.rm = TRUE), 2)) +
                 labs(
-                    title = paste0("Coronavirus confirmed ", input$cases_deaths , if (input$relative == TRUE) " / million people"),
-                    subtitle = paste0("Arranged by number of days since ",  VAR_min_n() ," or more ", input$cases_deaths),
-                    x = paste0("Days after ",  VAR_min_n() ," accumulated ", input$cases_deaths),
-                    y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths, " (log scale)",  if (input$relative == TRUE) " / million people"), 
-                    caption = paste0("Sources: http://bit.do/COVIDChile\n gorkang.shinyapps.io/2020-coronavirus-Chile/")) +
+                    title = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados de Coronavirus " , if (input$relative == TRUE) " / millón"),
+                    subtitle = paste0("Ordenado por el # de dias desde ",  VAR_min_n(), " o más ", traduccion_cases_deaths),
+                    x = paste0("Dias despues de ",  VAR_min_n() , " ", traduccion_cases_deaths, " acumulados"),
+                    y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct , if (input$relative == TRUE) " / millón"),
+                    # y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths, " (log scale)",  if (input$relative == TRUE) " / millón"), 
+                    caption = paste0("Fuente: http://bit.do/COVIDChile\n gorkang.shinyapps.io/2020-coronavirus-Chile/")) +
                 theme_minimal(base_size = 14) +
                 theme(legend.position = "none")
             
@@ -526,7 +547,9 @@ server <- function(input, output, session) {
                 p_temp = p_temp +
                     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) +
                     # labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths))
-                    labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths,  if (input$relative == TRUE) " / million people"))
+                    labs(y = paste0(traduccion_cases_deaths, " confirmados ", traduccion_accumulated_daily_pct, " (escal logarítmica) " , if (input$relative == TRUE) " / millón"))
+
+                        # y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths,  if (input$relative == TRUE) " / million people"))
             }
 
                      
@@ -544,7 +567,7 @@ server <- function(input, output, session) {
                 annotate(geom = "text",
                          x = x_axis, 
                          y = y_axis,
-                         label = paste0(VAR_growth(), "% growth")) +
+                         label = paste0(VAR_growth(), "% crecimiento")) +
                 
                 # Country label
                 ggrepel::geom_label_repel(aes(label = name_end), show.legend = FALSE, segment.color = "grey", segment.size  = .1, alpha = .75)  
@@ -558,7 +581,7 @@ server <- function(input, output, session) {
     # Show plot
     output$distPlot <- renderCachedPlot({
         
-        withProgress(message = 'Mostrando grafica', value = 4, min = 0, max = 4, {
+        withProgress(message = 'Mostrando gráfica', value = 4, min = 0, max = 4, {
             
             final_plot()
             
