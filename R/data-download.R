@@ -39,11 +39,20 @@ data_download <- function(cases_deaths = "cases") {
     rename(country = comuna) %>% 
     select(country, time, cases_sum) %>% 
     
-    filter(country != "Total") %>%   # Interpolate missing values
+    filter(country != "Total") %>%  
+    
+    mutate(source = "minsal") %>% 
+    
+    # Interpolate missing values
     group_by(country) %>% 
     complete(time = seq.Date(min(time), max(time), by="day")) %>% 
     mutate(cases_sum = zoo::na.approx(cases_sum)) %>% 
-    ungroup() 
+    ungroup() %>% 
+    
+    mutate(source = 
+             case_when(
+               is.na(source) ~ "interpolación",
+               TRUE ~ source)) 
     
     
     
@@ -52,8 +61,6 @@ data_download <- function(cases_deaths = "cases") {
 
   DF_write = df_raw_interpolated %>%
 
-        mutate(source = "minsal") %>% 
-    
     # calculate new infections
     arrange(time) %>%
     group_by(country) %>%
