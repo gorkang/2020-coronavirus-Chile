@@ -36,3 +36,5 @@ top_countries <<- DF_menu %>%
   filter(!comuna %in% c("Total")) %>% 
   slice_head(n = 8, wt = value) %>% 
   pull(comuna)
+
+last_date <<- max(as.Date(dta_raw$name, ,  "%d-%m-%Y"))

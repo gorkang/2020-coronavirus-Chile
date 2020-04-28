@@ -145,7 +145,7 @@ ui <-
         mainPanel(
             p(HTML(
                 paste0(
-                    a("Datos crudos", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " actualizados: ", file_info
+                    "Datos hasta (", last_date, "). ", a("Fuente", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " consultada: ", file_info
 
                     )
                 )
