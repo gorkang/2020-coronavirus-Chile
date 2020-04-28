@@ -547,7 +547,7 @@ server <- function(input, output, session) {
                 p_temp = p_temp +
                     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) +
                     # labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths))
-                    labs(y = paste0(traduccion_cases_deaths, " confirmados ", traduccion_accumulated_daily_pct, " (escal logarítmica) " , if (input$relative == TRUE) " / millón"))
+                    labs(y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct, " (escal logarítmica) " , if (input$relative == TRUE) " / millón"))
 
                         # y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths,  if (input$relative == TRUE) " / million people"))
             }
