@@ -43,7 +43,7 @@ download_or_load <-
           tidyr::fill(region) %>%
           drop_na(habitantes) %>%
           mutate_if(is.list, as.numeric) %>%
-          pivot_longer(6:16) %>%
+          pivot_longer(6:ncol(.)) %>%
           mutate(name = gsub("x", "", name),
                  name = gsub("_", "-", name),
                  name = gsub("(.*)", "\\1-2020", name),

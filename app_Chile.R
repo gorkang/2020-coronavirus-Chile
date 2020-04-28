@@ -455,7 +455,7 @@ server <- function(input, output, session) {
                 switch(input$accumulated_daily_pct,
                        accumulated = {"accumulados"},
                        daily = {"diarios"},
-                       pct = {"porcentaje"},
+                       `%` = {"porcentaje"},
                        stop("Opcion no encontrada!")
                 )
             

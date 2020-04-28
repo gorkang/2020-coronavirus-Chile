@@ -37,4 +37,4 @@ top_countries <<- DF_menu %>%
   slice_head(n = 8, wt = value) %>% 
   pull(comuna)
 
-last_date <<- max(as.Date(dta_raw$name, ,  "%d-%m-%Y"))
+last_date <<- max(as.Date(dta_raw$name, "%d-%m-%Y"), na.rm = TRUE)

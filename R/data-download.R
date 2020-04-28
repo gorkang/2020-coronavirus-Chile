@@ -41,7 +41,8 @@ data_download <- function(cases_deaths = "cases") {
     
     filter(country != "Total") %>%  
     
-    mutate(source = "minsal") %>% 
+    mutate(source = "minsal") %>%
+    drop_na(time) %>% 
     
     # Interpolate missing values
     group_by(country) %>% 
