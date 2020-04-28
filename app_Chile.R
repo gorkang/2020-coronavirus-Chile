@@ -1,27 +1,40 @@
 # options(shiny.reactlog = TRUE) 
+options(scipen=999)
 
 # Libraries ---------------------------------------------------------------
 
-library(dplyr)
-library(DT)
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(DT))
 library(ggplot2)
 library(ggrepel)
+library(googlesheets4)
 library(httr)
-library(jsonlite)
+suppressPackageStartupMessages(library(janitor))
+suppressPackageStartupMessages(library(jsonlite))
+suppressPackageStartupMessages(library(purrr))
 library(readr)
-library(rvest)
+suppressPackageStartupMessages(library(rvest))
 library(tidyr)
-library(scales)
+suppressPackageStartupMessages(library(scales))
 library(shiny)
 library(shinythemes)
 library(shinyWidgets)
-library(shinyjs)
+suppressPackageStartupMessages(library(shinyjs))
 library(vroom)
+library(zoo)
 
+
+source(here::here("R/download_or_load.R"))
 source(here::here("R/data-download.R"))
-source(here::here("R/data-preparation-menu.R"))
 source(here::here("R/data-preparation.R"))
+source(here::here("R/data-preparation-menu.R"))
 
+minutes_to_check_downloads = 600 # Every x minutes
+auto_invalide <- reactiveTimer(minutes_to_check_downloads * 60 * 1000) 
+
+
+file_info <- file.info("outputs/raw_data.csv")$mtime
+if( is_empty(file_info)) file_info = "..."
 
 
 # UI ----------------------------------------------------------------------
@@ -35,7 +48,7 @@ ui <-
         titlePanel(
             windowTitle = "Coronavirus Tracker Chile - Facultad de Psicología - UAI",
             fluidRow(
-                column(9, HTML("<a href=\"https://gorkang.shinyapps.io/2020-coronavirus-Chile/\">Coronavirus tracker Chile</a>")), 
+                column(9, HTML("<a href=\"https://gorkang.shinyapps.io/2020-coronavirus-Chile/\">Coronavirus tracker Chile</a> [BETA]")), 
                 column(1, HTML("<a href=\"http://psicologia.uai.cl/\", target = \"_blank\"><img src=\"UAI_mini.png\", alt ='Universidad Adolfo Ibáñez'></a>"))
             )
         ),
@@ -83,8 +96,8 @@ ui <-
     # sliderInput('min_n_CFR', paste0("Day 0 after ___ accumulated deaths"), min = 1, max = 500, value = 10),
     
     # Dynamically change with accumulated_daily_pct
-    sliderInput("growth_accumulated", "Daily growth (%):", min = 0, max = 100, value = 30),
-    sliderInput("growth_daily", "Daily growth (%):", min = 0, max = 100, value = 20),
+    sliderInput("growth_accumulated", "Daily growth (%):", min = 0, max = 100, value = 15),
+    sliderInput("growth_daily", "Daily growth (%):", min = 0, max = 100, value = 5),
     sliderInput("growth_pct", "Daily growth (%):", min = -50, max = 0, value = -10),
     
     HTML("<BR>"),
@@ -119,12 +132,10 @@ ui <-
     
     hr(),
     
-    HTML(paste0("Using code and ideas from ",  
-            a("@JonMinton", href="https://github.com/JonMinton/COVID-19", target = "_blank"), ", ", 
-            a("@christoph_sax", href="https://gist.github.com/christophsax/dec0a57bcbc9d7517b852dd44eb8b20b", target = "_blank"), ", ",
-            a("@nicebread303", href="https://github.com/nicebread/corona", target = "_blank"), ", ",
-            a("@rubenivangaalen", href="https://twitter.com/rubenivangaalen", target = "_blank"), ", ",
-            a("@jburnmurdoch", href="https://twitter.com/jburnmurdoch", target = "_blank"), " and ", a(" @sdbernard", href="https://twitter.com/sdbernard", target = "_blank"))),
+    HTML(paste0("Based on ",  
+            a("Coronavirus Tracker", href="https://gorkang.shinyapps.io/2020-corona/", target = "_blank"), ", ", 
+            "using ", a("@ministeriosalud", href="https://twitter.com/ministeriosalud", target = "_blank"), " ", 
+            "data compiled by ", a("@perez", href="https://twitter.com/perez", target = "_blank"))),
     
     ), 
 
@@ -133,7 +144,7 @@ ui <-
         mainPanel(
             p(HTML(
                 paste0(
-                    a("Raw Data", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " updated on: "
+                    a("Raw Data", href="https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", target = "_blank"), " updated on: ", file_info
 
                     )
                 )
@@ -186,29 +197,29 @@ server <- function(input, output, session) {
     # WARNING -----------------------------------------------------------------
     output$WARNING <- renderUI({
         if (input$cases_deaths == "cases") {
-            span(h6("REMEMBER, number os cases is not a trusworthy measure: ", br(), br(), "Number of cases is not equivalent to infections. It is limited by number of tests, and most countries are not testing enough. ", br(), br(), "Number of cases are not directly comparable (countries employ different testing strategies)."),
+            span(h6("REMEMBER, number os cases is not a trusworthy measure: ", br(), br(), "Number of cases is not equivalent to infections. It is limited by number of tests, and most places are not testing enough. "),#, br(), br(), "Number of cases are not directly comparable (countries employ different testing strategies)."),
                  style = "color:darkred")
-        } else if (input$cases_deaths == "deaths") {
-            span(h6("REMEMBER: ", br(), br(), "Countries count deaths in different ways (e.g. Some count deaths at hospitals but not at nursing homes and other count both)."),
-                 style = "color:darkred")
-        } else if (input$cases_deaths == "CFR") {
-            span(h6("REMEMBER: ", br(), br(), "Case Fatality Rate (CFR) = deaths / cases.", br(), br(), "Given the number of cases is not trustworthy (e.g. not enough tests), CFR is generally not a precise measure (usually an overestimation)."),
-                 style = "color:darkred")
-        }
+        }# else if (input$cases_deaths == "deaths") {
+        #     span(h6("REMEMBER: ", br(), br(), "Countries count deaths in different ways (e.g. Some count deaths at hospitals but not at nursing homes and other count both)."),
+        #          style = "color:darkred")
+        # } else if (input$cases_deaths == "CFR") {
+        #     span(h6("REMEMBER: ", br(), br(), "Case Fatality Rate (CFR) = deaths / cases.", br(), br(), "Given the number of cases is not trustworthy (e.g. not enough tests), CFR is generally not a precise measure (usually an overestimation)."),
+        #          style = "color:darkred")
+        # }
     })
 
     
     # Launch data downloading -------------------------------------------------
 
-    # observe({
-    #     withProgress(message = 'Downloding or loading data', value = 1, min = 0, max = 4, {
-    #         
-    #     auto_invalide()
-    #     message("\n\n* CHECKING IF WE HAVE TO DOWNLOAD DATA ---------------------- \n")
-    #     data_download()
-    #     
-    #     })
-    # })
+    observe({
+        withProgress(message = 'Downloding or loading data', value = 1, min = 0, max = 4, {
+
+        auto_invalide()
+        message("\n\n* CHECKING IF WE HAVE TO DOWNLOAD DATA ---------------------- \n")
+        data_download()
+
+        })
+    })
     
     
 
@@ -351,7 +362,7 @@ server <- function(input, output, session) {
                     mutate(
                         name_end =
                             case_when(
-                                days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=","), " - ", days_after_100, " days"),
+                                days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=",", digits = 0), " - ", days_after_100, " days"),
                                 TRUE ~ ""))  
 
                 
@@ -514,7 +525,8 @@ server <- function(input, output, session) {
             } else {
                 p_temp = p_temp +
                     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) +
-                    labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths))
+                    # labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths))
+                    labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths,  if (input$relative == TRUE) " / million people"))
             }
 
                      
@@ -561,7 +573,8 @@ server <- function(input, output, session) {
                           select( -highlight, -name_end) %>%
                           rename_(.dots=setNames("value", paste0(input$cases_deaths, "_sum"))) %>% 
                           rename_(.dots=setNames("diff", paste0(input$cases_deaths, "_diff"))) %>% 
-                          rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))),
+                          rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))) %>% 
+                          rename(comuna = country),
                           filter = 'top',
                       rownames = FALSE, 
                       options = list(pageLength = 10, 
