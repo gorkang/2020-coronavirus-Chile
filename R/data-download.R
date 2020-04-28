@@ -1,36 +1,56 @@
 data_download <- function(cases_deaths = "cases") {
 
-  library(googlesheets4)
-  library(tidyverse)
-  library(janitor)
-  # country     time       cases_sum deaths_sum
+  # DEBUG
+    # library(googlesheets4)
+    # suppressPackageStartupMessages(library(dplyr))
+    # suppressPackageStartupMessages(library(janitor))
+    # library(readr)
+    # library(tidyr)
+    # source("R/download_or_load.R")
   
-  DF = googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674", sheet = 5, skip = 3, na = c("-", ""))
+  download_or_load(URL = "https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674",
+                   file_name = "outputs/raw_data.csv", 
+                   hours_threshold = 6,
+                   maxTimes = 5)
   
-  df_raw = DF %>%
-    janitor::clean_names() %>%
-    fill(region) %>%
-    drop_na(habitantes) %>%
-    mutate_if(is.list, as.numeric) %>%
-    pivot_longer(6:16) %>%
-    mutate(name = gsub("x", "", name),
-           name = gsub("_", "-", name),
-           name = gsub("(.*)", "\\1-2020", name),
-           name = as.Date(name,  "%d-%m-%Y")) %>%
-    mutate(value = replace_na(value, 0)) %>%
+  df_raw = read_csv(here::here("outputs/raw_data.csv"), 
+                    col_types = 
+                      cols(
+                        .default = col_character(),
+                        region = col_character(),
+                        habitantes = col_double(),
+                        comuna = col_character(),
+                        incidencia_x_100_000 = col_double(),
+                        crecimiento_ultima_semana = col_double(),
+                        # por_asignar = col_logical(),
+                        name = col_character(),
+                        value = col_double(),
+                        time = col_date(format = "")
+                      ))
+  
+  df_raw_interpolated = df_raw %>%
+    # filter(comuna == "Arica") %>% 
     
+    select(comuna, time, value) %>%  
+    
+    # Calculate cumulative sum
     group_by(comuna) %>% 
     mutate(cases_sum = cumsum(value)) %>% 
-    rename(
-      country = comuna,
-      time = name) %>% 
+    rename(country = comuna) %>% 
     select(country, time, cases_sum) %>% 
     
-    filter(country != "Total")
+    filter(country != "Total") %>%   # Interpolate missing values
+    group_by(country) %>% 
+    complete(time = seq.Date(min(time), max(time), by="day")) %>% 
+    mutate(cases_sum = zoo::na.approx(cases_sum)) %>% 
+    ungroup() 
+    
+    
+    
   
   # write_csv(df_raw, "outputs/data_chile.csv")
 
-  DF_write = df_raw %>%
+  DF_write = df_raw_interpolated %>%
 
         mutate(source = "minsal") %>% 
     
@@ -54,13 +74,11 @@ data_download <- function(cases_deaths = "cases") {
     
     select(country, time, cases_sum, cases_diff, deaths_sum, deaths_diff, source) #deaths_sum, deaths_diff
 
+  
+  
     # write_data
     DF_write %>% 
-      write_csv("outputs/raw_data.csv")
+      write_csv("outputs/processed_data.csv")
 
-
-    
-    
-    
 }
 

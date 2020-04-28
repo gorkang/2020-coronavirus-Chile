@@ -8,13 +8,50 @@ data_preparation <- function(data_source = "JHU", cases_deaths = "cases", countr
   
   # Data preparation --------------------------------------------------------
  
-  dta_raw = read_csv(here::here("outputs/raw_data.csv")) %>% 
+  raw_data = read_csv(here::here("outputs/raw_data.csv"), 
+                      col_types = 
+                        cols(
+                          .default = col_character(),
+                          region = col_character(),
+                          habitantes = col_double(),
+                          comuna = col_character(),
+                          incidencia_x_100_000 = col_double(),
+                          crecimiento_ultima_semana = col_double(),
+                          # por_asignar = col_logical(),
+                          name = col_character(),
+                          value = col_double(),
+                          time = col_date(format = "")
+                        )) %>% 
+    select(comuna, habitantes) %>% 
+    rename(country = comuna,
+           population = habitantes) %>% 
+    distinct(country, .keep_all = TRUE)
+  
+  
+  dta_raw = read_csv(here::here("outputs/processed_data.csv"), 
+                     col_types = 
+                       cols(
+                         .default = col_double(),
+                         country = col_character(),
+                         time = col_date(format = ""),
+                         cases_sum = col_double(),
+                         cases_diff = col_double(),
+                         # deaths_sum = col_logical(),
+                         # deaths_diff = col_logical(),
+                         source = col_character()
+                       )) %>% 
     mutate(CFR_sum = round((deaths_sum/cases_sum) * 100, 2),
            CFR_diff = round((deaths_diff/cases_diff) * 100, 2))
 
+  
+  
+
+  
+  
+  
   if (relative == TRUE) {
     dta_raw = dta_raw %>% 
-      left_join(DF_population_countries, by = "country") %>% 
+      left_join(raw_data, by = "country") %>% 
       mutate(cases_sum = round((cases_sum / population) * 1000000, 0),
              cases_diff = round((cases_diff / population) * 1000000, 0),
              deaths_sum = round((deaths_sum / population) * 1000000, 0),
