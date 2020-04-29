@@ -35,7 +35,7 @@ download_or_load <-
       # If should_download, try to download maxTimes times
       if (should_download == TRUE) {
         
-        googlesheets4::sheets_auth(email = "gorkang@gmail.com")
+        googlesheets4::sheets_deauth()
         DF = googlesheets4::read_sheet(URL, sheet = 5, skip = 3, na = c("-", ""))
         
         df_raw = DF %>%
