@@ -33,6 +33,7 @@ source(here::here("R/data-preparation-menu.R"))
 minutes_to_check_downloads = 600 # Every x minutes
 auto_invalide <- reactiveTimer(minutes_to_check_downloads * 60 * 1000) 
 
+relative_to = 100000
 
 file_info <- file.info("outputs/raw_data.csv")$mtime
 if( is_empty(file_info)) file_info = "..."
@@ -115,7 +116,7 @@ ui <-
     div(style="display:inline-block;45%;text-align: center;",
         HTML("&nbsp;&nbsp;"),
         
-    shinyWidgets::switchInput(inputId = "relative", label = "Relativo/millón", value = FALSE, size = "mini", labelWidth = "80%")
+    shinyWidgets::switchInput(inputId = "relative", label = paste0("Relativo/", formatC(relative_to, format="f", big.mark = ",", digits=0)), value = FALSE, size = "mini", labelWidth = "80%")
     ),
     HTML("<BR><BR>"),
     
@@ -336,43 +337,17 @@ server <- function(input, output, session) {
             # message("INPUT_highlight = ", INPUT_highlight, "\nINPUT_min_n = ", INPUT_min_n, "\nINPUT_cases_deaths = ", INPUT_cases_deaths, "\nINPUT_countries_plot = ", INPUT_countries_plot, "\nINPUT_relative = ", INPUT_relative, "\nINPUT_accumulated_daily_pct = ", INPUT_accumulated_daily_pct, "\n")
             
             # Launch data preparation
-            data_preparation(cases_deaths = INPUT_cases_deaths, countries_plot = INPUT_countries_plot, min_n = INPUT_min_n, relative = INPUT_relative)
+            data_preparation(cases_deaths = INPUT_cases_deaths, countries_plot = INPUT_countries_plot, min_n = INPUT_min_n, relative = INPUT_relative, relative_to = relative_to)
             # dta = read_csv("outputs/data_chile.csv")
             
             if (!is.null(INPUT_countries_plot)) {
-                
-                
-                
-               dta_temp = dta %>%
-                    
-                    # If repeated values the same day, keep higher
-                    group_by(country, time) %>% 
-                    distinct(KEY = paste0(country, time, value), .keep_all = TRUE) %>% 
-                    select(-KEY) %>% 
-                    ungroup() %>% 
-                    
-                    # re-adjust after filtering
-                    group_by(country) %>%
-                    mutate(days_after_100 = as.numeric(0:(length(country) - 1))) %>% 
-                    group_by(country) %>%
-                    
-                    # Get rid of the latest data if it either 0 or negative
-                    filter( !(days_after_100 == max(days_after_100, na.rm = TRUE) & diff <= 0)) %>% 
-                    
-                    # Create name_end labels
-                    mutate(
-                        name_end =
-                            case_when(
-                                days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=",", digits = 0), " - ", days_after_100, " days"),
-                                TRUE ~ ""))  
-
                 
                 # Highlight
                  if (any(' ' != myReactives$highlight )) {
                      
                      # Create colors diccionary
                      DF_colors_temp =
-                         dta_temp %>% 
+                         dta %>% 
                          filter(country %in% myReactives$highlight ) %>% 
                          distinct(country)
                          
@@ -386,7 +361,7 @@ server <- function(input, output, session) {
                      }
                      
                      
-                    dta_temp %>% 
+                     dta_temp = dta  %>% 
                          left_join(DF_colors, by = "country") %>% 
                          mutate(highlight = 
                                 case_when(
@@ -394,17 +369,53 @@ server <- function(input, output, session) {
                                     TRUE ~ highlight
                                 ))
                 } else {
-                    dta_temp %>% mutate(highlight = country)
+                    dta_temp = dta  %>% mutate(highlight = country)
                 }
                 
             } else {
-                tibble(value = 0, 
+                dta_temp = tibble(value = 0, 
                        days_after_100 = 0,
                        country = "",
                        source = "",
                        name_end = "")
                 
             }
+            
+            # dta_temp
+            
+            if (input$accumulated_daily_pct == "daily") {
+                
+                dta_temp2 = dta_temp %>% 
+                    rename(value_accumulated = value,
+                           value = diff)
+            } else if (input$accumulated_daily_pct == "%") {
+                
+                dta_temp2 = dta_temp %>% 
+                    rename(value_accumulated = value,
+                           value = diff_pct) %>% 
+                    # mutate(value = value * 100) %>% 
+                    
+                    # Given there are interpolated data, we divide the daily % growth between the days
+                    filter(value != 100) %>% # Filter out interpolated data
+                    group_by(country) %>% 
+                    mutate(value = value / (days_after_100 - lag(days_after_100))) %>% 
+                    ungroup()
+                
+            } else if (input$accumulated_daily_pct == "accumulated") {
+                
+                dta_temp2 = dta_temp
+            }
+            
+            dta_temp2 %>% 
+                # Create labels for last instance for each country
+                group_by(country) %>%
+                mutate(
+                    name_end =
+                        case_when(
+                            days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=",", digits = 0), " - ", days_after_100, " days"),
+                            # days_after_100 == max(days_after_100) ~ paste0(as.character(country), ": ", format(value, big.mark=","), " - ", days_after_100, " days"),
+                            TRUE ~ ""))
+            
         })
     }) 
 
@@ -443,6 +454,43 @@ server <- function(input, output, session) {
         
     })
     
+    
+    # # DF_plot data
+    # DF_plot = reactive({
+    #     # Show accumulated or daily plot
+    #     if (input$accumulated_daily_pct == "daily") {
+    #         DF_plot = final_df() %>% 
+    #             rename(value_temp = value,
+    #                    value = diff)
+    #     } else if (input$accumulated_daily_pct == "%") {
+    #         
+    #         DF_plot = final_df() %>% 
+    #             rename(value_temp = value,
+    #                    value = diff_pct) %>% 
+    #             mutate(value = value * 100) %>% 
+    #             
+    #             # Given there are interpolated data, we divide the daily % growth between the days
+    #             filter(value != 100) %>% # Filter out interpolated data
+    #             group_by(country) %>% 
+    #             mutate(value = value / (days_after_100 - lag(days_after_100))) %>% 
+    #             ungroup()
+    #     } else {
+    #         DF_plot = final_df()
+    #     }
+    #     
+    #     
+    #     DF_plot %>% 
+    #         
+    #         # Create labels for last instance for each country
+    #         group_by(country) %>%
+    #         mutate(
+    #             name_end =
+    #                 case_when(
+    #                     days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=",", digits = 0), " - ", days_after_100, " days"),
+    #                     # days_after_100 == max(days_after_100) ~ paste0(as.character(country), ": ", format(value, big.mark=","), " - ", days_after_100, " days"),
+    #                     TRUE ~ ""))
+    # })
+    
 
     # Prepare plot
     final_plot <- reactive({
@@ -455,7 +503,7 @@ server <- function(input, output, session) {
                 switch(input$accumulated_daily_pct,
                        accumulated = {"accumulados"},
                        daily = {"diarios"},
-                       `%` = {"porcentaje"},
+                       `%` = {"- % crecimiento diario"},
                        stop("Opcion no encontrada!")
                 )
             
@@ -468,29 +516,16 @@ server <- function(input, output, session) {
             
 
             
-            
-            # Show accumulated or daily plot
-            if (input$accumulated_daily_pct == "daily") {
-                DF_plot = final_df() %>% 
-                    rename(value_temp = value,
-                    value = diff)
-            } else if (input$accumulated_daily_pct == "%") {
-                DF_plot = final_df() %>% 
-                    rename(value_temp = value,
-                           value = diff_pct) %>% 
-                    mutate(value = value * 100)
-            } else {
-                DF_plot = final_df()
-            }
+           
             
             # Define which countries get a smooth (have enough points)
             VALUE_span = 3
-            counts_filter = DF_plot %>% count(country) %>% filter(n > VALUE_span)
+            counts_filter = final_df() %>% count(country) %>% filter(n > VALUE_span)
 
             
             # Draw plot ---------------------------------------------
             
-            p_temp = ggplot(data = DF_plot, 
+            p_temp = ggplot(data = final_df(), 
                             aes(x = days_after_100, y = value, group = as.factor(country), color = highlight)) +
                 scale_color_hue(l = 50) +
                 
@@ -502,11 +537,10 @@ server <- function(input, output, session) {
                 
                 scale_x_continuous(breaks = seq(0, max(final_df()$days_after_100, na.rm = TRUE), 2)) +
                 labs(
-                    title = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados de Coronavirus " , if (input$relative == TRUE) " / millón"),
+                    title = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados de Coronavirus " , if (input$relative == TRUE) paste0(" / ", formatC(relative_to, format="f", big.mark = ",", digits=0))),
                     subtitle = paste0("Ordenado por el # de dias desde ",  VAR_min_n(), " o más ", traduccion_cases_deaths),
                     x = paste0("Dias despues de ",  VAR_min_n() , " ", traduccion_cases_deaths, " acumulados"),
-                    y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct , if (input$relative == TRUE) " / millón"),
-                    # y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths, " (log scale)",  if (input$relative == TRUE) " / millón"), 
+                    y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct , if (input$relative == TRUE) paste0(" / ", formatC(relative_to, format="f", big.mark = ",", digits=0))),
                     caption = paste0("Fuente: http://bit.do/COVIDChile\n gorkang.shinyapps.io/2020-coronavirus-Chile/")) +
                 theme_minimal(base_size = 14) +
                 theme(legend.position = "none")
@@ -516,7 +550,7 @@ server <- function(input, output, session) {
                 p_temp = p_temp + geom_line(alpha = .7) 
             } else {
                 p_temp = p_temp +  
-                    geom_smooth(data = DF_plot %>% filter(country %in% counts_filter$country),
+                    geom_smooth(data = final_df() %>% filter(country %in% counts_filter$country),
                                 method = "loess", span = 1.5, se = FALSE, size = .8, alpha = .6, na.rm = TRUE)
             }
 
@@ -525,16 +559,16 @@ server <- function(input, output, session) {
             
             
             # LIMITS
-            if (input$accumulated_daily_pct == "daily") {
-                MAX_y = max(final_df()$diff, na.rm = TRUE, na.rm = TRUE) * 1.1
-                MIN_y = min(final_df()$diff, na.rm = TRUE, na.rm = TRUE) * 0.1 # In Log scale can't use 0
-            } else if (input$accumulated_daily_pct == "%") {
-                MAX_y = max(final_df()$diff_pct, na.rm = TRUE, na.rm = TRUE) * 100
-                MIN_y = min(final_df()$diff_pct, na.rm = TRUE, na.rm = TRUE) * 1 # In Log scale can't use 0
-            } else {
+            # if (input$accumulated_daily_pct == "daily") {
+            #     MAX_y = max(final_df()$diff, na.rm = TRUE, na.rm = TRUE) * 1.1
+            #     MIN_y = min(final_df()$diff, na.rm = TRUE, na.rm = TRUE) * 0.1 # In Log scale can't use 0
+            # } else if (input$accumulated_daily_pct == "%") {
+            #     MAX_y = max(final_df()$diff_pct, na.rm = TRUE, na.rm = TRUE) * 100
+            #     MIN_y = min(final_df()$diff_pct, na.rm = TRUE, na.rm = TRUE) * 1 # In Log scale can't use 0
+            # } else {
                 MAX_y = max(final_df()$value, na.rm = TRUE, na.rm = TRUE) * 1.1
                 MIN_y = min(final_df()$value, na.rm = TRUE, na.rm = TRUE) * 0.95
-            }
+            # }
             
             if (MIN_y == 0) MIN_y = 1
             # message("MIN_y: ", MIN_y, " MAX_y: ", MAX_y)
@@ -542,14 +576,14 @@ server <- function(input, output, session) {
             # Scale, log or not
             if (input$log_scale == TRUE) {
                 p_temp = p_temp +
-                    scale_y_log10(breaks = scales::log_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) 
+                    scale_y_log10(breaks = scales::log_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) +
+                    labs(y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct, " (escal logarítmica) " , if (input$relative == TRUE) paste0(" / ", formatC(relative_to, format="f", big.mark = ",", digits=0))))
+                
             } else {
                 p_temp = p_temp +
-                    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y)) +
+                    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = function(x) format(x, big.mark = ",", scientific = FALSE), limits = c(MIN_y, MAX_y))
                     # labs(y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths))
-                    labs(y = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados ", traduccion_accumulated_daily_pct, " (escal logarítmica) " , if (input$relative == TRUE) " / millón"))
 
-                        # y = paste0("Confirmed ", input$accumulated_daily_pct, " ", input$cases_deaths,  if (input$relative == TRUE) " / million people"))
             }
 
                      
@@ -591,19 +625,31 @@ server <- function(input, output, session) {
         
     # Show table
     output$mytable = DT::renderDataTable({
-        DT::datatable(final_df() %>%
-                          arrange(desc(time), country) %>% 
-                          select( -highlight, -name_end) %>%
-                          rename_(.dots=setNames("value", paste0(input$cases_deaths, "_sum"))) %>% 
-                          rename_(.dots=setNames("diff", paste0(input$cases_deaths, "_diff"))) %>% 
-                          rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))) %>% 
-                          rename(comuna = country),
-                          filter = 'top',
-                      rownames = FALSE, 
-                      options = list(pageLength = 10, 
-                                     dom = 'ltipr',
-                                     autoWidth = FALSE)) %>% 
-            DT::formatPercentage(c("diff_pct"), 2)
+        
+        DT::datatable(
+                final_df() %>% 
+                    arrange(desc(time), country) %>% 
+                    select(-highlight, -name_end) %>%
+                    
+                    rename(cases_accumulated = ifelse(input$accumulated_daily_pct == "accumulated", "value", "value_accumulated")) %>% 
+                    rename(cases_daily = ifelse(input$accumulated_daily_pct == "daily", "value", "diff")) %>% 
+                    rename(cases_pct = ifelse(input$accumulated_daily_pct == "%", "value", "diff_pct")) %>% 
+                    mutate(cases_pct = cases_pct / 100) %>% 
+                    
+                    # Useful when switching between deaths and cases is possible 
+                        # rename_(.dots=setNames("value", paste0(input$cases_deaths, "_sum"))) %>% 
+                        # rename_(.dots=setNames("diff", paste0(input$cases_deaths, "_diff"))) %>% 
+                        # rename_(.dots=setNames("diff_pct", paste0(input$cases_deaths, "_diff_pct"))) %>% 
+                    
+                    rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))) %>% 
+                    rename(comuna = country),
+                filter = 'top',
+                rownames = FALSE, 
+                options = list(pageLength = 10,
+                               dom = 'ltipr',
+                               autoWidth = FALSE)) %>% 
+            DT::formatPercentage(c("cases_pct"), 2) %>% 
+            DT::formatCurrency("cases_accumulated", currency = "", mark = ",", digits = 0)
     })
     
     
@@ -619,10 +665,13 @@ server <- function(input, output, session) {
         content = function(file) {
             write.csv(final_df() %>%
                           arrange(desc(time), country) %>% 
-                          select(-name_end, -highlight) %>%
-                          rename_(.dots=setNames("value", ifelse(input$cases_deaths == "cases", "cases_sum", "deaths_sum"))) %>% 
-                          rename_(.dots=setNames("diff", ifelse(input$cases_deaths == "cases", "cases_diff", "deaths_diff"))) %>% 
-                          rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))), file)
+                          select(-highlight, -name_end) %>%
+                          rename(cases_accumulated = ifelse(input$accumulated_daily_pct == "accumulated", "value", "value_accumulated")) %>% 
+                          rename(cases_daily = ifelse(input$accumulated_daily_pct == "daily", "value", "diff")) %>% 
+                          rename(cases_pct = ifelse(input$accumulated_daily_pct == "%", "value", "diff_pct")) %>% 
+                          
+                          rename_(.dots=setNames("days_after_100", paste0("days_after_", VAR_min_n()))) %>% 
+                          rename(comuna = country), file)
         })
     
 }

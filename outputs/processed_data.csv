@@ -25,6 +25,9 @@ Aisén,2020-04-21,28.25,0.25,NA,NA,interpolación
 Aisén,2020-04-22,28.5,0.25,NA,NA,interpolación
 Aisén,2020-04-23,28.75,0.25,NA,NA,interpolación
 Aisén,2020-04-24,29,0.25,NA,NA,minsal
+Aisén,2020-04-25,29.333333333333332,0.33333333333333215,NA,NA,interpolación
+Aisén,2020-04-26,29.666666666666668,0.3333333333333357,NA,NA,interpolación
+Aisén,2020-04-27,30,0.33333333333333215,NA,NA,minsal
 Algarrobo,2020-03-30,7,0,NA,NA,minsal
 Algarrobo,2020-03-31,10.5,3.5,NA,NA,interpolación
 Algarrobo,2020-04-01,14,3.5,NA,NA,minsal
@@ -51,6 +54,9 @@ Algarrobo,2020-04-21,85.25,2.25,NA,NA,interpolación
 Algarrobo,2020-04-22,87.5,2.25,NA,NA,interpolación
 Algarrobo,2020-04-23,89.75,2.25,NA,NA,interpolación
 Algarrobo,2020-04-24,92,2.25,NA,NA,minsal
+Algarrobo,2020-04-25,95.33333333333333,3.3333333333333286,NA,NA,interpolación
+Algarrobo,2020-04-26,98.66666666666667,3.333333333333343,NA,NA,interpolación
+Algarrobo,2020-04-27,102,3.3333333333333286,NA,NA,minsal
 Alhué,2020-03-30,0,0,NA,NA,minsal
 Alhué,2020-03-31,0,0,NA,NA,interpolación
 Alhué,2020-04-01,0,0,NA,NA,minsal
@@ -77,6 +83,9 @@ Alhué,2020-04-21,0,0,NA,NA,interpolación
 Alhué,2020-04-22,0,0,NA,NA,interpolación
 Alhué,2020-04-23,0,0,NA,NA,interpolación
 Alhué,2020-04-24,0,0,NA,NA,minsal
+Alhué,2020-04-25,0,0,NA,NA,interpolación
+Alhué,2020-04-26,0,0,NA,NA,interpolación
+Alhué,2020-04-27,0,0,NA,NA,minsal
 Alto Biobío,2020-03-30,0,0,NA,NA,minsal
 Alto Biobío,2020-03-31,0,0,NA,NA,interpolación
 Alto Biobío,2020-04-01,0,0,NA,NA,minsal
@@ -103,6 +112,9 @@ Alto Biobío,2020-04-21,3,0,NA,NA,interpolación
 Alto Biobío,2020-04-22,3,0,NA,NA,interpolación
 Alto Biobío,2020-04-23,3,0,NA,NA,interpolación
 Alto Biobío,2020-04-24,3,0,NA,NA,minsal
+Alto Biobío,2020-04-25,3,0,NA,NA,interpolación
+Alto Biobío,2020-04-26,3,0,NA,NA,interpolación
+Alto Biobío,2020-04-27,3,0,NA,NA,minsal
 Alto del Carmen,2020-03-30,0,0,NA,NA,minsal
 Alto del Carmen,2020-03-31,0,0,NA,NA,interpolación
 Alto del Carmen,2020-04-01,0,0,NA,NA,minsal
@@ -129,6 +141,9 @@ Alto del Carmen,2020-04-21,0,0,NA,NA,interpolación
 Alto del Carmen,2020-04-22,0,0,NA,NA,interpolación
 Alto del Carmen,2020-04-23,0,0,NA,NA,interpolación
 Alto del Carmen,2020-04-24,0,0,NA,NA,minsal
+Alto del Carmen,2020-04-25,0,0,NA,NA,interpolación
+Alto del Carmen,2020-04-26,0,0,NA,NA,interpolación
+Alto del Carmen,2020-04-27,0,0,NA,NA,minsal
 Alto Hospicio,2020-03-30,0,0,NA,NA,minsal
 Alto Hospicio,2020-03-31,0.5,0.5,NA,NA,interpolación
 Alto Hospicio,2020-04-01,1,0.5,NA,NA,minsal
@@ -155,6 +170,9 @@ Alto Hospicio,2020-04-21,106.75,9.75,NA,NA,interpolación
 Alto Hospicio,2020-04-22,116.5,9.75,NA,NA,interpolación
 Alto Hospicio,2020-04-23,126.25,9.75,NA,NA,interpolación
 Alto Hospicio,2020-04-24,136,9.75,NA,NA,minsal
+Alto Hospicio,2020-04-25,154.33333333333334,18.333333333333343,NA,NA,interpolación
+Alto Hospicio,2020-04-26,172.66666666666666,18.333333333333314,NA,NA,interpolación
+Alto Hospicio,2020-04-27,191,18.333333333333343,NA,NA,minsal
 Ancud,2020-03-30,0,0,NA,NA,minsal
 Ancud,2020-03-31,0,0,NA,NA,interpolación
 Ancud,2020-04-01,0,0,NA,NA,minsal
@@ -181,6 +199,9 @@ Ancud,2020-04-21,24.25,2.25,NA,NA,interpolación
 Ancud,2020-04-22,26.5,2.25,NA,NA,interpolación
 Ancud,2020-04-23,28.75,2.25,NA,NA,interpolación
 Ancud,2020-04-24,31,2.25,NA,NA,minsal
+Ancud,2020-04-25,34,3,NA,NA,interpolación
+Ancud,2020-04-26,37,3,NA,NA,interpolación
+Ancud,2020-04-27,40,3,NA,NA,minsal
 Andacollo,2020-03-30,0,0,NA,NA,minsal
 Andacollo,2020-03-31,0,0,NA,NA,interpolación
 Andacollo,2020-04-01,0,0,NA,NA,minsal
@@ -207,6 +228,9 @@ Andacollo,2020-04-21,0,0,NA,NA,interpolación
 Andacollo,2020-04-22,0,0,NA,NA,interpolación
 Andacollo,2020-04-23,0,0,NA,NA,interpolación
 Andacollo,2020-04-24,0,0,NA,NA,minsal
+Andacollo,2020-04-25,0,0,NA,NA,interpolación
+Andacollo,2020-04-26,0,0,NA,NA,interpolación
+Andacollo,2020-04-27,0,0,NA,NA,minsal
 Angol,2020-03-30,7,0,NA,NA,minsal
 Angol,2020-03-31,13.5,6.5,NA,NA,interpolación
 Angol,2020-04-01,20,6.5,NA,NA,minsal
@@ -233,6 +257,9 @@ Angol,2020-04-21,265.75,18.75,NA,NA,interpolación
 Angol,2020-04-22,284.5,18.75,NA,NA,interpolación
 Angol,2020-04-23,303.25,18.75,NA,NA,interpolación
 Angol,2020-04-24,322,18.75,NA,NA,minsal
+Angol,2020-04-25,348.6666666666667,26.666666666666686,NA,NA,interpolación
+Angol,2020-04-26,375.3333333333333,26.66666666666663,NA,NA,interpolación
+Angol,2020-04-27,402,26.666666666666686,NA,NA,minsal
 Antártica,2020-03-30,0,0,NA,NA,minsal
 Antártica,2020-03-31,0,0,NA,NA,interpolación
 Antártica,2020-04-01,0,0,NA,NA,minsal
@@ -259,6 +286,9 @@ Antártica,2020-04-21,0,0,NA,NA,interpolación
 Antártica,2020-04-22,0,0,NA,NA,interpolación
 Antártica,2020-04-23,0,0,NA,NA,interpolación
 Antártica,2020-04-24,0,0,NA,NA,minsal
+Antártica,2020-04-25,0,0,NA,NA,interpolación
+Antártica,2020-04-26,0,0,NA,NA,interpolación
+Antártica,2020-04-27,0,0,NA,NA,minsal
 Antofagasta,2020-03-30,29,0,NA,NA,minsal
 Antofagasta,2020-03-31,45,16,NA,NA,interpolación
 Antofagasta,2020-04-01,61,16,NA,NA,minsal
@@ -285,6 +315,9 @@ Antofagasta,2020-04-21,923.25,65.25,NA,NA,interpolación
 Antofagasta,2020-04-22,988.5,65.25,NA,NA,interpolación
 Antofagasta,2020-04-23,1053.75,65.25,NA,NA,interpolación
 Antofagasta,2020-04-24,1119,65.25,NA,NA,minsal
+Antofagasta,2020-04-25,1220,101,NA,NA,interpolación
+Antofagasta,2020-04-26,1321,101,NA,NA,interpolación
+Antofagasta,2020-04-27,1422,101,NA,NA,minsal
 Antuco,2020-03-30,0,0,NA,NA,minsal
 Antuco,2020-03-31,0,0,NA,NA,interpolación
 Antuco,2020-04-01,0,0,NA,NA,minsal
@@ -311,6 +344,9 @@ Antuco,2020-04-21,0,0,NA,NA,interpolación
 Antuco,2020-04-22,0,0,NA,NA,interpolación
 Antuco,2020-04-23,0,0,NA,NA,interpolación
 Antuco,2020-04-24,0,0,NA,NA,minsal
+Antuco,2020-04-25,0,0,NA,NA,interpolación
+Antuco,2020-04-26,0,0,NA,NA,interpolación
+Antuco,2020-04-27,0,0,NA,NA,minsal
 Arauco,2020-03-30,0,0,NA,NA,minsal
 Arauco,2020-03-31,2.5,2.5,NA,NA,interpolación
 Arauco,2020-04-01,5,2.5,NA,NA,minsal
@@ -337,6 +373,9 @@ Arauco,2020-04-21,53.5,1.5,NA,NA,interpolación
 Arauco,2020-04-22,55,1.5,NA,NA,interpolación
 Arauco,2020-04-23,56.5,1.5,NA,NA,interpolación
 Arauco,2020-04-24,58,1.5,NA,NA,minsal
+Arauco,2020-04-25,60,2,NA,NA,interpolación
+Arauco,2020-04-26,62,2,NA,NA,interpolación
+Arauco,2020-04-27,64,2,NA,NA,minsal
 Arica,2020-03-30,6,0,NA,NA,minsal
 Arica,2020-03-31,9,3,NA,NA,interpolación
 Arica,2020-04-01,12,3,NA,NA,minsal
@@ -363,6 +402,9 @@ Arica,2020-04-21,810,56,NA,NA,interpolación
 Arica,2020-04-22,866,56,NA,NA,interpolación
 Arica,2020-04-23,922,56,NA,NA,interpolación
 Arica,2020-04-24,978,56,NA,NA,minsal
+Arica,2020-04-25,1068,90,NA,NA,interpolación
+Arica,2020-04-26,1158,90,NA,NA,interpolación
+Arica,2020-04-27,1248,90,NA,NA,minsal
 Buin,2020-03-30,7,0,NA,NA,minsal
 Buin,2020-03-31,11,4,NA,NA,interpolación
 Buin,2020-04-01,15,4,NA,NA,minsal
@@ -389,6 +431,9 @@ Buin,2020-04-21,277.25,13.25,NA,NA,interpolación
 Buin,2020-04-22,290.5,13.25,NA,NA,interpolación
 Buin,2020-04-23,303.75,13.25,NA,NA,interpolación
 Buin,2020-04-24,317,13.25,NA,NA,minsal
+Buin,2020-04-25,337,20,NA,NA,interpolación
+Buin,2020-04-26,357,20,NA,NA,interpolación
+Buin,2020-04-27,377,20,NA,NA,minsal
 Bulnes,2020-03-30,12,0,NA,NA,minsal
 Bulnes,2020-03-31,21,9,NA,NA,interpolación
 Bulnes,2020-04-01,30,9,NA,NA,minsal
@@ -415,6 +460,9 @@ Bulnes,2020-04-21,403.75,14.75,NA,NA,interpolación
 Bulnes,2020-04-22,418.5,14.75,NA,NA,interpolación
 Bulnes,2020-04-23,433.25,14.75,NA,NA,interpolación
 Bulnes,2020-04-24,448,14.75,NA,NA,minsal
+Bulnes,2020-04-25,468,20,NA,NA,interpolación
+Bulnes,2020-04-26,488,20,NA,NA,interpolación
+Bulnes,2020-04-27,508,20,NA,NA,minsal
 Cabildo,2020-03-30,0,0,NA,NA,minsal
 Cabildo,2020-03-31,0,0,NA,NA,interpolación
 Cabildo,2020-04-01,0,0,NA,NA,minsal
@@ -441,6 +489,9 @@ Cabildo,2020-04-21,1,0,NA,NA,interpolación
 Cabildo,2020-04-22,1,0,NA,NA,interpolación
 Cabildo,2020-04-23,1,0,NA,NA,interpolación
 Cabildo,2020-04-24,1,0,NA,NA,minsal
+Cabildo,2020-04-25,2,1,NA,NA,interpolación
+Cabildo,2020-04-26,3,1,NA,NA,interpolación
+Cabildo,2020-04-27,4,1,NA,NA,minsal
 Cabo de Hornos,2020-03-30,5,0,NA,NA,minsal
 Cabo de Hornos,2020-03-31,8,3,NA,NA,interpolación
 Cabo de Hornos,2020-04-01,11,3,NA,NA,minsal
@@ -467,6 +518,9 @@ Cabo de Hornos,2020-04-21,126.25,4.25,NA,NA,interpolación
 Cabo de Hornos,2020-04-22,130.5,4.25,NA,NA,interpolación
 Cabo de Hornos,2020-04-23,134.75,4.25,NA,NA,interpolación
 Cabo de Hornos,2020-04-24,139,4.25,NA,NA,minsal
+Cabo de Hornos,2020-04-25,145.33333333333334,6.333333333333343,NA,NA,interpolación
+Cabo de Hornos,2020-04-26,151.66666666666666,6.333333333333314,NA,NA,interpolación
+Cabo de Hornos,2020-04-27,158,6.333333333333343,NA,NA,minsal
 Cabrero,2020-03-30,0,0,NA,NA,minsal
 Cabrero,2020-03-31,0,0,NA,NA,interpolación
 Cabrero,2020-04-01,0,0,NA,NA,minsal
@@ -493,6 +547,9 @@ Cabrero,2020-04-21,43.25,3.25,NA,NA,interpolación
 Cabrero,2020-04-22,46.5,3.25,NA,NA,interpolación
 Cabrero,2020-04-23,49.75,3.25,NA,NA,interpolación
 Cabrero,2020-04-24,53,3.25,NA,NA,minsal
+Cabrero,2020-04-25,58,5,NA,NA,interpolación
+Cabrero,2020-04-26,63,5,NA,NA,interpolación
+Cabrero,2020-04-27,68,5,NA,NA,minsal
 Calama,2020-03-30,0,0,NA,NA,minsal
 Calama,2020-03-31,1.5,1.5,NA,NA,interpolación
 Calama,2020-04-01,3,1.5,NA,NA,minsal
@@ -519,6 +576,9 @@ Calama,2020-04-21,131.75,8.75,NA,NA,interpolación
 Calama,2020-04-22,140.5,8.75,NA,NA,interpolación
 Calama,2020-04-23,149.25,8.75,NA,NA,interpolación
 Calama,2020-04-24,158,8.75,NA,NA,minsal
+Calama,2020-04-25,176,18,NA,NA,interpolación
+Calama,2020-04-26,194,18,NA,NA,interpolación
+Calama,2020-04-27,212,18,NA,NA,minsal
 Calbuco,2020-03-30,4,0,NA,NA,minsal
 Calbuco,2020-03-31,6.5,2.5,NA,NA,interpolación
 Calbuco,2020-04-01,9,2.5,NA,NA,minsal
@@ -545,6 +605,9 @@ Calbuco,2020-04-21,56.75,1.75,NA,NA,interpolación
 Calbuco,2020-04-22,58.5,1.75,NA,NA,interpolación
 Calbuco,2020-04-23,60.25,1.75,NA,NA,interpolación
 Calbuco,2020-04-24,62,1.75,NA,NA,minsal
+Calbuco,2020-04-25,64.33333333333333,2.3333333333333286,NA,NA,interpolación
+Calbuco,2020-04-26,66.66666666666667,2.333333333333343,NA,NA,interpolación
+Calbuco,2020-04-27,69,2.3333333333333286,NA,NA,minsal
 Caldera,2020-03-30,0,0,NA,NA,minsal
 Caldera,2020-03-31,0,0,NA,NA,interpolación
 Caldera,2020-04-01,0,0,NA,NA,minsal
@@ -571,6 +634,9 @@ Caldera,2020-04-21,0,0,NA,NA,interpolación
 Caldera,2020-04-22,0,0,NA,NA,interpolación
 Caldera,2020-04-23,0,0,NA,NA,interpolación
 Caldera,2020-04-24,0,0,NA,NA,minsal
+Caldera,2020-04-25,0,0,NA,NA,interpolación
+Caldera,2020-04-26,0,0,NA,NA,interpolación
+Caldera,2020-04-27,0,0,NA,NA,minsal
 Calera,2020-03-30,6,0,NA,NA,minsal
 Calera,2020-03-31,9,3,NA,NA,interpolación
 Calera,2020-04-01,12,3,NA,NA,minsal
@@ -597,6 +663,9 @@ Calera,2020-04-21,98.5,5.5,NA,NA,interpolación
 Calera,2020-04-22,104,5.5,NA,NA,interpolación
 Calera,2020-04-23,109.5,5.5,NA,NA,interpolación
 Calera,2020-04-24,115,5.5,NA,NA,minsal
+Calera,2020-04-25,122.33333333333333,7.333333333333329,NA,NA,interpolación
+Calera,2020-04-26,129.66666666666666,7.333333333333329,NA,NA,interpolación
+Calera,2020-04-27,137,7.333333333333343,NA,NA,minsal
 Calera de Tango,2020-03-30,6,0,NA,NA,minsal
 Calera de Tango,2020-03-31,9.5,3.5,NA,NA,interpolación
 Calera de Tango,2020-04-01,13,3.5,NA,NA,minsal
@@ -623,6 +692,9 @@ Calera de Tango,2020-04-21,91.75,3.75,NA,NA,interpolación
 Calera de Tango,2020-04-22,95.5,3.75,NA,NA,interpolación
 Calera de Tango,2020-04-23,99.25,3.75,NA,NA,interpolación
 Calera de Tango,2020-04-24,103,3.75,NA,NA,minsal
+Calera de Tango,2020-04-25,108,5,NA,NA,interpolación
+Calera de Tango,2020-04-26,113,5,NA,NA,interpolación
+Calera de Tango,2020-04-27,118,5,NA,NA,minsal
 Calle Larga,2020-03-30,0,0,NA,NA,minsal
 Calle Larga,2020-03-31,0,0,NA,NA,interpolación
 Calle Larga,2020-04-01,0,0,NA,NA,minsal
@@ -649,6 +721,9 @@ Calle Larga,2020-04-21,21.5,1.5,NA,NA,interpolación
 Calle Larga,2020-04-22,23,1.5,NA,NA,interpolación
 Calle Larga,2020-04-23,24.5,1.5,NA,NA,interpolación
 Calle Larga,2020-04-24,26,1.5,NA,NA,minsal
+Calle Larga,2020-04-25,28,2,NA,NA,interpolación
+Calle Larga,2020-04-26,30,2,NA,NA,interpolación
+Calle Larga,2020-04-27,32,2,NA,NA,minsal
 Camarones,2020-03-30,0,0,NA,NA,minsal
 Camarones,2020-03-31,0,0,NA,NA,interpolación
 Camarones,2020-04-01,0,0,NA,NA,minsal
@@ -675,6 +750,9 @@ Camarones,2020-04-21,0,0,NA,NA,interpolación
 Camarones,2020-04-22,0,0,NA,NA,interpolación
 Camarones,2020-04-23,0,0,NA,NA,interpolación
 Camarones,2020-04-24,0,0,NA,NA,minsal
+Camarones,2020-04-25,0,0,NA,NA,interpolación
+Camarones,2020-04-26,0,0,NA,NA,interpolación
+Camarones,2020-04-27,0,0,NA,NA,minsal
 Camiña,2020-03-30,0,0,NA,NA,minsal
 Camiña,2020-03-31,0,0,NA,NA,interpolación
 Camiña,2020-04-01,0,0,NA,NA,minsal
@@ -701,6 +779,9 @@ Camiña,2020-04-21,0,0,NA,NA,interpolación
 Camiña,2020-04-22,0,0,NA,NA,interpolación
 Camiña,2020-04-23,0,0,NA,NA,interpolación
 Camiña,2020-04-24,0,0,NA,NA,minsal
+Camiña,2020-04-25,0,0,NA,NA,interpolación
+Camiña,2020-04-26,0,0,NA,NA,interpolación
+Camiña,2020-04-27,0,0,NA,NA,minsal
 Canela,2020-03-30,0,0,NA,NA,minsal
 Canela,2020-03-31,0,0,NA,NA,interpolación
 Canela,2020-04-01,0,0,NA,NA,minsal
@@ -727,6 +808,9 @@ Canela,2020-04-21,0,0,NA,NA,interpolación
 Canela,2020-04-22,0,0,NA,NA,interpolación
 Canela,2020-04-23,0,0,NA,NA,interpolación
 Canela,2020-04-24,0,0,NA,NA,minsal
+Canela,2020-04-25,0,0,NA,NA,interpolación
+Canela,2020-04-26,0,0,NA,NA,interpolación
+Canela,2020-04-27,0,0,NA,NA,minsal
 Cañete,2020-03-30,0,0,NA,NA,minsal
 Cañete,2020-03-31,0,0,NA,NA,interpolación
 Cañete,2020-04-01,0,0,NA,NA,minsal
@@ -753,6 +837,9 @@ Cañete,2020-04-21,0,0,NA,NA,interpolación
 Cañete,2020-04-22,0,0,NA,NA,interpolación
 Cañete,2020-04-23,0,0,NA,NA,interpolación
 Cañete,2020-04-24,0,0,NA,NA,minsal
+Cañete,2020-04-25,0,0,NA,NA,interpolación
+Cañete,2020-04-26,0,0,NA,NA,interpolación
+Cañete,2020-04-27,0,0,NA,NA,minsal
 Carahue,2020-03-30,0,0,NA,NA,minsal
 Carahue,2020-03-31,1,1,NA,NA,interpolación
 Carahue,2020-04-01,2,1,NA,NA,minsal
@@ -779,6 +866,9 @@ Carahue,2020-04-21,112.5,7.5,NA,NA,interpolación
 Carahue,2020-04-22,120,7.5,NA,NA,interpolación
 Carahue,2020-04-23,127.5,7.5,NA,NA,interpolación
 Carahue,2020-04-24,135,7.5,NA,NA,minsal
+Carahue,2020-04-25,145.33333333333334,10.333333333333343,NA,NA,interpolación
+Carahue,2020-04-26,155.66666666666666,10.333333333333314,NA,NA,interpolación
+Carahue,2020-04-27,166,10.333333333333343,NA,NA,minsal
 Cartagena,2020-03-30,0,0,NA,NA,minsal
 Cartagena,2020-03-31,0,0,NA,NA,interpolación
 Cartagena,2020-04-01,0,0,NA,NA,minsal
@@ -805,6 +895,9 @@ Cartagena,2020-04-21,10.5,1.5,NA,NA,interpolación
 Cartagena,2020-04-22,12,1.5,NA,NA,interpolación
 Cartagena,2020-04-23,13.5,1.5,NA,NA,interpolación
 Cartagena,2020-04-24,15,1.5,NA,NA,minsal
+Cartagena,2020-04-25,17,2,NA,NA,interpolación
+Cartagena,2020-04-26,19,2,NA,NA,interpolación
+Cartagena,2020-04-27,21,2,NA,NA,minsal
 Casablanca,2020-03-30,0,0,NA,NA,minsal
 Casablanca,2020-03-31,0.5,0.5,NA,NA,interpolación
 Casablanca,2020-04-01,1,0.5,NA,NA,minsal
@@ -831,6 +924,9 @@ Casablanca,2020-04-21,22.75,0.75,NA,NA,interpolación
 Casablanca,2020-04-22,23.5,0.75,NA,NA,interpolación
 Casablanca,2020-04-23,24.25,0.75,NA,NA,interpolación
 Casablanca,2020-04-24,25,0.75,NA,NA,minsal
+Casablanca,2020-04-25,26,1,NA,NA,interpolación
+Casablanca,2020-04-26,27,1,NA,NA,interpolación
+Casablanca,2020-04-27,28,1,NA,NA,minsal
 Castro,2020-03-30,0,0,NA,NA,minsal
 Castro,2020-03-31,0.5,0.5,NA,NA,interpolación
 Castro,2020-04-01,1,0.5,NA,NA,minsal
@@ -857,6 +953,9 @@ Castro,2020-04-21,48.75,1.75,NA,NA,interpolación
 Castro,2020-04-22,50.5,1.75,NA,NA,interpolación
 Castro,2020-04-23,52.25,1.75,NA,NA,interpolación
 Castro,2020-04-24,54,1.75,NA,NA,minsal
+Castro,2020-04-25,56.333333333333336,2.3333333333333357,NA,NA,interpolación
+Castro,2020-04-26,58.666666666666664,2.3333333333333286,NA,NA,interpolación
+Castro,2020-04-27,61,2.3333333333333357,NA,NA,minsal
 Catemu,2020-03-30,0,0,NA,NA,minsal
 Catemu,2020-03-31,0,0,NA,NA,interpolación
 Catemu,2020-04-01,0,0,NA,NA,minsal
@@ -883,6 +982,9 @@ Catemu,2020-04-21,0,0,NA,NA,interpolación
 Catemu,2020-04-22,0,0,NA,NA,interpolación
 Catemu,2020-04-23,0,0,NA,NA,interpolación
 Catemu,2020-04-24,0,0,NA,NA,minsal
+Catemu,2020-04-25,0,0,NA,NA,interpolación
+Catemu,2020-04-26,0,0,NA,NA,interpolación
+Catemu,2020-04-27,0,0,NA,NA,minsal
 Cauquenes,2020-03-30,0,0,NA,NA,minsal
 Cauquenes,2020-03-31,0.5,0.5,NA,NA,interpolación
 Cauquenes,2020-04-01,1,0.5,NA,NA,minsal
@@ -909,6 +1011,9 @@ Cauquenes,2020-04-21,45,3,NA,NA,interpolación
 Cauquenes,2020-04-22,48,3,NA,NA,interpolación
 Cauquenes,2020-04-23,51,3,NA,NA,interpolación
 Cauquenes,2020-04-24,54,3,NA,NA,minsal
+Cauquenes,2020-04-25,58.333333333333336,4.333333333333336,NA,NA,interpolación
+Cauquenes,2020-04-26,62.666666666666664,4.333333333333329,NA,NA,interpolación
+Cauquenes,2020-04-27,67,4.333333333333336,NA,NA,minsal
 Cerrillos,2020-03-30,0,0,NA,NA,minsal
 Cerrillos,2020-03-31,2,2,NA,NA,interpolación
 Cerrillos,2020-04-01,4,2,NA,NA,minsal
@@ -935,6 +1040,9 @@ Cerrillos,2020-04-21,230.5,16.5,NA,NA,interpolación
 Cerrillos,2020-04-22,247,16.5,NA,NA,interpolación
 Cerrillos,2020-04-23,263.5,16.5,NA,NA,interpolación
 Cerrillos,2020-04-24,280,16.5,NA,NA,minsal
+Cerrillos,2020-04-25,306.6666666666667,26.666666666666686,NA,NA,interpolación
+Cerrillos,2020-04-26,333.3333333333333,26.66666666666663,NA,NA,interpolación
+Cerrillos,2020-04-27,360,26.666666666666686,NA,NA,minsal
 Cerro Navia,2020-03-30,19,0,NA,NA,minsal
 Cerro Navia,2020-03-31,29.5,10.5,NA,NA,interpolación
 Cerro Navia,2020-04-01,40,10.5,NA,NA,minsal
@@ -961,6 +1069,9 @@ Cerro Navia,2020-04-21,504.5,29.5,NA,NA,interpolación
 Cerro Navia,2020-04-22,534,29.5,NA,NA,interpolación
 Cerro Navia,2020-04-23,563.5,29.5,NA,NA,interpolación
 Cerro Navia,2020-04-24,593,29.5,NA,NA,minsal
+Cerro Navia,2020-04-25,638,45,NA,NA,interpolación
+Cerro Navia,2020-04-26,683,45,NA,NA,interpolación
+Cerro Navia,2020-04-27,728,45,NA,NA,minsal
 Chaitén,2020-03-30,0,0,NA,NA,minsal
 Chaitén,2020-03-31,0.5,0.5,NA,NA,interpolación
 Chaitén,2020-04-01,1,0.5,NA,NA,minsal
@@ -987,6 +1098,9 @@ Chaitén,2020-04-21,9.25,0.25,NA,NA,interpolación
 Chaitén,2020-04-22,9.5,0.25,NA,NA,interpolación
 Chaitén,2020-04-23,9.75,0.25,NA,NA,interpolación
 Chaitén,2020-04-24,10,0.25,NA,NA,minsal
+Chaitén,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Chaitén,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Chaitén,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Chañaral,2020-03-30,0,0,NA,NA,minsal
 Chañaral,2020-03-31,0,0,NA,NA,interpolación
 Chañaral,2020-04-01,0,0,NA,NA,minsal
@@ -1013,6 +1127,9 @@ Chañaral,2020-04-21,0,0,NA,NA,interpolación
 Chañaral,2020-04-22,0,0,NA,NA,interpolación
 Chañaral,2020-04-23,0,0,NA,NA,interpolación
 Chañaral,2020-04-24,0,0,NA,NA,minsal
+Chañaral,2020-04-25,0,0,NA,NA,interpolación
+Chañaral,2020-04-26,0,0,NA,NA,interpolación
+Chañaral,2020-04-27,0,0,NA,NA,minsal
 Chanco,2020-03-30,0,0,NA,NA,minsal
 Chanco,2020-03-31,0,0,NA,NA,interpolación
 Chanco,2020-04-01,0,0,NA,NA,minsal
@@ -1039,6 +1156,9 @@ Chanco,2020-04-21,2.5,0.5,NA,NA,interpolación
 Chanco,2020-04-22,3,0.5,NA,NA,interpolación
 Chanco,2020-04-23,3.5,0.5,NA,NA,interpolación
 Chanco,2020-04-24,4,0.5,NA,NA,minsal
+Chanco,2020-04-25,5,1,NA,NA,interpolación
+Chanco,2020-04-26,6,1,NA,NA,interpolación
+Chanco,2020-04-27,7,1,NA,NA,minsal
 Chépica,2020-03-30,0,0,NA,NA,minsal
 Chépica,2020-03-31,0,0,NA,NA,interpolación
 Chépica,2020-04-01,0,0,NA,NA,minsal
@@ -1065,6 +1185,9 @@ Chépica,2020-04-21,0,0,NA,NA,interpolación
 Chépica,2020-04-22,0,0,NA,NA,interpolación
 Chépica,2020-04-23,0,0,NA,NA,interpolación
 Chépica,2020-04-24,0,0,NA,NA,minsal
+Chépica,2020-04-25,0,0,NA,NA,interpolación
+Chépica,2020-04-26,0,0,NA,NA,interpolación
+Chépica,2020-04-27,0,0,NA,NA,minsal
 Chiguayante,2020-03-30,6,0,NA,NA,minsal
 Chiguayante,2020-03-31,15,9,NA,NA,interpolación
 Chiguayante,2020-04-01,24,9,NA,NA,minsal
@@ -1091,6 +1214,9 @@ Chiguayante,2020-04-21,329.25,14.25,NA,NA,interpolación
 Chiguayante,2020-04-22,343.5,14.25,NA,NA,interpolación
 Chiguayante,2020-04-23,357.75,14.25,NA,NA,interpolación
 Chiguayante,2020-04-24,372,14.25,NA,NA,minsal
+Chiguayante,2020-04-25,391.3333333333333,19.333333333333314,NA,NA,interpolación
+Chiguayante,2020-04-26,410.6666666666667,19.33333333333337,NA,NA,interpolación
+Chiguayante,2020-04-27,430,19.333333333333314,NA,NA,minsal
 Chile Chico,2020-03-30,0,0,NA,NA,minsal
 Chile Chico,2020-03-31,0,0,NA,NA,interpolación
 Chile Chico,2020-04-01,0,0,NA,NA,minsal
@@ -1117,6 +1243,9 @@ Chile Chico,2020-04-21,7.25,0.25,NA,NA,interpolación
 Chile Chico,2020-04-22,7.5,0.25,NA,NA,interpolación
 Chile Chico,2020-04-23,7.75,0.25,NA,NA,interpolación
 Chile Chico,2020-04-24,8,0.25,NA,NA,minsal
+Chile Chico,2020-04-25,8.333333333333334,0.3333333333333339,NA,NA,interpolación
+Chile Chico,2020-04-26,8.666666666666666,0.33333333333333215,NA,NA,interpolación
+Chile Chico,2020-04-27,9,0.3333333333333339,NA,NA,minsal
 Chillán,2020-03-30,114,0,NA,NA,minsal
 Chillán,2020-03-31,200.5,86.5,NA,NA,interpolación
 Chillán,2020-04-01,287,86.5,NA,NA,minsal
@@ -1143,6 +1272,9 @@ Chillán,2020-04-21,3099.75,102.75,NA,NA,interpolación
 Chillán,2020-04-22,3202.5,102.75,NA,NA,interpolación
 Chillán,2020-04-23,3305.25,102.75,NA,NA,interpolación
 Chillán,2020-04-24,3408,102.75,NA,NA,minsal
+Chillán,2020-04-25,3543,135,NA,NA,interpolación
+Chillán,2020-04-26,3678,135,NA,NA,interpolación
+Chillán,2020-04-27,3813,135,NA,NA,minsal
 Chillán Viejo,2020-03-30,13,0,NA,NA,minsal
 Chillán Viejo,2020-03-31,24,11,NA,NA,interpolación
 Chillán Viejo,2020-04-01,35,11,NA,NA,minsal
@@ -1169,6 +1301,9 @@ Chillán Viejo,2020-04-21,361,13,NA,NA,interpolación
 Chillán Viejo,2020-04-22,374,13,NA,NA,interpolación
 Chillán Viejo,2020-04-23,387,13,NA,NA,interpolación
 Chillán Viejo,2020-04-24,400,13,NA,NA,minsal
+Chillán Viejo,2020-04-25,418.3333333333333,18.333333333333314,NA,NA,interpolación
+Chillán Viejo,2020-04-26,436.6666666666667,18.33333333333337,NA,NA,interpolación
+Chillán Viejo,2020-04-27,455,18.333333333333314,NA,NA,minsal
 Chimbarongo,2020-03-30,0,0,NA,NA,minsal
 Chimbarongo,2020-03-31,1,1,NA,NA,interpolación
 Chimbarongo,2020-04-01,2,1,NA,NA,minsal
@@ -1195,6 +1330,9 @@ Chimbarongo,2020-04-21,22.5,0.5,NA,NA,interpolación
 Chimbarongo,2020-04-22,23,0.5,NA,NA,interpolación
 Chimbarongo,2020-04-23,23.5,0.5,NA,NA,interpolación
 Chimbarongo,2020-04-24,24,0.5,NA,NA,minsal
+Chimbarongo,2020-04-25,24.666666666666668,0.6666666666666679,NA,NA,interpolación
+Chimbarongo,2020-04-26,25.333333333333332,0.6666666666666643,NA,NA,interpolación
+Chimbarongo,2020-04-27,26,0.6666666666666679,NA,NA,minsal
 Cholchol,2020-03-30,0,0,NA,NA,minsal
 Cholchol,2020-03-31,1,1,NA,NA,interpolación
 Cholchol,2020-04-01,2,1,NA,NA,minsal
@@ -1221,6 +1359,9 @@ Cholchol,2020-04-21,33.25,1.25,NA,NA,interpolación
 Cholchol,2020-04-22,34.5,1.25,NA,NA,interpolación
 Cholchol,2020-04-23,35.75,1.25,NA,NA,interpolación
 Cholchol,2020-04-24,37,1.25,NA,NA,minsal
+Cholchol,2020-04-25,38.666666666666664,1.6666666666666643,NA,NA,interpolación
+Cholchol,2020-04-26,40.333333333333336,1.6666666666666714,NA,NA,interpolación
+Cholchol,2020-04-27,42,1.6666666666666643,NA,NA,minsal
 Chonchi,2020-03-30,0,0,NA,NA,minsal
 Chonchi,2020-03-31,0,0,NA,NA,interpolación
 Chonchi,2020-04-01,0,0,NA,NA,minsal
@@ -1247,6 +1388,9 @@ Chonchi,2020-04-21,0,0,NA,NA,interpolación
 Chonchi,2020-04-22,0,0,NA,NA,interpolación
 Chonchi,2020-04-23,0,0,NA,NA,interpolación
 Chonchi,2020-04-24,0,0,NA,NA,minsal
+Chonchi,2020-04-25,0,0,NA,NA,interpolación
+Chonchi,2020-04-26,0,0,NA,NA,interpolación
+Chonchi,2020-04-27,0,0,NA,NA,minsal
 Cisnes,2020-03-30,0,0,NA,NA,minsal
 Cisnes,2020-03-31,0,0,NA,NA,interpolación
 Cisnes,2020-04-01,0,0,NA,NA,minsal
@@ -1273,6 +1417,9 @@ Cisnes,2020-04-21,0,0,NA,NA,interpolación
 Cisnes,2020-04-22,0,0,NA,NA,interpolación
 Cisnes,2020-04-23,0,0,NA,NA,interpolación
 Cisnes,2020-04-24,0,0,NA,NA,minsal
+Cisnes,2020-04-25,0,0,NA,NA,interpolación
+Cisnes,2020-04-26,0,0,NA,NA,interpolación
+Cisnes,2020-04-27,0,0,NA,NA,minsal
 Cobquecura,2020-03-30,0,0,NA,NA,minsal
 Cobquecura,2020-03-31,0,0,NA,NA,interpolación
 Cobquecura,2020-04-01,0,0,NA,NA,minsal
@@ -1299,6 +1446,9 @@ Cobquecura,2020-04-21,0,0,NA,NA,interpolación
 Cobquecura,2020-04-22,0,0,NA,NA,interpolación
 Cobquecura,2020-04-23,0,0,NA,NA,interpolación
 Cobquecura,2020-04-24,0,0,NA,NA,minsal
+Cobquecura,2020-04-25,0,0,NA,NA,interpolación
+Cobquecura,2020-04-26,0,0,NA,NA,interpolación
+Cobquecura,2020-04-27,0,0,NA,NA,minsal
 Cochamó,2020-03-30,0,0,NA,NA,minsal
 Cochamó,2020-03-31,0,0,NA,NA,interpolación
 Cochamó,2020-04-01,0,0,NA,NA,minsal
@@ -1325,6 +1475,9 @@ Cochamó,2020-04-21,2.25,0.25,NA,NA,interpolación
 Cochamó,2020-04-22,2.5,0.25,NA,NA,interpolación
 Cochamó,2020-04-23,2.75,0.25,NA,NA,interpolación
 Cochamó,2020-04-24,3,0.25,NA,NA,minsal
+Cochamó,2020-04-25,3.3333333333333335,0.3333333333333335,NA,NA,interpolación
+Cochamó,2020-04-26,3.6666666666666665,0.33333333333333304,NA,NA,interpolación
+Cochamó,2020-04-27,4,0.3333333333333335,NA,NA,minsal
 Cochrane,2020-03-30,0,0,NA,NA,minsal
 Cochrane,2020-03-31,0,0,NA,NA,interpolación
 Cochrane,2020-04-01,0,0,NA,NA,minsal
@@ -1351,6 +1504,9 @@ Cochrane,2020-04-21,0,0,NA,NA,interpolación
 Cochrane,2020-04-22,0,0,NA,NA,interpolación
 Cochrane,2020-04-23,0,0,NA,NA,interpolación
 Cochrane,2020-04-24,0,0,NA,NA,minsal
+Cochrane,2020-04-25,0,0,NA,NA,interpolación
+Cochrane,2020-04-26,0,0,NA,NA,interpolación
+Cochrane,2020-04-27,0,0,NA,NA,minsal
 Codegua,2020-03-30,0,0,NA,NA,minsal
 Codegua,2020-03-31,0,0,NA,NA,interpolación
 Codegua,2020-04-01,0,0,NA,NA,minsal
@@ -1377,6 +1533,9 @@ Codegua,2020-04-21,1.25,0.25,NA,NA,interpolación
 Codegua,2020-04-22,1.5,0.25,NA,NA,interpolación
 Codegua,2020-04-23,1.75,0.25,NA,NA,interpolación
 Codegua,2020-04-24,2,0.25,NA,NA,minsal
+Codegua,2020-04-25,2.3333333333333335,0.3333333333333335,NA,NA,interpolación
+Codegua,2020-04-26,2.6666666666666665,0.33333333333333304,NA,NA,interpolación
+Codegua,2020-04-27,3,0.3333333333333335,NA,NA,minsal
 Coelemu,2020-03-30,0,0,NA,NA,minsal
 Coelemu,2020-03-31,0.5,0.5,NA,NA,interpolación
 Coelemu,2020-04-01,1,0.5,NA,NA,minsal
@@ -1403,6 +1562,9 @@ Coelemu,2020-04-21,31,1,NA,NA,interpolación
 Coelemu,2020-04-22,32,1,NA,NA,interpolación
 Coelemu,2020-04-23,33,1,NA,NA,interpolación
 Coelemu,2020-04-24,34,1,NA,NA,minsal
+Coelemu,2020-04-25,35.333333333333336,1.3333333333333357,NA,NA,interpolación
+Coelemu,2020-04-26,36.666666666666664,1.3333333333333286,NA,NA,interpolación
+Coelemu,2020-04-27,38,1.3333333333333357,NA,NA,minsal
 Coihueco,2020-03-30,0,0,NA,NA,minsal
 Coihueco,2020-03-31,1.5,1.5,NA,NA,interpolación
 Coihueco,2020-04-01,3,1.5,NA,NA,minsal
@@ -1429,6 +1591,9 @@ Coihueco,2020-04-21,90,6,NA,NA,interpolación
 Coihueco,2020-04-22,96,6,NA,NA,interpolación
 Coihueco,2020-04-23,102,6,NA,NA,interpolación
 Coihueco,2020-04-24,108,6,NA,NA,minsal
+Coihueco,2020-04-25,116.33333333333333,8.333333333333329,NA,NA,interpolación
+Coihueco,2020-04-26,124.66666666666666,8.333333333333329,NA,NA,interpolación
+Coihueco,2020-04-27,133,8.333333333333343,NA,NA,minsal
 Coinco,2020-03-30,0,0,NA,NA,minsal
 Coinco,2020-03-31,0,0,NA,NA,interpolación
 Coinco,2020-04-01,0,0,NA,NA,minsal
@@ -1455,6 +1620,9 @@ Coinco,2020-04-21,0.25,0.25,NA,NA,interpolación
 Coinco,2020-04-22,0.5,0.25,NA,NA,interpolación
 Coinco,2020-04-23,0.75,0.25,NA,NA,interpolación
 Coinco,2020-04-24,1,0.25,NA,NA,minsal
+Coinco,2020-04-25,1.3333333333333333,0.33333333333333326,NA,NA,interpolación
+Coinco,2020-04-26,1.6666666666666665,0.33333333333333326,NA,NA,interpolación
+Coinco,2020-04-27,2,0.3333333333333335,NA,NA,minsal
 Colbún,2020-03-30,0,0,NA,NA,minsal
 Colbún,2020-03-31,2,2,NA,NA,interpolación
 Colbún,2020-04-01,4,2,NA,NA,minsal
@@ -1481,6 +1649,9 @@ Colbún,2020-04-21,45.5,1.5,NA,NA,interpolación
 Colbún,2020-04-22,47,1.5,NA,NA,interpolación
 Colbún,2020-04-23,48.5,1.5,NA,NA,interpolación
 Colbún,2020-04-24,50,1.5,NA,NA,minsal
+Colbún,2020-04-25,52,2,NA,NA,interpolación
+Colbún,2020-04-26,54,2,NA,NA,interpolación
+Colbún,2020-04-27,56,2,NA,NA,minsal
 Colchane,2020-03-30,0,0,NA,NA,minsal
 Colchane,2020-03-31,0,0,NA,NA,interpolación
 Colchane,2020-04-01,0,0,NA,NA,minsal
@@ -1507,6 +1678,9 @@ Colchane,2020-04-21,0,0,NA,NA,interpolación
 Colchane,2020-04-22,0,0,NA,NA,interpolación
 Colchane,2020-04-23,0,0,NA,NA,interpolación
 Colchane,2020-04-24,0,0,NA,NA,minsal
+Colchane,2020-04-25,0,0,NA,NA,interpolación
+Colchane,2020-04-26,0,0,NA,NA,interpolación
+Colchane,2020-04-27,0,0,NA,NA,minsal
 Colina,2020-03-30,32,0,NA,NA,minsal
 Colina,2020-03-31,51.5,19.5,NA,NA,interpolación
 Colina,2020-04-01,71,19.5,NA,NA,minsal
@@ -1533,6 +1707,9 @@ Colina,2020-04-21,641.75,23.75,NA,NA,interpolación
 Colina,2020-04-22,665.5,23.75,NA,NA,interpolación
 Colina,2020-04-23,689.25,23.75,NA,NA,interpolación
 Colina,2020-04-24,713,23.75,NA,NA,minsal
+Colina,2020-04-25,747.3333333333334,34.33333333333337,NA,NA,interpolación
+Colina,2020-04-26,781.6666666666666,34.33333333333326,NA,NA,interpolación
+Colina,2020-04-27,816,34.33333333333337,NA,NA,minsal
 Collipulli,2020-03-30,0,0,NA,NA,minsal
 Collipulli,2020-03-31,0,0,NA,NA,interpolación
 Collipulli,2020-04-01,0,0,NA,NA,minsal
@@ -1559,6 +1736,9 @@ Collipulli,2020-04-21,3.5,0.5,NA,NA,interpolación
 Collipulli,2020-04-22,4,0.5,NA,NA,interpolación
 Collipulli,2020-04-23,4.5,0.5,NA,NA,interpolación
 Collipulli,2020-04-24,5,0.5,NA,NA,minsal
+Collipulli,2020-04-25,6,1,NA,NA,interpolación
+Collipulli,2020-04-26,7,1,NA,NA,interpolación
+Collipulli,2020-04-27,8,1,NA,NA,minsal
 Coltauco,2020-03-30,0,0,NA,NA,minsal
 Coltauco,2020-03-31,0,0,NA,NA,interpolación
 Coltauco,2020-04-01,0,0,NA,NA,minsal
@@ -1585,6 +1765,9 @@ Coltauco,2020-04-21,0,0,NA,NA,interpolación
 Coltauco,2020-04-22,0,0,NA,NA,interpolación
 Coltauco,2020-04-23,0,0,NA,NA,interpolación
 Coltauco,2020-04-24,0,0,NA,NA,minsal
+Coltauco,2020-04-25,0,0,NA,NA,interpolación
+Coltauco,2020-04-26,0,0,NA,NA,interpolación
+Coltauco,2020-04-27,0,0,NA,NA,minsal
 Combarbalá,2020-03-30,0,0,NA,NA,minsal
 Combarbalá,2020-03-31,0,0,NA,NA,interpolación
 Combarbalá,2020-04-01,0,0,NA,NA,minsal
@@ -1611,6 +1794,9 @@ Combarbalá,2020-04-21,0,0,NA,NA,interpolación
 Combarbalá,2020-04-22,0,0,NA,NA,interpolación
 Combarbalá,2020-04-23,0,0,NA,NA,interpolación
 Combarbalá,2020-04-24,0,0,NA,NA,minsal
+Combarbalá,2020-04-25,0,0,NA,NA,interpolación
+Combarbalá,2020-04-26,0,0,NA,NA,interpolación
+Combarbalá,2020-04-27,0,0,NA,NA,minsal
 Concepción,2020-03-30,28,0,NA,NA,minsal
 Concepción,2020-03-31,51.5,23.5,NA,NA,interpolación
 Concepción,2020-04-01,75,23.5,NA,NA,minsal
@@ -1637,6 +1823,9 @@ Concepción,2020-04-21,899,34,NA,NA,interpolación
 Concepción,2020-04-22,933,34,NA,NA,interpolación
 Concepción,2020-04-23,967,34,NA,NA,interpolación
 Concepción,2020-04-24,1001,34,NA,NA,minsal
+Concepción,2020-04-25,1047.3333333333333,46.33333333333326,NA,NA,interpolación
+Concepción,2020-04-26,1093.6666666666667,46.333333333333485,NA,NA,interpolación
+Concepción,2020-04-27,1140,46.33333333333326,NA,NA,minsal
 Conchalí,2020-03-30,14,0,NA,NA,minsal
 Conchalí,2020-03-31,23,9,NA,NA,interpolación
 Conchalí,2020-04-01,32,9,NA,NA,minsal
@@ -1663,6 +1852,9 @@ Conchalí,2020-04-21,447.5,24.5,NA,NA,interpolación
 Conchalí,2020-04-22,472,24.5,NA,NA,interpolación
 Conchalí,2020-04-23,496.5,24.5,NA,NA,interpolación
 Conchalí,2020-04-24,521,24.5,NA,NA,minsal
+Conchalí,2020-04-25,558.6666666666666,37.66666666666663,NA,NA,interpolación
+Conchalí,2020-04-26,596.3333333333334,37.66666666666674,NA,NA,interpolación
+Conchalí,2020-04-27,634,37.66666666666663,NA,NA,minsal
 Concón,2020-03-30,0,0,NA,NA,minsal
 Concón,2020-03-31,0.5,0.5,NA,NA,interpolación
 Concón,2020-04-01,1,0.5,NA,NA,minsal
@@ -1689,6 +1881,9 @@ Concón,2020-04-21,51.25,3.25,NA,NA,interpolación
 Concón,2020-04-22,54.5,3.25,NA,NA,interpolación
 Concón,2020-04-23,57.75,3.25,NA,NA,interpolación
 Concón,2020-04-24,61,3.25,NA,NA,minsal
+Concón,2020-04-25,65.66666666666667,4.666666666666671,NA,NA,interpolación
+Concón,2020-04-26,70.33333333333333,4.666666666666657,NA,NA,interpolación
+Concón,2020-04-27,75,4.666666666666671,NA,NA,minsal
 Constitución,2020-03-30,0,0,NA,NA,minsal
 Constitución,2020-03-31,0.5,0.5,NA,NA,interpolación
 Constitución,2020-04-01,1,0.5,NA,NA,minsal
@@ -1715,6 +1910,9 @@ Constitución,2020-04-21,52.5,4.5,NA,NA,interpolación
 Constitución,2020-04-22,57,4.5,NA,NA,interpolación
 Constitución,2020-04-23,61.5,4.5,NA,NA,interpolación
 Constitución,2020-04-24,66,4.5,NA,NA,minsal
+Constitución,2020-04-25,72.33333333333333,6.333333333333329,NA,NA,interpolación
+Constitución,2020-04-26,78.66666666666667,6.333333333333343,NA,NA,interpolación
+Constitución,2020-04-27,85,6.333333333333329,NA,NA,minsal
 Contulmo,2020-03-30,0,0,NA,NA,minsal
 Contulmo,2020-03-31,0,0,NA,NA,interpolación
 Contulmo,2020-04-01,0,0,NA,NA,minsal
@@ -1741,6 +1939,9 @@ Contulmo,2020-04-21,0,0,NA,NA,interpolación
 Contulmo,2020-04-22,0,0,NA,NA,interpolación
 Contulmo,2020-04-23,0,0,NA,NA,interpolación
 Contulmo,2020-04-24,0,0,NA,NA,minsal
+Contulmo,2020-04-25,0,0,NA,NA,interpolación
+Contulmo,2020-04-26,0,0,NA,NA,interpolación
+Contulmo,2020-04-27,0,0,NA,NA,minsal
 Copiapó,2020-03-30,0,0,NA,NA,minsal
 Copiapó,2020-03-31,1,1,NA,NA,interpolación
 Copiapó,2020-04-01,2,1,NA,NA,minsal
@@ -1767,6 +1968,9 @@ Copiapó,2020-04-21,57,2,NA,NA,interpolación
 Copiapó,2020-04-22,59,2,NA,NA,interpolación
 Copiapó,2020-04-23,61,2,NA,NA,interpolación
 Copiapó,2020-04-24,63,2,NA,NA,minsal
+Copiapó,2020-04-25,65.66666666666667,2.6666666666666714,NA,NA,interpolación
+Copiapó,2020-04-26,68.33333333333333,2.666666666666657,NA,NA,interpolación
+Copiapó,2020-04-27,71,2.6666666666666714,NA,NA,minsal
 Coquimbo,2020-03-30,17,0,NA,NA,minsal
 Coquimbo,2020-03-31,26.5,9.5,NA,NA,interpolación
 Coquimbo,2020-04-01,36,9.5,NA,NA,minsal
@@ -1793,6 +1997,9 @@ Coquimbo,2020-04-21,203,6,NA,NA,interpolación
 Coquimbo,2020-04-22,209,6,NA,NA,interpolación
 Coquimbo,2020-04-23,215,6,NA,NA,interpolación
 Coquimbo,2020-04-24,221,6,NA,NA,minsal
+Coquimbo,2020-04-25,229.66666666666666,8.666666666666657,NA,NA,interpolación
+Coquimbo,2020-04-26,238.33333333333334,8.666666666666686,NA,NA,interpolación
+Coquimbo,2020-04-27,247,8.666666666666657,NA,NA,minsal
 Coronel,2020-03-30,0,0,NA,NA,minsal
 Coronel,2020-03-31,5.5,5.5,NA,NA,interpolación
 Coronel,2020-04-01,11,5.5,NA,NA,minsal
@@ -1819,6 +2026,9 @@ Coronel,2020-04-21,139,4,NA,NA,interpolación
 Coronel,2020-04-22,143,4,NA,NA,interpolación
 Coronel,2020-04-23,147,4,NA,NA,interpolación
 Coronel,2020-04-24,151,4,NA,NA,minsal
+Coronel,2020-04-25,157,6,NA,NA,interpolación
+Coronel,2020-04-26,163,6,NA,NA,interpolación
+Coronel,2020-04-27,169,6,NA,NA,minsal
 Corral,2020-03-30,0,0,NA,NA,minsal
 Corral,2020-03-31,0,0,NA,NA,interpolación
 Corral,2020-04-01,0,0,NA,NA,minsal
@@ -1845,6 +2055,9 @@ Corral,2020-04-21,3.25,0.25,NA,NA,interpolación
 Corral,2020-04-22,3.5,0.25,NA,NA,interpolación
 Corral,2020-04-23,3.75,0.25,NA,NA,interpolación
 Corral,2020-04-24,4,0.25,NA,NA,minsal
+Corral,2020-04-25,4.333333333333333,0.33333333333333304,NA,NA,interpolación
+Corral,2020-04-26,4.666666666666667,0.3333333333333339,NA,NA,interpolación
+Corral,2020-04-27,5,0.33333333333333304,NA,NA,minsal
 Coyhaique,2020-03-30,0,0,NA,NA,minsal
 Coyhaique,2020-03-31,1,1,NA,NA,interpolación
 Coyhaique,2020-04-01,2,1,NA,NA,minsal
@@ -1871,6 +2084,9 @@ Coyhaique,2020-04-21,16.75,0.75,NA,NA,interpolación
 Coyhaique,2020-04-22,17.5,0.75,NA,NA,interpolación
 Coyhaique,2020-04-23,18.25,0.75,NA,NA,interpolación
 Coyhaique,2020-04-24,19,0.75,NA,NA,minsal
+Coyhaique,2020-04-25,20,1,NA,NA,interpolación
+Coyhaique,2020-04-26,21,1,NA,NA,interpolación
+Coyhaique,2020-04-27,22,1,NA,NA,minsal
 Cunco,2020-03-30,0,0,NA,NA,minsal
 Cunco,2020-03-31,0,0,NA,NA,interpolación
 Cunco,2020-04-01,0,0,NA,NA,minsal
@@ -1897,6 +2113,9 @@ Cunco,2020-04-21,39.5,1.5,NA,NA,interpolación
 Cunco,2020-04-22,41,1.5,NA,NA,interpolación
 Cunco,2020-04-23,42.5,1.5,NA,NA,interpolación
 Cunco,2020-04-24,44,1.5,NA,NA,minsal
+Cunco,2020-04-25,46,2,NA,NA,interpolación
+Cunco,2020-04-26,48,2,NA,NA,interpolación
+Cunco,2020-04-27,50,2,NA,NA,minsal
 Curacautín,2020-03-30,0,0,NA,NA,minsal
 Curacautín,2020-03-31,0,0,NA,NA,interpolación
 Curacautín,2020-04-01,0,0,NA,NA,minsal
@@ -1923,6 +2142,9 @@ Curacautín,2020-04-21,31.5,1.5,NA,NA,interpolación
 Curacautín,2020-04-22,33,1.5,NA,NA,interpolación
 Curacautín,2020-04-23,34.5,1.5,NA,NA,interpolación
 Curacautín,2020-04-24,36,1.5,NA,NA,minsal
+Curacautín,2020-04-25,38,2,NA,NA,interpolación
+Curacautín,2020-04-26,40,2,NA,NA,interpolación
+Curacautín,2020-04-27,42,2,NA,NA,minsal
 Curacaví,2020-03-30,5,0,NA,NA,minsal
 Curacaví,2020-03-31,7.5,2.5,NA,NA,interpolación
 Curacaví,2020-04-01,10,2.5,NA,NA,minsal
@@ -1949,6 +2171,9 @@ Curacaví,2020-04-21,100.75,3.75,NA,NA,interpolación
 Curacaví,2020-04-22,104.5,3.75,NA,NA,interpolación
 Curacaví,2020-04-23,108.25,3.75,NA,NA,interpolación
 Curacaví,2020-04-24,112,3.75,NA,NA,minsal
+Curacaví,2020-04-25,117,5,NA,NA,interpolación
+Curacaví,2020-04-26,122,5,NA,NA,interpolación
+Curacaví,2020-04-27,127,5,NA,NA,minsal
 Curaco de Vélez,2020-03-30,0,0,NA,NA,minsal
 Curaco de Vélez,2020-03-31,0,0,NA,NA,interpolación
 Curaco de Vélez,2020-04-01,0,0,NA,NA,minsal
@@ -1975,6 +2200,9 @@ Curaco de Vélez,2020-04-21,0,0,NA,NA,interpolación
 Curaco de Vélez,2020-04-22,0,0,NA,NA,interpolación
 Curaco de Vélez,2020-04-23,0,0,NA,NA,interpolación
 Curaco de Vélez,2020-04-24,0,0,NA,NA,minsal
+Curaco de Vélez,2020-04-25,0,0,NA,NA,interpolación
+Curaco de Vélez,2020-04-26,0,0,NA,NA,interpolación
+Curaco de Vélez,2020-04-27,0,0,NA,NA,minsal
 Curanilahue,2020-03-30,0,0,NA,NA,minsal
 Curanilahue,2020-03-31,0.5,0.5,NA,NA,interpolación
 Curanilahue,2020-04-01,1,0.5,NA,NA,minsal
@@ -2001,6 +2229,9 @@ Curanilahue,2020-04-21,9.5,0.5,NA,NA,interpolación
 Curanilahue,2020-04-22,10,0.5,NA,NA,interpolación
 Curanilahue,2020-04-23,10.5,0.5,NA,NA,interpolación
 Curanilahue,2020-04-24,11,0.5,NA,NA,minsal
+Curanilahue,2020-04-25,11.666666666666666,0.6666666666666661,NA,NA,interpolación
+Curanilahue,2020-04-26,12.333333333333334,0.6666666666666679,NA,NA,interpolación
+Curanilahue,2020-04-27,13,0.6666666666666661,NA,NA,minsal
 Curarrehue,2020-03-30,0,0,NA,NA,minsal
 Curarrehue,2020-03-31,1,1,NA,NA,interpolación
 Curarrehue,2020-04-01,2,1,NA,NA,minsal
@@ -2027,6 +2258,9 @@ Curarrehue,2020-04-21,33,1,NA,NA,interpolación
 Curarrehue,2020-04-22,34,1,NA,NA,interpolación
 Curarrehue,2020-04-23,35,1,NA,NA,interpolación
 Curarrehue,2020-04-24,36,1,NA,NA,minsal
+Curarrehue,2020-04-25,37.333333333333336,1.3333333333333357,NA,NA,interpolación
+Curarrehue,2020-04-26,38.666666666666664,1.3333333333333286,NA,NA,interpolación
+Curarrehue,2020-04-27,40,1.3333333333333357,NA,NA,minsal
 Curepto,2020-03-30,0,0,NA,NA,minsal
 Curepto,2020-03-31,0,0,NA,NA,interpolación
 Curepto,2020-04-01,0,0,NA,NA,minsal
@@ -2053,6 +2287,9 @@ Curepto,2020-04-21,23,2,NA,NA,interpolación
 Curepto,2020-04-22,25,2,NA,NA,interpolación
 Curepto,2020-04-23,27,2,NA,NA,interpolación
 Curepto,2020-04-24,29,2,NA,NA,minsal
+Curepto,2020-04-25,31.666666666666668,2.666666666666668,NA,NA,interpolación
+Curepto,2020-04-26,34.333333333333336,2.666666666666668,NA,NA,interpolación
+Curepto,2020-04-27,37,2.6666666666666643,NA,NA,minsal
 Curicó,2020-03-30,6,0,NA,NA,minsal
 Curicó,2020-03-31,10,4,NA,NA,interpolación
 Curicó,2020-04-01,14,4,NA,NA,minsal
@@ -2079,6 +2316,9 @@ Curicó,2020-04-21,173.75,7.75,NA,NA,interpolación
 Curicó,2020-04-22,181.5,7.75,NA,NA,interpolación
 Curicó,2020-04-23,189.25,7.75,NA,NA,interpolación
 Curicó,2020-04-24,197,7.75,NA,NA,minsal
+Curicó,2020-04-25,209.33333333333334,12.333333333333343,NA,NA,interpolación
+Curicó,2020-04-26,221.66666666666666,12.333333333333314,NA,NA,interpolación
+Curicó,2020-04-27,234,12.333333333333343,NA,NA,minsal
 Dalcahue,2020-03-30,0,0,NA,NA,minsal
 Dalcahue,2020-03-31,0,0,NA,NA,interpolación
 Dalcahue,2020-04-01,0,0,NA,NA,minsal
@@ -2105,6 +2345,9 @@ Dalcahue,2020-04-21,0,0,NA,NA,interpolación
 Dalcahue,2020-04-22,0,0,NA,NA,interpolación
 Dalcahue,2020-04-23,0,0,NA,NA,interpolación
 Dalcahue,2020-04-24,0,0,NA,NA,minsal
+Dalcahue,2020-04-25,0,0,NA,NA,interpolación
+Dalcahue,2020-04-26,0,0,NA,NA,interpolación
+Dalcahue,2020-04-27,0,0,NA,NA,minsal
 Diego de Almagro,2020-03-30,0,0,NA,NA,minsal
 Diego de Almagro,2020-03-31,0.5,0.5,NA,NA,interpolación
 Diego de Almagro,2020-04-01,1,0.5,NA,NA,minsal
@@ -2131,6 +2374,9 @@ Diego de Almagro,2020-04-21,9.25,0.25,NA,NA,interpolación
 Diego de Almagro,2020-04-22,9.5,0.25,NA,NA,interpolación
 Diego de Almagro,2020-04-23,9.75,0.25,NA,NA,interpolación
 Diego de Almagro,2020-04-24,10,0.25,NA,NA,minsal
+Diego de Almagro,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Diego de Almagro,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Diego de Almagro,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Doñihue,2020-03-30,0,0,NA,NA,minsal
 Doñihue,2020-03-31,0,0,NA,NA,interpolación
 Doñihue,2020-04-01,0,0,NA,NA,minsal
@@ -2157,6 +2403,9 @@ Doñihue,2020-04-21,0.25,0.25,NA,NA,interpolación
 Doñihue,2020-04-22,0.5,0.25,NA,NA,interpolación
 Doñihue,2020-04-23,0.75,0.25,NA,NA,interpolación
 Doñihue,2020-04-24,1,0.25,NA,NA,minsal
+Doñihue,2020-04-25,1.3333333333333333,0.33333333333333326,NA,NA,interpolación
+Doñihue,2020-04-26,1.6666666666666665,0.33333333333333326,NA,NA,interpolación
+Doñihue,2020-04-27,2,0.3333333333333335,NA,NA,minsal
 El Bosque,2020-03-30,18,0,NA,NA,minsal
 El Bosque,2020-03-31,32,14,NA,NA,interpolación
 El Bosque,2020-04-01,46,14,NA,NA,minsal
@@ -2183,6 +2432,9 @@ El Bosque,2020-04-21,674.25,36.25,NA,NA,interpolación
 El Bosque,2020-04-22,710.5,36.25,NA,NA,interpolación
 El Bosque,2020-04-23,746.75,36.25,NA,NA,interpolación
 El Bosque,2020-04-24,783,36.25,NA,NA,minsal
+El Bosque,2020-04-25,842,59,NA,NA,interpolación
+El Bosque,2020-04-26,901,59,NA,NA,interpolación
+El Bosque,2020-04-27,960,59,NA,NA,minsal
 El Carmen,2020-03-30,0,0,NA,NA,minsal
 El Carmen,2020-03-31,1,1,NA,NA,interpolación
 El Carmen,2020-04-01,2,1,NA,NA,minsal
@@ -2209,6 +2461,9 @@ El Carmen,2020-04-21,24.75,0.75,NA,NA,interpolación
 El Carmen,2020-04-22,25.5,0.75,NA,NA,interpolación
 El Carmen,2020-04-23,26.25,0.75,NA,NA,interpolación
 El Carmen,2020-04-24,27,0.75,NA,NA,minsal
+El Carmen,2020-04-25,28,1,NA,NA,interpolación
+El Carmen,2020-04-26,29,1,NA,NA,interpolación
+El Carmen,2020-04-27,30,1,NA,NA,minsal
 El Monte,2020-03-30,0,0,NA,NA,minsal
 El Monte,2020-03-31,0.5,0.5,NA,NA,interpolación
 El Monte,2020-04-01,1,0.5,NA,NA,minsal
@@ -2235,6 +2490,9 @@ El Monte,2020-04-21,71.25,3.25,NA,NA,interpolación
 El Monte,2020-04-22,74.5,3.25,NA,NA,interpolación
 El Monte,2020-04-23,77.75,3.25,NA,NA,interpolación
 El Monte,2020-04-24,81,3.25,NA,NA,minsal
+El Monte,2020-04-25,86.33333333333333,5.333333333333329,NA,NA,interpolación
+El Monte,2020-04-26,91.66666666666667,5.333333333333343,NA,NA,interpolación
+El Monte,2020-04-27,97,5.333333333333329,NA,NA,minsal
 El Quisco,2020-03-30,0,0,NA,NA,minsal
 El Quisco,2020-03-31,0,0,NA,NA,interpolación
 El Quisco,2020-04-01,0,0,NA,NA,minsal
@@ -2261,6 +2519,9 @@ El Quisco,2020-04-21,27.75,2.75,NA,NA,interpolación
 El Quisco,2020-04-22,30.5,2.75,NA,NA,interpolación
 El Quisco,2020-04-23,33.25,2.75,NA,NA,interpolación
 El Quisco,2020-04-24,36,2.75,NA,NA,minsal
+El Quisco,2020-04-25,39.666666666666664,3.6666666666666643,NA,NA,interpolación
+El Quisco,2020-04-26,43.333333333333336,3.6666666666666714,NA,NA,interpolación
+El Quisco,2020-04-27,47,3.6666666666666643,NA,NA,minsal
 El Tabo,2020-03-30,0,0,NA,NA,minsal
 El Tabo,2020-03-31,0.5,0.5,NA,NA,interpolación
 El Tabo,2020-04-01,1,0.5,NA,NA,minsal
@@ -2287,6 +2548,9 @@ El Tabo,2020-04-21,30.25,2.25,NA,NA,interpolación
 El Tabo,2020-04-22,32.5,2.25,NA,NA,interpolación
 El Tabo,2020-04-23,34.75,2.25,NA,NA,interpolación
 El Tabo,2020-04-24,37,2.25,NA,NA,minsal
+El Tabo,2020-04-25,40,3,NA,NA,interpolación
+El Tabo,2020-04-26,43,3,NA,NA,interpolación
+El Tabo,2020-04-27,46,3,NA,NA,minsal
 Empedrado,2020-03-30,0,0,NA,NA,minsal
 Empedrado,2020-03-31,0,0,NA,NA,interpolación
 Empedrado,2020-04-01,0,0,NA,NA,minsal
@@ -2313,6 +2577,9 @@ Empedrado,2020-04-21,0,0,NA,NA,interpolación
 Empedrado,2020-04-22,0,0,NA,NA,interpolación
 Empedrado,2020-04-23,0,0,NA,NA,interpolación
 Empedrado,2020-04-24,0,0,NA,NA,minsal
+Empedrado,2020-04-25,0,0,NA,NA,interpolación
+Empedrado,2020-04-26,0,0,NA,NA,interpolación
+Empedrado,2020-04-27,0,0,NA,NA,minsal
 Ercilla,2020-03-30,0,0,NA,NA,minsal
 Ercilla,2020-03-31,0,0,NA,NA,interpolación
 Ercilla,2020-04-01,0,0,NA,NA,minsal
@@ -2339,6 +2606,9 @@ Ercilla,2020-04-21,23,2,NA,NA,interpolación
 Ercilla,2020-04-22,25,2,NA,NA,interpolación
 Ercilla,2020-04-23,27,2,NA,NA,interpolación
 Ercilla,2020-04-24,29,2,NA,NA,minsal
+Ercilla,2020-04-25,31.666666666666668,2.666666666666668,NA,NA,interpolación
+Ercilla,2020-04-26,34.333333333333336,2.666666666666668,NA,NA,interpolación
+Ercilla,2020-04-27,37,2.6666666666666643,NA,NA,minsal
 Estación Central,2020-03-30,16,0,NA,NA,minsal
 Estación Central,2020-03-31,27,11,NA,NA,interpolación
 Estación Central,2020-04-01,38,11,NA,NA,minsal
@@ -2365,6 +2635,9 @@ Estación Central,2020-04-21,622.5,40.5,NA,NA,interpolación
 Estación Central,2020-04-22,663,40.5,NA,NA,interpolación
 Estación Central,2020-04-23,703.5,40.5,NA,NA,interpolación
 Estación Central,2020-04-24,744,40.5,NA,NA,minsal
+Estación Central,2020-04-25,813,69,NA,NA,interpolación
+Estación Central,2020-04-26,882,69,NA,NA,interpolación
+Estación Central,2020-04-27,951,69,NA,NA,minsal
 Florida,2020-03-30,0,0,NA,NA,minsal
 Florida,2020-03-31,0,0,NA,NA,interpolación
 Florida,2020-04-01,0,0,NA,NA,minsal
@@ -2391,6 +2664,9 @@ Florida,2020-04-21,22.75,0.75,NA,NA,interpolación
 Florida,2020-04-22,23.5,0.75,NA,NA,interpolación
 Florida,2020-04-23,24.25,0.75,NA,NA,interpolación
 Florida,2020-04-24,25,0.75,NA,NA,minsal
+Florida,2020-04-25,26,1,NA,NA,interpolación
+Florida,2020-04-26,27,1,NA,NA,interpolación
+Florida,2020-04-27,28,1,NA,NA,minsal
 Freire,2020-03-30,0,0,NA,NA,minsal
 Freire,2020-03-31,1,1,NA,NA,interpolación
 Freire,2020-04-01,2,1,NA,NA,minsal
@@ -2417,6 +2693,9 @@ Freire,2020-04-21,44.75,1.75,NA,NA,interpolación
 Freire,2020-04-22,46.5,1.75,NA,NA,interpolación
 Freire,2020-04-23,48.25,1.75,NA,NA,interpolación
 Freire,2020-04-24,50,1.75,NA,NA,minsal
+Freire,2020-04-25,52.333333333333336,2.3333333333333357,NA,NA,interpolación
+Freire,2020-04-26,54.666666666666664,2.3333333333333286,NA,NA,interpolación
+Freire,2020-04-27,57,2.3333333333333357,NA,NA,minsal
 Freirina,2020-03-30,0,0,NA,NA,minsal
 Freirina,2020-03-31,0,0,NA,NA,interpolación
 Freirina,2020-04-01,0,0,NA,NA,minsal
@@ -2443,6 +2722,9 @@ Freirina,2020-04-21,0,0,NA,NA,interpolación
 Freirina,2020-04-22,0,0,NA,NA,interpolación
 Freirina,2020-04-23,0,0,NA,NA,interpolación
 Freirina,2020-04-24,0,0,NA,NA,minsal
+Freirina,2020-04-25,0.3333333333333333,0.3333333333333333,NA,NA,interpolación
+Freirina,2020-04-26,0.6666666666666666,0.3333333333333333,NA,NA,interpolación
+Freirina,2020-04-27,1,0.33333333333333337,NA,NA,minsal
 Fresia,2020-03-30,0,0,NA,NA,minsal
 Fresia,2020-03-31,0,0,NA,NA,interpolación
 Fresia,2020-04-01,0,0,NA,NA,minsal
@@ -2469,6 +2751,9 @@ Fresia,2020-04-21,2,0,NA,NA,interpolación
 Fresia,2020-04-22,2,0,NA,NA,interpolación
 Fresia,2020-04-23,2,0,NA,NA,interpolación
 Fresia,2020-04-24,2,0,NA,NA,minsal
+Fresia,2020-04-25,2,0,NA,NA,interpolación
+Fresia,2020-04-26,2,0,NA,NA,interpolación
+Fresia,2020-04-27,2,0,NA,NA,minsal
 Frutillar,2020-03-30,0,0,NA,NA,minsal
 Frutillar,2020-03-31,0,0,NA,NA,interpolación
 Frutillar,2020-04-01,0,0,NA,NA,minsal
@@ -2495,6 +2780,9 @@ Frutillar,2020-04-21,34.5,1.5,NA,NA,interpolación
 Frutillar,2020-04-22,36,1.5,NA,NA,interpolación
 Frutillar,2020-04-23,37.5,1.5,NA,NA,interpolación
 Frutillar,2020-04-24,39,1.5,NA,NA,minsal
+Frutillar,2020-04-25,41,2,NA,NA,interpolación
+Frutillar,2020-04-26,43,2,NA,NA,interpolación
+Frutillar,2020-04-27,45,2,NA,NA,minsal
 Futaleufú,2020-03-30,0,0,NA,NA,minsal
 Futaleufú,2020-03-31,0,0,NA,NA,interpolación
 Futaleufú,2020-04-01,0,0,NA,NA,minsal
@@ -2521,6 +2809,9 @@ Futaleufú,2020-04-21,0,0,NA,NA,interpolación
 Futaleufú,2020-04-22,0,0,NA,NA,interpolación
 Futaleufú,2020-04-23,0,0,NA,NA,interpolación
 Futaleufú,2020-04-24,0,0,NA,NA,minsal
+Futaleufú,2020-04-25,0,0,NA,NA,interpolación
+Futaleufú,2020-04-26,0,0,NA,NA,interpolación
+Futaleufú,2020-04-27,0,0,NA,NA,minsal
 Futrono,2020-03-30,0,0,NA,NA,minsal
 Futrono,2020-03-31,1,1,NA,NA,interpolación
 Futrono,2020-04-01,2,1,NA,NA,minsal
@@ -2547,6 +2838,9 @@ Futrono,2020-04-21,40.25,1.25,NA,NA,interpolación
 Futrono,2020-04-22,41.5,1.25,NA,NA,interpolación
 Futrono,2020-04-23,42.75,1.25,NA,NA,interpolación
 Futrono,2020-04-24,44,1.25,NA,NA,minsal
+Futrono,2020-04-25,45.666666666666664,1.6666666666666643,NA,NA,interpolación
+Futrono,2020-04-26,47.333333333333336,1.6666666666666714,NA,NA,interpolación
+Futrono,2020-04-27,49,1.6666666666666643,NA,NA,minsal
 Galvarino,2020-03-30,0,0,NA,NA,minsal
 Galvarino,2020-03-31,0.5,0.5,NA,NA,interpolación
 Galvarino,2020-04-01,1,0.5,NA,NA,minsal
@@ -2573,6 +2867,9 @@ Galvarino,2020-04-21,16.5,0.5,NA,NA,interpolación
 Galvarino,2020-04-22,17,0.5,NA,NA,interpolación
 Galvarino,2020-04-23,17.5,0.5,NA,NA,interpolación
 Galvarino,2020-04-24,18,0.5,NA,NA,minsal
+Galvarino,2020-04-25,18.666666666666668,0.6666666666666679,NA,NA,interpolación
+Galvarino,2020-04-26,19.333333333333332,0.6666666666666643,NA,NA,interpolación
+Galvarino,2020-04-27,20,0.6666666666666679,NA,NA,minsal
 General Lagos,2020-03-30,0,0,NA,NA,minsal
 General Lagos,2020-03-31,0,0,NA,NA,interpolación
 General Lagos,2020-04-01,0,0,NA,NA,minsal
@@ -2599,6 +2896,9 @@ General Lagos,2020-04-21,0,0,NA,NA,interpolación
 General Lagos,2020-04-22,0,0,NA,NA,interpolación
 General Lagos,2020-04-23,0,0,NA,NA,interpolación
 General Lagos,2020-04-24,0,0,NA,NA,minsal
+General Lagos,2020-04-25,0,0,NA,NA,interpolación
+General Lagos,2020-04-26,0,0,NA,NA,interpolación
+General Lagos,2020-04-27,0,0,NA,NA,minsal
 Gorbea,2020-03-30,4,0,NA,NA,minsal
 Gorbea,2020-03-31,7,3,NA,NA,interpolación
 Gorbea,2020-04-01,10,3,NA,NA,minsal
@@ -2625,6 +2925,9 @@ Gorbea,2020-04-21,90,3,NA,NA,interpolación
 Gorbea,2020-04-22,93,3,NA,NA,interpolación
 Gorbea,2020-04-23,96,3,NA,NA,interpolación
 Gorbea,2020-04-24,99,3,NA,NA,minsal
+Gorbea,2020-04-25,103,4,NA,NA,interpolación
+Gorbea,2020-04-26,107,4,NA,NA,interpolación
+Gorbea,2020-04-27,111,4,NA,NA,minsal
 Graneros,2020-03-30,0,0,NA,NA,minsal
 Graneros,2020-03-31,0,0,NA,NA,interpolación
 Graneros,2020-04-01,0,0,NA,NA,minsal
@@ -2651,6 +2954,9 @@ Graneros,2020-04-21,0.5,0.5,NA,NA,interpolación
 Graneros,2020-04-22,1,0.5,NA,NA,interpolación
 Graneros,2020-04-23,1.5,0.5,NA,NA,interpolación
 Graneros,2020-04-24,2,0.5,NA,NA,minsal
+Graneros,2020-04-25,2.6666666666666665,0.6666666666666665,NA,NA,interpolación
+Graneros,2020-04-26,3.333333333333333,0.6666666666666665,NA,NA,interpolación
+Graneros,2020-04-27,4,0.666666666666667,NA,NA,minsal
 Guaitecas,2020-03-30,0,0,NA,NA,minsal
 Guaitecas,2020-03-31,0,0,NA,NA,interpolación
 Guaitecas,2020-04-01,0,0,NA,NA,minsal
@@ -2677,6 +2983,9 @@ Guaitecas,2020-04-21,0,0,NA,NA,interpolación
 Guaitecas,2020-04-22,0,0,NA,NA,interpolación
 Guaitecas,2020-04-23,0,0,NA,NA,interpolación
 Guaitecas,2020-04-24,0,0,NA,NA,minsal
+Guaitecas,2020-04-25,0,0,NA,NA,interpolación
+Guaitecas,2020-04-26,0,0,NA,NA,interpolación
+Guaitecas,2020-04-27,0,0,NA,NA,minsal
 Hijuelas,2020-03-30,0,0,NA,NA,minsal
 Hijuelas,2020-03-31,0,0,NA,NA,interpolación
 Hijuelas,2020-04-01,0,0,NA,NA,minsal
@@ -2703,6 +3012,9 @@ Hijuelas,2020-04-21,1.25,0.25,NA,NA,interpolación
 Hijuelas,2020-04-22,1.5,0.25,NA,NA,interpolación
 Hijuelas,2020-04-23,1.75,0.25,NA,NA,interpolación
 Hijuelas,2020-04-24,2,0.25,NA,NA,minsal
+Hijuelas,2020-04-25,2.3333333333333335,0.3333333333333335,NA,NA,interpolación
+Hijuelas,2020-04-26,2.6666666666666665,0.33333333333333304,NA,NA,interpolación
+Hijuelas,2020-04-27,3,0.3333333333333335,NA,NA,minsal
 Hualaihué,2020-03-30,0,0,NA,NA,minsal
 Hualaihué,2020-03-31,1.5,1.5,NA,NA,interpolación
 Hualaihué,2020-04-01,3,1.5,NA,NA,minsal
@@ -2729,6 +3041,9 @@ Hualaihué,2020-04-21,27.75,0.75,NA,NA,interpolación
 Hualaihué,2020-04-22,28.5,0.75,NA,NA,interpolación
 Hualaihué,2020-04-23,29.25,0.75,NA,NA,interpolación
 Hualaihué,2020-04-24,30,0.75,NA,NA,minsal
+Hualaihué,2020-04-25,31,1,NA,NA,interpolación
+Hualaihué,2020-04-26,32,1,NA,NA,interpolación
+Hualaihué,2020-04-27,33,1,NA,NA,minsal
 Hualañé,2020-03-30,0,0,NA,NA,minsal
 Hualañé,2020-03-31,0,0,NA,NA,interpolación
 Hualañé,2020-04-01,0,0,NA,NA,minsal
@@ -2755,6 +3070,9 @@ Hualañé,2020-04-21,0,0,NA,NA,interpolación
 Hualañé,2020-04-22,0,0,NA,NA,interpolación
 Hualañé,2020-04-23,0,0,NA,NA,interpolación
 Hualañé,2020-04-24,0,0,NA,NA,minsal
+Hualañé,2020-04-25,0,0,NA,NA,interpolación
+Hualañé,2020-04-26,0,0,NA,NA,interpolación
+Hualañé,2020-04-27,0,0,NA,NA,minsal
 Hualpén,2020-03-30,0,0,NA,NA,minsal
 Hualpén,2020-03-31,19.5,19.5,NA,NA,interpolación
 Hualpén,2020-04-01,39,19.5,NA,NA,minsal
@@ -2781,6 +3099,9 @@ Hualpén,2020-04-21,643.75,25.75,NA,NA,interpolación
 Hualpén,2020-04-22,669.5,25.75,NA,NA,interpolación
 Hualpén,2020-04-23,695.25,25.75,NA,NA,interpolación
 Hualpén,2020-04-24,721,25.75,NA,NA,minsal
+Hualpén,2020-04-25,755.6666666666666,34.66666666666663,NA,NA,interpolación
+Hualpén,2020-04-26,790.3333333333334,34.66666666666674,NA,NA,interpolación
+Hualpén,2020-04-27,825,34.66666666666663,NA,NA,minsal
 Hualqui,2020-03-30,0,0,NA,NA,minsal
 Hualqui,2020-03-31,1.5,1.5,NA,NA,interpolación
 Hualqui,2020-04-01,3,1.5,NA,NA,minsal
@@ -2807,6 +3128,9 @@ Hualqui,2020-04-21,76.75,4.75,NA,NA,interpolación
 Hualqui,2020-04-22,81.5,4.75,NA,NA,interpolación
 Hualqui,2020-04-23,86.25,4.75,NA,NA,interpolación
 Hualqui,2020-04-24,91,4.75,NA,NA,minsal
+Hualqui,2020-04-25,97.33333333333333,6.333333333333329,NA,NA,interpolación
+Hualqui,2020-04-26,103.66666666666667,6.333333333333343,NA,NA,interpolación
+Hualqui,2020-04-27,110,6.333333333333329,NA,NA,minsal
 Huara,2020-03-30,0,0,NA,NA,minsal
 Huara,2020-03-31,0,0,NA,NA,interpolación
 Huara,2020-04-01,0,0,NA,NA,minsal
@@ -2833,6 +3157,9 @@ Huara,2020-04-21,0,0,NA,NA,interpolación
 Huara,2020-04-22,0,0,NA,NA,interpolación
 Huara,2020-04-23,0,0,NA,NA,interpolación
 Huara,2020-04-24,0,0,NA,NA,minsal
+Huara,2020-04-25,0,0,NA,NA,interpolación
+Huara,2020-04-26,0,0,NA,NA,interpolación
+Huara,2020-04-27,0,0,NA,NA,minsal
 Huasco,2020-03-30,0,0,NA,NA,minsal
 Huasco,2020-03-31,0,0,NA,NA,interpolación
 Huasco,2020-04-01,0,0,NA,NA,minsal
@@ -2859,6 +3186,9 @@ Huasco,2020-04-21,1,0,NA,NA,interpolación
 Huasco,2020-04-22,1,0,NA,NA,interpolación
 Huasco,2020-04-23,1,0,NA,NA,interpolación
 Huasco,2020-04-24,1,0,NA,NA,minsal
+Huasco,2020-04-25,1,0,NA,NA,interpolación
+Huasco,2020-04-26,1,0,NA,NA,interpolación
+Huasco,2020-04-27,1,0,NA,NA,minsal
 Huechuraba,2020-03-30,17,0,NA,NA,minsal
 Huechuraba,2020-03-31,26.5,9.5,NA,NA,interpolación
 Huechuraba,2020-04-01,36,9.5,NA,NA,minsal
@@ -2885,6 +3215,9 @@ Huechuraba,2020-04-21,408.25,19.25,NA,NA,interpolación
 Huechuraba,2020-04-22,427.5,19.25,NA,NA,interpolación
 Huechuraba,2020-04-23,446.75,19.25,NA,NA,interpolación
 Huechuraba,2020-04-24,466,19.25,NA,NA,minsal
+Huechuraba,2020-04-25,493.3333333333333,27.333333333333314,NA,NA,interpolación
+Huechuraba,2020-04-26,520.6666666666666,27.333333333333314,NA,NA,interpolación
+Huechuraba,2020-04-27,548,27.33333333333337,NA,NA,minsal
 Illapel,2020-03-30,0,0,NA,NA,minsal
 Illapel,2020-03-31,0,0,NA,NA,interpolación
 Illapel,2020-04-01,0,0,NA,NA,minsal
@@ -2911,6 +3244,9 @@ Illapel,2020-04-21,109.5,4.5,NA,NA,interpolación
 Illapel,2020-04-22,114,4.5,NA,NA,interpolación
 Illapel,2020-04-23,118.5,4.5,NA,NA,interpolación
 Illapel,2020-04-24,123,4.5,NA,NA,minsal
+Illapel,2020-04-25,129,6,NA,NA,interpolación
+Illapel,2020-04-26,135,6,NA,NA,interpolación
+Illapel,2020-04-27,141,6,NA,NA,minsal
 Independencia,2020-03-30,15,0,NA,NA,minsal
 Independencia,2020-03-31,23.5,8.5,NA,NA,interpolación
 Independencia,2020-04-01,32,8.5,NA,NA,minsal
@@ -2937,6 +3273,9 @@ Independencia,2020-04-21,504,49,NA,NA,interpolación
 Independencia,2020-04-22,553,49,NA,NA,interpolación
 Independencia,2020-04-23,602,49,NA,NA,interpolación
 Independencia,2020-04-24,651,49,NA,NA,minsal
+Independencia,2020-04-25,733,82,NA,NA,interpolación
+Independencia,2020-04-26,815,82,NA,NA,interpolación
+Independencia,2020-04-27,897,82,NA,NA,minsal
 Iquique,2020-03-30,5,0,NA,NA,minsal
 Iquique,2020-03-31,9.5,4.5,NA,NA,interpolación
 Iquique,2020-04-01,14,4.5,NA,NA,minsal
@@ -2963,6 +3302,9 @@ Iquique,2020-04-21,204.5,14.5,NA,NA,interpolación
 Iquique,2020-04-22,219,14.5,NA,NA,interpolación
 Iquique,2020-04-23,233.5,14.5,NA,NA,interpolación
 Iquique,2020-04-24,248,14.5,NA,NA,minsal
+Iquique,2020-04-25,273,25,NA,NA,interpolación
+Iquique,2020-04-26,298,25,NA,NA,interpolación
+Iquique,2020-04-27,323,25,NA,NA,minsal
 Isla de Maipo,2020-03-30,0,0,NA,NA,minsal
 Isla de Maipo,2020-03-31,0.5,0.5,NA,NA,interpolación
 Isla de Maipo,2020-04-01,1,0.5,NA,NA,minsal
@@ -2989,6 +3331,9 @@ Isla de Maipo,2020-04-21,68.75,2.75,NA,NA,interpolación
 Isla de Maipo,2020-04-22,71.5,2.75,NA,NA,interpolación
 Isla de Maipo,2020-04-23,74.25,2.75,NA,NA,interpolación
 Isla de Maipo,2020-04-24,77,2.75,NA,NA,minsal
+Isla de Maipo,2020-04-25,81.33333333333333,4.333333333333329,NA,NA,interpolación
+Isla de Maipo,2020-04-26,85.66666666666667,4.333333333333343,NA,NA,interpolación
+Isla de Maipo,2020-04-27,90,4.333333333333329,NA,NA,minsal
 Isla de Pascua,2020-03-30,0,0,NA,NA,minsal
 Isla de Pascua,2020-03-31,2.5,2.5,NA,NA,interpolación
 Isla de Pascua,2020-04-01,5,2.5,NA,NA,minsal
@@ -3015,6 +3360,9 @@ Isla de Pascua,2020-04-21,49.25,1.25,NA,NA,interpolación
 Isla de Pascua,2020-04-22,50.5,1.25,NA,NA,interpolación
 Isla de Pascua,2020-04-23,51.75,1.25,NA,NA,interpolación
 Isla de Pascua,2020-04-24,53,1.25,NA,NA,minsal
+Isla de Pascua,2020-04-25,54.666666666666664,1.6666666666666643,NA,NA,interpolación
+Isla de Pascua,2020-04-26,56.333333333333336,1.6666666666666714,NA,NA,interpolación
+Isla de Pascua,2020-04-27,58,1.6666666666666643,NA,NA,minsal
 Juan Fernández,2020-03-30,0,0,NA,NA,minsal
 Juan Fernández,2020-03-31,0,0,NA,NA,interpolación
 Juan Fernández,2020-04-01,0,0,NA,NA,minsal
@@ -3041,6 +3389,9 @@ Juan Fernández,2020-04-21,0,0,NA,NA,interpolación
 Juan Fernández,2020-04-22,0,0,NA,NA,interpolación
 Juan Fernández,2020-04-23,0,0,NA,NA,interpolación
 Juan Fernández,2020-04-24,0,0,NA,NA,minsal
+Juan Fernández,2020-04-25,0,0,NA,NA,interpolación
+Juan Fernández,2020-04-26,0,0,NA,NA,interpolación
+Juan Fernández,2020-04-27,0,0,NA,NA,minsal
 La Cisterna,2020-03-30,10,0,NA,NA,minsal
 La Cisterna,2020-03-31,16,6,NA,NA,interpolación
 La Cisterna,2020-04-01,22,6,NA,NA,minsal
@@ -3067,6 +3418,9 @@ La Cisterna,2020-04-21,324.25,18.25,NA,NA,interpolación
 La Cisterna,2020-04-22,342.5,18.25,NA,NA,interpolación
 La Cisterna,2020-04-23,360.75,18.25,NA,NA,interpolación
 La Cisterna,2020-04-24,379,18.25,NA,NA,minsal
+La Cisterna,2020-04-25,407,28,NA,NA,interpolación
+La Cisterna,2020-04-26,435,28,NA,NA,interpolación
+La Cisterna,2020-04-27,463,28,NA,NA,minsal
 La Cruz,2020-03-30,0,0,NA,NA,minsal
 La Cruz,2020-03-31,0.5,0.5,NA,NA,interpolación
 La Cruz,2020-04-01,1,0.5,NA,NA,minsal
@@ -3093,6 +3447,9 @@ La Cruz,2020-04-21,35,2,NA,NA,interpolación
 La Cruz,2020-04-22,37,2,NA,NA,interpolación
 La Cruz,2020-04-23,39,2,NA,NA,interpolación
 La Cruz,2020-04-24,41,2,NA,NA,minsal
+La Cruz,2020-04-25,43.666666666666664,2.6666666666666643,NA,NA,interpolación
+La Cruz,2020-04-26,46.333333333333336,2.6666666666666714,NA,NA,interpolación
+La Cruz,2020-04-27,49,2.6666666666666643,NA,NA,minsal
 La Estrella,2020-03-30,0,0,NA,NA,minsal
 La Estrella,2020-03-31,0,0,NA,NA,interpolación
 La Estrella,2020-04-01,0,0,NA,NA,minsal
@@ -3119,6 +3476,9 @@ La Estrella,2020-04-21,0,0,NA,NA,interpolación
 La Estrella,2020-04-22,0,0,NA,NA,interpolación
 La Estrella,2020-04-23,0,0,NA,NA,interpolación
 La Estrella,2020-04-24,0,0,NA,NA,minsal
+La Estrella,2020-04-25,0,0,NA,NA,interpolación
+La Estrella,2020-04-26,0,0,NA,NA,interpolación
+La Estrella,2020-04-27,0,0,NA,NA,minsal
 La Florida,2020-03-30,43,0,NA,NA,minsal
 La Florida,2020-03-31,72,29,NA,NA,interpolación
 La Florida,2020-04-01,101,29,NA,NA,minsal
@@ -3145,6 +3505,9 @@ La Florida,2020-04-21,1341.5,70.5,NA,NA,interpolación
 La Florida,2020-04-22,1412,70.5,NA,NA,interpolación
 La Florida,2020-04-23,1482.5,70.5,NA,NA,interpolación
 La Florida,2020-04-24,1553,70.5,NA,NA,minsal
+La Florida,2020-04-25,1662.3333333333333,109.33333333333326,NA,NA,interpolación
+La Florida,2020-04-26,1771.6666666666667,109.33333333333348,NA,NA,interpolación
+La Florida,2020-04-27,1881,109.33333333333326,NA,NA,minsal
 La Granja,2020-03-30,5,0,NA,NA,minsal
 La Granja,2020-03-31,9,4,NA,NA,interpolación
 La Granja,2020-04-01,13,4,NA,NA,minsal
@@ -3171,6 +3534,9 @@ La Granja,2020-04-21,361,20,NA,NA,interpolación
 La Granja,2020-04-22,381,20,NA,NA,interpolación
 La Granja,2020-04-23,401,20,NA,NA,interpolación
 La Granja,2020-04-24,421,20,NA,NA,minsal
+La Granja,2020-04-25,452.6666666666667,31.666666666666686,NA,NA,interpolación
+La Granja,2020-04-26,484.3333333333333,31.66666666666663,NA,NA,interpolación
+La Granja,2020-04-27,516,31.666666666666686,NA,NA,minsal
 La Higuera,2020-03-30,0,0,NA,NA,minsal
 La Higuera,2020-03-31,0,0,NA,NA,interpolación
 La Higuera,2020-04-01,0,0,NA,NA,minsal
@@ -3197,6 +3563,9 @@ La Higuera,2020-04-21,0,0,NA,NA,interpolación
 La Higuera,2020-04-22,0,0,NA,NA,interpolación
 La Higuera,2020-04-23,0,0,NA,NA,interpolación
 La Higuera,2020-04-24,0,0,NA,NA,minsal
+La Higuera,2020-04-25,0,0,NA,NA,interpolación
+La Higuera,2020-04-26,0,0,NA,NA,interpolación
+La Higuera,2020-04-27,0,0,NA,NA,minsal
 La Ligua,2020-03-30,0,0,NA,NA,minsal
 La Ligua,2020-03-31,1,1,NA,NA,interpolación
 La Ligua,2020-04-01,2,1,NA,NA,minsal
@@ -3223,6 +3592,9 @@ La Ligua,2020-04-21,18.5,0.5,NA,NA,interpolación
 La Ligua,2020-04-22,19,0.5,NA,NA,interpolación
 La Ligua,2020-04-23,19.5,0.5,NA,NA,interpolación
 La Ligua,2020-04-24,20,0.5,NA,NA,minsal
+La Ligua,2020-04-25,20.666666666666668,0.6666666666666679,NA,NA,interpolación
+La Ligua,2020-04-26,21.333333333333332,0.6666666666666643,NA,NA,interpolación
+La Ligua,2020-04-27,22,0.6666666666666679,NA,NA,minsal
 La Pintana,2020-03-30,0,0,NA,NA,minsal
 La Pintana,2020-03-31,5,5,NA,NA,interpolación
 La Pintana,2020-04-01,10,5,NA,NA,minsal
@@ -3249,6 +3621,9 @@ La Pintana,2020-04-21,457,32,NA,NA,interpolación
 La Pintana,2020-04-22,489,32,NA,NA,interpolación
 La Pintana,2020-04-23,521,32,NA,NA,interpolación
 La Pintana,2020-04-24,553,32,NA,NA,minsal
+La Pintana,2020-04-25,618,65,NA,NA,interpolación
+La Pintana,2020-04-26,683,65,NA,NA,interpolación
+La Pintana,2020-04-27,748,65,NA,NA,minsal
 La Reina,2020-03-30,24,0,NA,NA,minsal
 La Reina,2020-03-31,37,13,NA,NA,interpolación
 La Reina,2020-04-01,50,13,NA,NA,minsal
@@ -3275,6 +3650,9 @@ La Reina,2020-04-21,458.25,16.25,NA,NA,interpolación
 La Reina,2020-04-22,474.5,16.25,NA,NA,interpolación
 La Reina,2020-04-23,490.75,16.25,NA,NA,interpolación
 La Reina,2020-04-24,507,16.25,NA,NA,minsal
+La Reina,2020-04-25,535,28,NA,NA,interpolación
+La Reina,2020-04-26,563,28,NA,NA,interpolación
+La Reina,2020-04-27,591,28,NA,NA,minsal
 La Serena,2020-03-30,0,0,NA,NA,minsal
 La Serena,2020-03-31,1.5,1.5,NA,NA,interpolación
 La Serena,2020-04-01,3,1.5,NA,NA,minsal
@@ -3301,6 +3679,9 @@ La Serena,2020-04-21,103.5,4.5,NA,NA,interpolación
 La Serena,2020-04-22,108,4.5,NA,NA,interpolación
 La Serena,2020-04-23,112.5,4.5,NA,NA,interpolación
 La Serena,2020-04-24,117,4.5,NA,NA,minsal
+La Serena,2020-04-25,123.33333333333333,6.333333333333329,NA,NA,interpolación
+La Serena,2020-04-26,129.66666666666666,6.333333333333329,NA,NA,interpolación
+La Serena,2020-04-27,136,6.333333333333343,NA,NA,minsal
 La Unión,2020-03-30,0,0,NA,NA,minsal
 La Unión,2020-03-31,4.5,4.5,NA,NA,interpolación
 La Unión,2020-04-01,9,4.5,NA,NA,minsal
@@ -3327,6 +3708,9 @@ La Unión,2020-04-21,163.75,6.75,NA,NA,interpolación
 La Unión,2020-04-22,170.5,6.75,NA,NA,interpolación
 La Unión,2020-04-23,177.25,6.75,NA,NA,interpolación
 La Unión,2020-04-24,184,6.75,NA,NA,minsal
+La Unión,2020-04-25,193.66666666666666,9.666666666666657,NA,NA,interpolación
+La Unión,2020-04-26,203.33333333333334,9.666666666666686,NA,NA,interpolación
+La Unión,2020-04-27,213,9.666666666666657,NA,NA,minsal
 Lago Ranco,2020-03-30,0,0,NA,NA,minsal
 Lago Ranco,2020-03-31,0.5,0.5,NA,NA,interpolación
 Lago Ranco,2020-04-01,1,0.5,NA,NA,minsal
@@ -3353,6 +3737,9 @@ Lago Ranco,2020-04-21,16.5,0.5,NA,NA,interpolación
 Lago Ranco,2020-04-22,17,0.5,NA,NA,interpolación
 Lago Ranco,2020-04-23,17.5,0.5,NA,NA,interpolación
 Lago Ranco,2020-04-24,18,0.5,NA,NA,minsal
+Lago Ranco,2020-04-25,18.666666666666668,0.6666666666666679,NA,NA,interpolación
+Lago Ranco,2020-04-26,19.333333333333332,0.6666666666666643,NA,NA,interpolación
+Lago Ranco,2020-04-27,20,0.6666666666666679,NA,NA,minsal
 Lago Verde,2020-03-30,0,0,NA,NA,minsal
 Lago Verde,2020-03-31,0,0,NA,NA,interpolación
 Lago Verde,2020-04-01,0,0,NA,NA,minsal
@@ -3379,6 +3766,9 @@ Lago Verde,2020-04-21,0,0,NA,NA,interpolación
 Lago Verde,2020-04-22,0,0,NA,NA,interpolación
 Lago Verde,2020-04-23,0,0,NA,NA,interpolación
 Lago Verde,2020-04-24,0,0,NA,NA,minsal
+Lago Verde,2020-04-25,0,0,NA,NA,interpolación
+Lago Verde,2020-04-26,0,0,NA,NA,interpolación
+Lago Verde,2020-04-27,0,0,NA,NA,minsal
 Laguna Blanca,2020-03-30,0,0,NA,NA,minsal
 Laguna Blanca,2020-03-31,0,0,NA,NA,interpolación
 Laguna Blanca,2020-04-01,0,0,NA,NA,minsal
@@ -3405,6 +3795,9 @@ Laguna Blanca,2020-04-21,0,0,NA,NA,interpolación
 Laguna Blanca,2020-04-22,0,0,NA,NA,interpolación
 Laguna Blanca,2020-04-23,0,0,NA,NA,interpolación
 Laguna Blanca,2020-04-24,0,0,NA,NA,minsal
+Laguna Blanca,2020-04-25,0,0,NA,NA,interpolación
+Laguna Blanca,2020-04-26,0,0,NA,NA,interpolación
+Laguna Blanca,2020-04-27,0,0,NA,NA,minsal
 Laja,2020-03-30,0,0,NA,NA,minsal
 Laja,2020-03-31,1,1,NA,NA,interpolación
 Laja,2020-04-01,2,1,NA,NA,minsal
@@ -3431,6 +3824,9 @@ Laja,2020-04-21,49.5,2.5,NA,NA,interpolación
 Laja,2020-04-22,52,2.5,NA,NA,interpolación
 Laja,2020-04-23,54.5,2.5,NA,NA,interpolación
 Laja,2020-04-24,57,2.5,NA,NA,minsal
+Laja,2020-04-25,61,4,NA,NA,interpolación
+Laja,2020-04-26,65,4,NA,NA,interpolación
+Laja,2020-04-27,69,4,NA,NA,minsal
 Lampa,2020-03-30,10,0,NA,NA,minsal
 Lampa,2020-03-31,15,5,NA,NA,interpolación
 Lampa,2020-04-01,20,5,NA,NA,minsal
@@ -3457,6 +3853,9 @@ Lampa,2020-04-21,276.5,14.5,NA,NA,interpolación
 Lampa,2020-04-22,291,14.5,NA,NA,interpolación
 Lampa,2020-04-23,305.5,14.5,NA,NA,interpolación
 Lampa,2020-04-24,320,14.5,NA,NA,minsal
+Lampa,2020-04-25,342.6666666666667,22.666666666666686,NA,NA,interpolación
+Lampa,2020-04-26,365.3333333333333,22.66666666666663,NA,NA,interpolación
+Lampa,2020-04-27,388,22.666666666666686,NA,NA,minsal
 Lanco,2020-03-30,0,0,NA,NA,minsal
 Lanco,2020-03-31,0.5,0.5,NA,NA,interpolación
 Lanco,2020-04-01,1,0.5,NA,NA,minsal
@@ -3483,6 +3882,9 @@ Lanco,2020-04-21,23.25,1.25,NA,NA,interpolación
 Lanco,2020-04-22,24.5,1.25,NA,NA,interpolación
 Lanco,2020-04-23,25.75,1.25,NA,NA,interpolación
 Lanco,2020-04-24,27,1.25,NA,NA,minsal
+Lanco,2020-04-25,28.666666666666668,1.6666666666666679,NA,NA,interpolación
+Lanco,2020-04-26,30.333333333333332,1.6666666666666643,NA,NA,interpolación
+Lanco,2020-04-27,32,1.6666666666666679,NA,NA,minsal
 Las Cabras,2020-03-30,0,0,NA,NA,minsal
 Las Cabras,2020-03-31,0,0,NA,NA,interpolación
 Las Cabras,2020-04-01,0,0,NA,NA,minsal
@@ -3509,6 +3911,9 @@ Las Cabras,2020-04-21,3.75,0.75,NA,NA,interpolación
 Las Cabras,2020-04-22,4.5,0.75,NA,NA,interpolación
 Las Cabras,2020-04-23,5.25,0.75,NA,NA,interpolación
 Las Cabras,2020-04-24,6,0.75,NA,NA,minsal
+Las Cabras,2020-04-25,7,1,NA,NA,interpolación
+Las Cabras,2020-04-26,8,1,NA,NA,interpolación
+Las Cabras,2020-04-27,9,1,NA,NA,minsal
 Las Condes,2020-03-30,181,0,NA,NA,minsal
 Las Condes,2020-03-31,285,104,NA,NA,interpolación
 Las Condes,2020-04-01,389,104,NA,NA,minsal
@@ -3535,6 +3940,9 @@ Las Condes,2020-04-21,2752.5,86.5,NA,NA,interpolación
 Las Condes,2020-04-22,2839,86.5,NA,NA,interpolación
 Las Condes,2020-04-23,2925.5,86.5,NA,NA,interpolación
 Las Condes,2020-04-24,3012,86.5,NA,NA,minsal
+Las Condes,2020-04-25,3130.3333333333335,118.33333333333348,NA,NA,interpolación
+Las Condes,2020-04-26,3248.6666666666665,118.33333333333303,NA,NA,interpolación
+Las Condes,2020-04-27,3367,118.33333333333348,NA,NA,minsal
 Lautaro,2020-03-30,0,0,NA,NA,minsal
 Lautaro,2020-03-31,4,4,NA,NA,interpolación
 Lautaro,2020-04-01,8,4,NA,NA,minsal
@@ -3561,6 +3969,9 @@ Lautaro,2020-04-21,184.5,8.5,NA,NA,interpolación
 Lautaro,2020-04-22,193,8.5,NA,NA,interpolación
 Lautaro,2020-04-23,201.5,8.5,NA,NA,interpolación
 Lautaro,2020-04-24,210,8.5,NA,NA,minsal
+Lautaro,2020-04-25,222.66666666666666,12.666666666666657,NA,NA,interpolación
+Lautaro,2020-04-26,235.33333333333334,12.666666666666686,NA,NA,interpolación
+Lautaro,2020-04-27,248,12.666666666666657,NA,NA,minsal
 Lebu,2020-03-30,0,0,NA,NA,minsal
 Lebu,2020-03-31,0,0,NA,NA,interpolación
 Lebu,2020-04-01,0,0,NA,NA,minsal
@@ -3587,6 +3998,9 @@ Lebu,2020-04-21,0,0,NA,NA,interpolación
 Lebu,2020-04-22,0,0,NA,NA,interpolación
 Lebu,2020-04-23,0,0,NA,NA,interpolación
 Lebu,2020-04-24,0,0,NA,NA,minsal
+Lebu,2020-04-25,0,0,NA,NA,interpolación
+Lebu,2020-04-26,0,0,NA,NA,interpolación
+Lebu,2020-04-27,0,0,NA,NA,minsal
 Licantén,2020-03-30,0,0,NA,NA,minsal
 Licantén,2020-03-31,0,0,NA,NA,interpolación
 Licantén,2020-04-01,0,0,NA,NA,minsal
@@ -3613,6 +4027,9 @@ Licantén,2020-04-21,3.5,0.5,NA,NA,interpolación
 Licantén,2020-04-22,4,0.5,NA,NA,interpolación
 Licantén,2020-04-23,4.5,0.5,NA,NA,interpolación
 Licantén,2020-04-24,5,0.5,NA,NA,minsal
+Licantén,2020-04-25,5.666666666666667,0.666666666666667,NA,NA,interpolación
+Licantén,2020-04-26,6.333333333333333,0.6666666666666661,NA,NA,interpolación
+Licantén,2020-04-27,7,0.666666666666667,NA,NA,minsal
 Limache,2020-03-30,0,0,NA,NA,minsal
 Limache,2020-03-31,1.5,1.5,NA,NA,interpolación
 Limache,2020-04-01,3,1.5,NA,NA,minsal
@@ -3639,6 +4056,9 @@ Limache,2020-04-21,88.75,5.75,NA,NA,interpolación
 Limache,2020-04-22,94.5,5.75,NA,NA,interpolación
 Limache,2020-04-23,100.25,5.75,NA,NA,interpolación
 Limache,2020-04-24,106,5.75,NA,NA,minsal
+Limache,2020-04-25,113.66666666666667,7.666666666666671,NA,NA,interpolación
+Limache,2020-04-26,121.33333333333333,7.666666666666657,NA,NA,interpolación
+Limache,2020-04-27,129,7.666666666666671,NA,NA,minsal
 Linares,2020-03-30,4,0,NA,NA,minsal
 Linares,2020-03-31,7,3,NA,NA,interpolación
 Linares,2020-04-01,10,3,NA,NA,minsal
@@ -3665,6 +4085,9 @@ Linares,2020-04-21,124.5,5.5,NA,NA,interpolación
 Linares,2020-04-22,130,5.5,NA,NA,interpolación
 Linares,2020-04-23,135.5,5.5,NA,NA,interpolación
 Linares,2020-04-24,141,5.5,NA,NA,minsal
+Linares,2020-04-25,149,8,NA,NA,interpolación
+Linares,2020-04-26,157,8,NA,NA,interpolación
+Linares,2020-04-27,165,8,NA,NA,minsal
 Litueche,2020-03-30,0,0,NA,NA,minsal
 Litueche,2020-03-31,0,0,NA,NA,interpolación
 Litueche,2020-04-01,0,0,NA,NA,minsal
@@ -3691,6 +4114,9 @@ Litueche,2020-04-21,0.25,0.25,NA,NA,interpolación
 Litueche,2020-04-22,0.5,0.25,NA,NA,interpolación
 Litueche,2020-04-23,0.75,0.25,NA,NA,interpolación
 Litueche,2020-04-24,1,0.25,NA,NA,minsal
+Litueche,2020-04-25,2,1,NA,NA,interpolación
+Litueche,2020-04-26,3,1,NA,NA,interpolación
+Litueche,2020-04-27,4,1,NA,NA,minsal
 Llaillay,2020-03-30,0,0,NA,NA,minsal
 Llaillay,2020-03-31,0,0,NA,NA,interpolación
 Llaillay,2020-04-01,0,0,NA,NA,minsal
@@ -3717,6 +4143,9 @@ Llaillay,2020-04-21,15.5,0.5,NA,NA,interpolación
 Llaillay,2020-04-22,16,0.5,NA,NA,interpolación
 Llaillay,2020-04-23,16.5,0.5,NA,NA,interpolación
 Llaillay,2020-04-24,17,0.5,NA,NA,minsal
+Llaillay,2020-04-25,17.666666666666668,0.6666666666666679,NA,NA,interpolación
+Llaillay,2020-04-26,18.333333333333332,0.6666666666666643,NA,NA,interpolación
+Llaillay,2020-04-27,19,0.6666666666666679,NA,NA,minsal
 Llanquihue,2020-03-30,0,0,NA,NA,minsal
 Llanquihue,2020-03-31,0,0,NA,NA,interpolación
 Llanquihue,2020-04-01,0,0,NA,NA,minsal
@@ -3743,6 +4172,9 @@ Llanquihue,2020-04-21,7.25,0.25,NA,NA,interpolación
 Llanquihue,2020-04-22,7.5,0.25,NA,NA,interpolación
 Llanquihue,2020-04-23,7.75,0.25,NA,NA,interpolación
 Llanquihue,2020-04-24,8,0.25,NA,NA,minsal
+Llanquihue,2020-04-25,8.333333333333334,0.3333333333333339,NA,NA,interpolación
+Llanquihue,2020-04-26,8.666666666666666,0.33333333333333215,NA,NA,interpolación
+Llanquihue,2020-04-27,9,0.3333333333333339,NA,NA,minsal
 Lo Barnechea,2020-03-30,68,0,NA,NA,minsal
 Lo Barnechea,2020-03-31,107,39,NA,NA,interpolación
 Lo Barnechea,2020-04-01,146,39,NA,NA,minsal
@@ -3769,6 +4201,9 @@ Lo Barnechea,2020-04-21,1127.5,42.5,NA,NA,interpolación
 Lo Barnechea,2020-04-22,1170,42.5,NA,NA,interpolación
 Lo Barnechea,2020-04-23,1212.5,42.5,NA,NA,interpolación
 Lo Barnechea,2020-04-24,1255,42.5,NA,NA,minsal
+Lo Barnechea,2020-04-25,1319.6666666666667,64.66666666666674,NA,NA,interpolación
+Lo Barnechea,2020-04-26,1384.3333333333333,64.66666666666652,NA,NA,interpolación
+Lo Barnechea,2020-04-27,1449,64.66666666666674,NA,NA,minsal
 Lo Espejo,2020-03-30,4,0,NA,NA,minsal
 Lo Espejo,2020-03-31,7.5,3.5,NA,NA,interpolación
 Lo Espejo,2020-04-01,11,3.5,NA,NA,minsal
@@ -3795,6 +4230,9 @@ Lo Espejo,2020-04-21,343,20,NA,NA,interpolación
 Lo Espejo,2020-04-22,363,20,NA,NA,interpolación
 Lo Espejo,2020-04-23,383,20,NA,NA,interpolación
 Lo Espejo,2020-04-24,403,20,NA,NA,minsal
+Lo Espejo,2020-04-25,436.3333333333333,33.333333333333314,NA,NA,interpolación
+Lo Espejo,2020-04-26,469.66666666666663,33.333333333333314,NA,NA,interpolación
+Lo Espejo,2020-04-27,503,33.33333333333337,NA,NA,minsal
 Lo Prado,2020-03-30,14,0,NA,NA,minsal
 Lo Prado,2020-03-31,23,9,NA,NA,interpolación
 Lo Prado,2020-04-01,32,9,NA,NA,minsal
@@ -3821,6 +4259,9 @@ Lo Prado,2020-04-21,393,22,NA,NA,interpolación
 Lo Prado,2020-04-22,415,22,NA,NA,interpolación
 Lo Prado,2020-04-23,437,22,NA,NA,interpolación
 Lo Prado,2020-04-24,459,22,NA,NA,minsal
+Lo Prado,2020-04-25,496,37,NA,NA,interpolación
+Lo Prado,2020-04-26,533,37,NA,NA,interpolación
+Lo Prado,2020-04-27,570,37,NA,NA,minsal
 Lolol,2020-03-30,0,0,NA,NA,minsal
 Lolol,2020-03-31,0,0,NA,NA,interpolación
 Lolol,2020-04-01,0,0,NA,NA,minsal
@@ -3847,6 +4288,9 @@ Lolol,2020-04-21,0,0,NA,NA,interpolación
 Lolol,2020-04-22,0,0,NA,NA,interpolación
 Lolol,2020-04-23,0,0,NA,NA,interpolación
 Lolol,2020-04-24,0,0,NA,NA,minsal
+Lolol,2020-04-25,0,0,NA,NA,interpolación
+Lolol,2020-04-26,0,0,NA,NA,interpolación
+Lolol,2020-04-27,0,0,NA,NA,minsal
 Loncoche,2020-03-30,0,0,NA,NA,minsal
 Loncoche,2020-03-31,1,1,NA,NA,interpolación
 Loncoche,2020-04-01,2,1,NA,NA,minsal
@@ -3873,6 +4317,9 @@ Loncoche,2020-04-21,57.25,2.25,NA,NA,interpolación
 Loncoche,2020-04-22,59.5,2.25,NA,NA,interpolación
 Loncoche,2020-04-23,61.75,2.25,NA,NA,interpolación
 Loncoche,2020-04-24,64,2.25,NA,NA,minsal
+Loncoche,2020-04-25,67.33333333333333,3.3333333333333286,NA,NA,interpolación
+Loncoche,2020-04-26,70.66666666666667,3.333333333333343,NA,NA,interpolación
+Loncoche,2020-04-27,74,3.3333333333333286,NA,NA,minsal
 Longaví,2020-03-30,0,0,NA,NA,minsal
 Longaví,2020-03-31,0.5,0.5,NA,NA,interpolación
 Longaví,2020-04-01,1,0.5,NA,NA,minsal
@@ -3899,6 +4346,9 @@ Longaví,2020-04-21,19,1,NA,NA,interpolación
 Longaví,2020-04-22,20,1,NA,NA,interpolación
 Longaví,2020-04-23,21,1,NA,NA,interpolación
 Longaví,2020-04-24,22,1,NA,NA,minsal
+Longaví,2020-04-25,23.333333333333332,1.3333333333333321,NA,NA,interpolación
+Longaví,2020-04-26,24.666666666666668,1.3333333333333357,NA,NA,interpolación
+Longaví,2020-04-27,26,1.3333333333333321,NA,NA,minsal
 Lonquimay,2020-03-30,0,0,NA,NA,minsal
 Lonquimay,2020-03-31,0,0,NA,NA,interpolación
 Lonquimay,2020-04-01,0,0,NA,NA,minsal
@@ -3925,6 +4375,9 @@ Lonquimay,2020-04-21,0,0,NA,NA,interpolación
 Lonquimay,2020-04-22,0,0,NA,NA,interpolación
 Lonquimay,2020-04-23,0,0,NA,NA,interpolación
 Lonquimay,2020-04-24,0,0,NA,NA,minsal
+Lonquimay,2020-04-25,0,0,NA,NA,interpolación
+Lonquimay,2020-04-26,0,0,NA,NA,interpolación
+Lonquimay,2020-04-27,0,0,NA,NA,minsal
 Los Álamos,2020-03-30,0,0,NA,NA,minsal
 Los Álamos,2020-03-31,0,0,NA,NA,interpolación
 Los Álamos,2020-04-01,0,0,NA,NA,minsal
@@ -3951,6 +4404,9 @@ Los Álamos,2020-04-21,0.25,0.25,NA,NA,interpolación
 Los Álamos,2020-04-22,0.5,0.25,NA,NA,interpolación
 Los Álamos,2020-04-23,0.75,0.25,NA,NA,interpolación
 Los Álamos,2020-04-24,1,0.25,NA,NA,minsal
+Los Álamos,2020-04-25,1.3333333333333333,0.33333333333333326,NA,NA,interpolación
+Los Álamos,2020-04-26,1.6666666666666665,0.33333333333333326,NA,NA,interpolación
+Los Álamos,2020-04-27,2,0.3333333333333335,NA,NA,minsal
 Los Andes,2020-03-30,0,0,NA,NA,minsal
 Los Andes,2020-03-31,1.5,1.5,NA,NA,interpolación
 Los Andes,2020-04-01,3,1.5,NA,NA,minsal
@@ -3977,6 +4433,9 @@ Los Andes,2020-04-21,51.5,1.5,NA,NA,interpolación
 Los Andes,2020-04-22,53,1.5,NA,NA,interpolación
 Los Andes,2020-04-23,54.5,1.5,NA,NA,interpolación
 Los Andes,2020-04-24,56,1.5,NA,NA,minsal
+Los Andes,2020-04-25,58.333333333333336,2.3333333333333357,NA,NA,interpolación
+Los Andes,2020-04-26,60.666666666666664,2.3333333333333286,NA,NA,interpolación
+Los Andes,2020-04-27,63,2.3333333333333357,NA,NA,minsal
 Los Ángeles,2020-03-30,11,0,NA,NA,minsal
 Los Ángeles,2020-03-31,18.5,7.5,NA,NA,interpolación
 Los Ángeles,2020-04-01,26,7.5,NA,NA,minsal
@@ -4003,6 +4462,9 @@ Los Ángeles,2020-04-21,209.75,7.75,NA,NA,interpolación
 Los Ángeles,2020-04-22,217.5,7.75,NA,NA,interpolación
 Los Ángeles,2020-04-23,225.25,7.75,NA,NA,interpolación
 Los Ángeles,2020-04-24,233,7.75,NA,NA,minsal
+Los Ángeles,2020-04-25,243.33333333333334,10.333333333333343,NA,NA,interpolación
+Los Ángeles,2020-04-26,253.66666666666666,10.333333333333314,NA,NA,interpolación
+Los Ángeles,2020-04-27,264,10.333333333333343,NA,NA,minsal
 Los Lagos,2020-03-30,0,0,NA,NA,minsal
 Los Lagos,2020-03-31,0,0,NA,NA,interpolación
 Los Lagos,2020-04-01,0,0,NA,NA,minsal
@@ -4029,6 +4491,9 @@ Los Lagos,2020-04-21,0,0,NA,NA,interpolación
 Los Lagos,2020-04-22,0,0,NA,NA,interpolación
 Los Lagos,2020-04-23,0,0,NA,NA,interpolación
 Los Lagos,2020-04-24,0,0,NA,NA,minsal
+Los Lagos,2020-04-25,0,0,NA,NA,interpolación
+Los Lagos,2020-04-26,0,0,NA,NA,interpolación
+Los Lagos,2020-04-27,0,0,NA,NA,minsal
 Los Muermos,2020-03-30,0,0,NA,NA,minsal
 Los Muermos,2020-03-31,0.5,0.5,NA,NA,interpolación
 Los Muermos,2020-04-01,1,0.5,NA,NA,minsal
@@ -4055,6 +4520,9 @@ Los Muermos,2020-04-21,9.25,0.25,NA,NA,interpolación
 Los Muermos,2020-04-22,9.5,0.25,NA,NA,interpolación
 Los Muermos,2020-04-23,9.75,0.25,NA,NA,interpolación
 Los Muermos,2020-04-24,10,0.25,NA,NA,minsal
+Los Muermos,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Los Muermos,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Los Muermos,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Los Sauces,2020-03-30,0,0,NA,NA,minsal
 Los Sauces,2020-03-31,0,0,NA,NA,interpolación
 Los Sauces,2020-04-01,0,0,NA,NA,minsal
@@ -4081,6 +4549,9 @@ Los Sauces,2020-04-21,0,0,NA,NA,interpolación
 Los Sauces,2020-04-22,0,0,NA,NA,interpolación
 Los Sauces,2020-04-23,0,0,NA,NA,interpolación
 Los Sauces,2020-04-24,0,0,NA,NA,minsal
+Los Sauces,2020-04-25,0,0,NA,NA,interpolación
+Los Sauces,2020-04-26,0,0,NA,NA,interpolación
+Los Sauces,2020-04-27,0,0,NA,NA,minsal
 Los Vilos,2020-03-30,0,0,NA,NA,minsal
 Los Vilos,2020-03-31,0.5,0.5,NA,NA,interpolación
 Los Vilos,2020-04-01,1,0.5,NA,NA,minsal
@@ -4107,6 +4578,9 @@ Los Vilos,2020-04-21,9.25,0.25,NA,NA,interpolación
 Los Vilos,2020-04-22,9.5,0.25,NA,NA,interpolación
 Los Vilos,2020-04-23,9.75,0.25,NA,NA,interpolación
 Los Vilos,2020-04-24,10,0.25,NA,NA,minsal
+Los Vilos,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Los Vilos,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Los Vilos,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Lota,2020-03-30,0,0,NA,NA,minsal
 Lota,2020-03-31,0,0,NA,NA,interpolación
 Lota,2020-04-01,0,0,NA,NA,minsal
@@ -4133,6 +4607,9 @@ Lota,2020-04-21,8.25,0.25,NA,NA,interpolación
 Lota,2020-04-22,8.5,0.25,NA,NA,interpolación
 Lota,2020-04-23,8.75,0.25,NA,NA,interpolación
 Lota,2020-04-24,9,0.25,NA,NA,minsal
+Lota,2020-04-25,9.333333333333334,0.3333333333333339,NA,NA,interpolación
+Lota,2020-04-26,9.666666666666666,0.33333333333333215,NA,NA,interpolación
+Lota,2020-04-27,10,0.3333333333333339,NA,NA,minsal
 Lumaco,2020-03-30,0,0,NA,NA,minsal
 Lumaco,2020-03-31,0,0,NA,NA,interpolación
 Lumaco,2020-04-01,0,0,NA,NA,minsal
@@ -4159,6 +4636,9 @@ Lumaco,2020-04-21,0,0,NA,NA,interpolación
 Lumaco,2020-04-22,0,0,NA,NA,interpolación
 Lumaco,2020-04-23,0,0,NA,NA,interpolación
 Lumaco,2020-04-24,0,0,NA,NA,minsal
+Lumaco,2020-04-25,0.3333333333333333,0.3333333333333333,NA,NA,interpolación
+Lumaco,2020-04-26,0.6666666666666666,0.3333333333333333,NA,NA,interpolación
+Lumaco,2020-04-27,1,0.33333333333333337,NA,NA,minsal
 Machalí,2020-03-30,0,0,NA,NA,minsal
 Machalí,2020-03-31,3,3,NA,NA,interpolación
 Machalí,2020-04-01,6,3,NA,NA,minsal
@@ -4185,6 +4665,9 @@ Machalí,2020-04-21,76,4,NA,NA,interpolación
 Machalí,2020-04-22,80,4,NA,NA,interpolación
 Machalí,2020-04-23,84,4,NA,NA,interpolación
 Machalí,2020-04-24,88,4,NA,NA,minsal
+Machalí,2020-04-25,93.33333333333333,5.333333333333329,NA,NA,interpolación
+Machalí,2020-04-26,98.66666666666667,5.333333333333343,NA,NA,interpolación
+Machalí,2020-04-27,104,5.333333333333329,NA,NA,minsal
 Macul,2020-03-30,10,0,NA,NA,minsal
 Macul,2020-03-31,17.5,7.5,NA,NA,interpolación
 Macul,2020-04-01,25,7.5,NA,NA,minsal
@@ -4211,6 +4694,9 @@ Macul,2020-04-21,405.25,22.25,NA,NA,interpolación
 Macul,2020-04-22,427.5,22.25,NA,NA,interpolación
 Macul,2020-04-23,449.75,22.25,NA,NA,interpolación
 Macul,2020-04-24,472,22.25,NA,NA,minsal
+Macul,2020-04-25,508.6666666666667,36.666666666666686,NA,NA,interpolación
+Macul,2020-04-26,545.3333333333334,36.666666666666686,NA,NA,interpolación
+Macul,2020-04-27,582,36.66666666666663,NA,NA,minsal
 Máfil,2020-03-30,0,0,NA,NA,minsal
 Máfil,2020-03-31,0.5,0.5,NA,NA,interpolación
 Máfil,2020-04-01,1,0.5,NA,NA,minsal
@@ -4237,6 +4723,9 @@ Máfil,2020-04-21,9.5,0.5,NA,NA,interpolación
 Máfil,2020-04-22,10,0.5,NA,NA,interpolación
 Máfil,2020-04-23,10.5,0.5,NA,NA,interpolación
 Máfil,2020-04-24,11,0.5,NA,NA,minsal
+Máfil,2020-04-25,11.666666666666666,0.6666666666666661,NA,NA,interpolación
+Máfil,2020-04-26,12.333333333333334,0.6666666666666679,NA,NA,interpolación
+Máfil,2020-04-27,13,0.6666666666666661,NA,NA,minsal
 Maipú,2020-03-30,43,0,NA,NA,minsal
 Maipú,2020-03-31,70.5,27.5,NA,NA,interpolación
 Maipú,2020-04-01,98,27.5,NA,NA,minsal
@@ -4263,6 +4752,9 @@ Maipú,2020-04-21,1649,91,NA,NA,interpolación
 Maipú,2020-04-22,1740,91,NA,NA,interpolación
 Maipú,2020-04-23,1831,91,NA,NA,interpolación
 Maipú,2020-04-24,1922,91,NA,NA,minsal
+Maipú,2020-04-25,2055,133,NA,NA,interpolación
+Maipú,2020-04-26,2188,133,NA,NA,interpolación
+Maipú,2020-04-27,2321,133,NA,NA,minsal
 Malloa,2020-03-30,0,0,NA,NA,minsal
 Malloa,2020-03-31,0,0,NA,NA,interpolación
 Malloa,2020-04-01,0,0,NA,NA,minsal
@@ -4289,6 +4781,9 @@ Malloa,2020-04-21,0,0,NA,NA,interpolación
 Malloa,2020-04-22,0,0,NA,NA,interpolación
 Malloa,2020-04-23,0,0,NA,NA,interpolación
 Malloa,2020-04-24,0,0,NA,NA,minsal
+Malloa,2020-04-25,0,0,NA,NA,interpolación
+Malloa,2020-04-26,0,0,NA,NA,interpolación
+Malloa,2020-04-27,0,0,NA,NA,minsal
 Marchihue,2020-03-30,0,0,NA,NA,minsal
 Marchihue,2020-03-31,0,0,NA,NA,interpolación
 Marchihue,2020-04-01,0,0,NA,NA,minsal
@@ -4315,6 +4810,9 @@ Marchihue,2020-04-21,0,0,NA,NA,interpolación
 Marchihue,2020-04-22,0,0,NA,NA,interpolación
 Marchihue,2020-04-23,0,0,NA,NA,interpolación
 Marchihue,2020-04-24,0,0,NA,NA,minsal
+Marchihue,2020-04-25,0,0,NA,NA,interpolación
+Marchihue,2020-04-26,0,0,NA,NA,interpolación
+Marchihue,2020-04-27,0,0,NA,NA,minsal
 María Elena,2020-03-30,0,0,NA,NA,minsal
 María Elena,2020-03-31,0,0,NA,NA,interpolación
 María Elena,2020-04-01,0,0,NA,NA,minsal
@@ -4341,6 +4839,9 @@ María Elena,2020-04-21,14.75,1.75,NA,NA,interpolación
 María Elena,2020-04-22,16.5,1.75,NA,NA,interpolación
 María Elena,2020-04-23,18.25,1.75,NA,NA,interpolación
 María Elena,2020-04-24,20,1.75,NA,NA,minsal
+María Elena,2020-04-25,24.333333333333332,4.333333333333332,NA,NA,interpolación
+María Elena,2020-04-26,28.666666666666664,4.333333333333332,NA,NA,interpolación
+María Elena,2020-04-27,33,4.333333333333336,NA,NA,minsal
 María Pinto,2020-03-30,0,0,NA,NA,minsal
 María Pinto,2020-03-31,0,0,NA,NA,interpolación
 María Pinto,2020-04-01,0,0,NA,NA,minsal
@@ -4367,6 +4868,9 @@ María Pinto,2020-04-21,2.25,0.25,NA,NA,interpolación
 María Pinto,2020-04-22,2.5,0.25,NA,NA,interpolación
 María Pinto,2020-04-23,2.75,0.25,NA,NA,interpolación
 María Pinto,2020-04-24,3,0.25,NA,NA,minsal
+María Pinto,2020-04-25,3.3333333333333335,0.3333333333333335,NA,NA,interpolación
+María Pinto,2020-04-26,3.6666666666666665,0.33333333333333304,NA,NA,interpolación
+María Pinto,2020-04-27,4,0.3333333333333335,NA,NA,minsal
 Mariquina,2020-03-30,0,0,NA,NA,minsal
 Mariquina,2020-03-31,1,1,NA,NA,interpolación
 Mariquina,2020-04-01,2,1,NA,NA,minsal
@@ -4393,6 +4897,9 @@ Mariquina,2020-04-21,63.25,2.25,NA,NA,interpolación
 Mariquina,2020-04-22,65.5,2.25,NA,NA,interpolación
 Mariquina,2020-04-23,67.75,2.25,NA,NA,interpolación
 Mariquina,2020-04-24,70,2.25,NA,NA,minsal
+Mariquina,2020-04-25,73,3,NA,NA,interpolación
+Mariquina,2020-04-26,76,3,NA,NA,interpolación
+Mariquina,2020-04-27,79,3,NA,NA,minsal
 Maule,2020-03-30,0,0,NA,NA,minsal
 Maule,2020-03-31,1,1,NA,NA,interpolación
 Maule,2020-04-01,2,1,NA,NA,minsal
@@ -4419,6 +4926,9 @@ Maule,2020-04-21,49.5,5.5,NA,NA,interpolación
 Maule,2020-04-22,55,5.5,NA,NA,interpolación
 Maule,2020-04-23,60.5,5.5,NA,NA,interpolación
 Maule,2020-04-24,66,5.5,NA,NA,minsal
+Maule,2020-04-25,73.33333333333333,7.333333333333329,NA,NA,interpolación
+Maule,2020-04-26,80.66666666666667,7.333333333333343,NA,NA,interpolación
+Maule,2020-04-27,88,7.333333333333329,NA,NA,minsal
 Maullín,2020-03-30,0,0,NA,NA,minsal
 Maullín,2020-03-31,0,0,NA,NA,interpolación
 Maullín,2020-04-01,0,0,NA,NA,minsal
@@ -4445,6 +4955,9 @@ Maullín,2020-04-21,6.25,0.25,NA,NA,interpolación
 Maullín,2020-04-22,6.5,0.25,NA,NA,interpolación
 Maullín,2020-04-23,6.75,0.25,NA,NA,interpolación
 Maullín,2020-04-24,7,0.25,NA,NA,minsal
+Maullín,2020-04-25,7.333333333333333,0.33333333333333304,NA,NA,interpolación
+Maullín,2020-04-26,7.666666666666667,0.3333333333333339,NA,NA,interpolación
+Maullín,2020-04-27,8,0.33333333333333304,NA,NA,minsal
 Mejillones,2020-03-30,0,0,NA,NA,minsal
 Mejillones,2020-03-31,0,0,NA,NA,interpolación
 Mejillones,2020-04-01,0,0,NA,NA,minsal
@@ -4471,6 +4984,9 @@ Mejillones,2020-04-21,91.75,10.75,NA,NA,interpolación
 Mejillones,2020-04-22,102.5,10.75,NA,NA,interpolación
 Mejillones,2020-04-23,113.25,10.75,NA,NA,interpolación
 Mejillones,2020-04-24,124,10.75,NA,NA,minsal
+Mejillones,2020-04-25,145.66666666666666,21.666666666666657,NA,NA,interpolación
+Mejillones,2020-04-26,167.33333333333331,21.666666666666657,NA,NA,interpolación
+Mejillones,2020-04-27,189,21.666666666666686,NA,NA,minsal
 Melipeuco,2020-03-30,0,0,NA,NA,minsal
 Melipeuco,2020-03-31,0,0,NA,NA,interpolación
 Melipeuco,2020-04-01,0,0,NA,NA,minsal
@@ -4497,6 +5013,9 @@ Melipeuco,2020-04-21,0,0,NA,NA,interpolación
 Melipeuco,2020-04-22,0,0,NA,NA,interpolación
 Melipeuco,2020-04-23,0,0,NA,NA,interpolación
 Melipeuco,2020-04-24,0,0,NA,NA,minsal
+Melipeuco,2020-04-25,0,0,NA,NA,interpolación
+Melipeuco,2020-04-26,0,0,NA,NA,interpolación
+Melipeuco,2020-04-27,0,0,NA,NA,minsal
 Melipilla,2020-03-30,6,0,NA,NA,minsal
 Melipilla,2020-03-31,10,4,NA,NA,interpolación
 Melipilla,2020-04-01,14,4,NA,NA,minsal
@@ -4523,6 +5042,9 @@ Melipilla,2020-04-21,168,10,NA,NA,interpolación
 Melipilla,2020-04-22,178,10,NA,NA,interpolación
 Melipilla,2020-04-23,188,10,NA,NA,interpolación
 Melipilla,2020-04-24,198,10,NA,NA,minsal
+Melipilla,2020-04-25,214,16,NA,NA,interpolación
+Melipilla,2020-04-26,230,16,NA,NA,interpolación
+Melipilla,2020-04-27,246,16,NA,NA,minsal
 Molina,2020-03-30,0,0,NA,NA,minsal
 Molina,2020-03-31,1.5,1.5,NA,NA,interpolación
 Molina,2020-04-01,3,1.5,NA,NA,minsal
@@ -4549,6 +5071,9 @@ Molina,2020-04-21,31.75,1.75,NA,NA,interpolación
 Molina,2020-04-22,33.5,1.75,NA,NA,interpolación
 Molina,2020-04-23,35.25,1.75,NA,NA,interpolación
 Molina,2020-04-24,37,1.75,NA,NA,minsal
+Molina,2020-04-25,39.333333333333336,2.3333333333333357,NA,NA,interpolación
+Molina,2020-04-26,41.666666666666664,2.3333333333333286,NA,NA,interpolación
+Molina,2020-04-27,44,2.3333333333333357,NA,NA,minsal
 Monte Patria,2020-03-30,0,0,NA,NA,minsal
 Monte Patria,2020-03-31,0,0,NA,NA,interpolación
 Monte Patria,2020-04-01,0,0,NA,NA,minsal
@@ -4575,6 +5100,9 @@ Monte Patria,2020-04-21,0,0,NA,NA,interpolación
 Monte Patria,2020-04-22,0,0,NA,NA,interpolación
 Monte Patria,2020-04-23,0,0,NA,NA,interpolación
 Monte Patria,2020-04-24,0,0,NA,NA,minsal
+Monte Patria,2020-04-25,0,0,NA,NA,interpolación
+Monte Patria,2020-04-26,0,0,NA,NA,interpolación
+Monte Patria,2020-04-27,0,0,NA,NA,minsal
 Mostazal,2020-03-30,0,0,NA,NA,minsal
 Mostazal,2020-03-31,0,0,NA,NA,interpolación
 Mostazal,2020-04-01,0,0,NA,NA,minsal
@@ -4601,6 +5129,9 @@ Mostazal,2020-04-21,0,0,NA,NA,interpolación
 Mostazal,2020-04-22,0,0,NA,NA,interpolación
 Mostazal,2020-04-23,0,0,NA,NA,interpolación
 Mostazal,2020-04-24,0,0,NA,NA,minsal
+Mostazal,2020-04-25,0,0,NA,NA,interpolación
+Mostazal,2020-04-26,0,0,NA,NA,interpolación
+Mostazal,2020-04-27,0,0,NA,NA,minsal
 Mulchén,2020-03-30,0,0,NA,NA,minsal
 Mulchén,2020-03-31,2.5,2.5,NA,NA,interpolación
 Mulchén,2020-04-01,5,2.5,NA,NA,minsal
@@ -4627,6 +5158,9 @@ Mulchén,2020-04-21,46.25,1.25,NA,NA,interpolación
 Mulchén,2020-04-22,47.5,1.25,NA,NA,interpolación
 Mulchén,2020-04-23,48.75,1.25,NA,NA,interpolación
 Mulchén,2020-04-24,50,1.25,NA,NA,minsal
+Mulchén,2020-04-25,51.666666666666664,1.6666666666666643,NA,NA,interpolación
+Mulchén,2020-04-26,53.333333333333336,1.6666666666666714,NA,NA,interpolación
+Mulchén,2020-04-27,55,1.6666666666666643,NA,NA,minsal
 Nacimiento,2020-03-30,0,0,NA,NA,minsal
 Nacimiento,2020-03-31,1,1,NA,NA,interpolación
 Nacimiento,2020-04-01,2,1,NA,NA,minsal
@@ -4653,6 +5187,9 @@ Nacimiento,2020-04-21,56.5,2.5,NA,NA,interpolación
 Nacimiento,2020-04-22,59,2.5,NA,NA,interpolación
 Nacimiento,2020-04-23,61.5,2.5,NA,NA,interpolación
 Nacimiento,2020-04-24,64,2.5,NA,NA,minsal
+Nacimiento,2020-04-25,67.33333333333333,3.3333333333333286,NA,NA,interpolación
+Nacimiento,2020-04-26,70.66666666666667,3.333333333333343,NA,NA,interpolación
+Nacimiento,2020-04-27,74,3.3333333333333286,NA,NA,minsal
 Nancagua,2020-03-30,0,0,NA,NA,minsal
 Nancagua,2020-03-31,0,0,NA,NA,interpolación
 Nancagua,2020-04-01,0,0,NA,NA,minsal
@@ -4679,6 +5216,9 @@ Nancagua,2020-04-21,0,0,NA,NA,interpolación
 Nancagua,2020-04-22,0,0,NA,NA,interpolación
 Nancagua,2020-04-23,0,0,NA,NA,interpolación
 Nancagua,2020-04-24,0,0,NA,NA,minsal
+Nancagua,2020-04-25,0,0,NA,NA,interpolación
+Nancagua,2020-04-26,0,0,NA,NA,interpolación
+Nancagua,2020-04-27,0,0,NA,NA,minsal
 Natales,2020-03-30,0,0,NA,NA,minsal
 Natales,2020-03-31,2,2,NA,NA,interpolación
 Natales,2020-04-01,4,2,NA,NA,minsal
@@ -4705,6 +5245,9 @@ Natales,2020-04-21,51.75,1.75,NA,NA,interpolación
 Natales,2020-04-22,53.5,1.75,NA,NA,interpolación
 Natales,2020-04-23,55.25,1.75,NA,NA,interpolación
 Natales,2020-04-24,57,1.75,NA,NA,minsal
+Natales,2020-04-25,59.666666666666664,2.6666666666666643,NA,NA,interpolación
+Natales,2020-04-26,62.333333333333336,2.6666666666666714,NA,NA,interpolación
+Natales,2020-04-27,65,2.6666666666666643,NA,NA,minsal
 Navidad,2020-03-30,0,0,NA,NA,minsal
 Navidad,2020-03-31,0,0,NA,NA,interpolación
 Navidad,2020-04-01,0,0,NA,NA,minsal
@@ -4731,6 +5274,9 @@ Navidad,2020-04-21,0,0,NA,NA,interpolación
 Navidad,2020-04-22,0,0,NA,NA,interpolación
 Navidad,2020-04-23,0,0,NA,NA,interpolación
 Navidad,2020-04-24,0,0,NA,NA,minsal
+Navidad,2020-04-25,0,0,NA,NA,interpolación
+Navidad,2020-04-26,0,0,NA,NA,interpolación
+Navidad,2020-04-27,0,0,NA,NA,minsal
 Negrete,2020-03-30,0,0,NA,NA,minsal
 Negrete,2020-03-31,0,0,NA,NA,interpolación
 Negrete,2020-04-01,0,0,NA,NA,minsal
@@ -4757,6 +5303,9 @@ Negrete,2020-04-21,13.5,0.5,NA,NA,interpolación
 Negrete,2020-04-22,14,0.5,NA,NA,interpolación
 Negrete,2020-04-23,14.5,0.5,NA,NA,interpolación
 Negrete,2020-04-24,15,0.5,NA,NA,minsal
+Negrete,2020-04-25,15.666666666666666,0.6666666666666661,NA,NA,interpolación
+Negrete,2020-04-26,16.333333333333332,0.6666666666666661,NA,NA,interpolación
+Negrete,2020-04-27,17,0.6666666666666679,NA,NA,minsal
 Ninhue,2020-03-30,0,0,NA,NA,minsal
 Ninhue,2020-03-31,0,0,NA,NA,interpolación
 Ninhue,2020-04-01,0,0,NA,NA,minsal
@@ -4783,6 +5332,9 @@ Ninhue,2020-04-21,15,1,NA,NA,interpolación
 Ninhue,2020-04-22,16,1,NA,NA,interpolación
 Ninhue,2020-04-23,17,1,NA,NA,interpolación
 Ninhue,2020-04-24,18,1,NA,NA,minsal
+Ninhue,2020-04-25,19.333333333333332,1.3333333333333321,NA,NA,interpolación
+Ninhue,2020-04-26,20.666666666666668,1.3333333333333357,NA,NA,interpolación
+Ninhue,2020-04-27,22,1.3333333333333321,NA,NA,minsal
 Ñiquén,2020-03-30,0,0,NA,NA,minsal
 Ñiquén,2020-03-31,0,0,NA,NA,interpolación
 Ñiquén,2020-04-01,0,0,NA,NA,minsal
@@ -4809,6 +5361,9 @@ Ninhue,2020-04-24,18,1,NA,NA,minsal
 Ñiquén,2020-04-22,14.5,0.75,NA,NA,interpolación
 Ñiquén,2020-04-23,15.25,0.75,NA,NA,interpolación
 Ñiquén,2020-04-24,16,0.75,NA,NA,minsal
+Ñiquén,2020-04-25,17,1,NA,NA,interpolación
+Ñiquén,2020-04-26,18,1,NA,NA,interpolación
+Ñiquén,2020-04-27,19,1,NA,NA,minsal
 Nogales,2020-03-30,0,0,NA,NA,minsal
 Nogales,2020-03-31,0,0,NA,NA,interpolación
 Nogales,2020-04-01,0,0,NA,NA,minsal
@@ -4835,6 +5390,9 @@ Nogales,2020-04-21,0,0,NA,NA,interpolación
 Nogales,2020-04-22,0,0,NA,NA,interpolación
 Nogales,2020-04-23,0,0,NA,NA,interpolación
 Nogales,2020-04-24,0,0,NA,NA,minsal
+Nogales,2020-04-25,0,0,NA,NA,interpolación
+Nogales,2020-04-26,0,0,NA,NA,interpolación
+Nogales,2020-04-27,0,0,NA,NA,minsal
 Nueva Imperial,2020-03-30,0,0,NA,NA,minsal
 Nueva Imperial,2020-03-31,1,1,NA,NA,interpolación
 Nueva Imperial,2020-04-01,2,1,NA,NA,minsal
@@ -4861,6 +5419,9 @@ Nueva Imperial,2020-04-21,208,9,NA,NA,interpolación
 Nueva Imperial,2020-04-22,217,9,NA,NA,interpolación
 Nueva Imperial,2020-04-23,226,9,NA,NA,interpolación
 Nueva Imperial,2020-04-24,235,9,NA,NA,minsal
+Nueva Imperial,2020-04-25,249.66666666666666,14.666666666666657,NA,NA,interpolación
+Nueva Imperial,2020-04-26,264.3333333333333,14.666666666666657,NA,NA,interpolación
+Nueva Imperial,2020-04-27,279,14.666666666666686,NA,NA,minsal
 Ñuñoa,2020-03-30,67,0,NA,NA,minsal
 Ñuñoa,2020-03-31,109,42,NA,NA,interpolación
 Ñuñoa,2020-04-01,151,42,NA,NA,minsal
@@ -4887,6 +5448,9 @@ Nueva Imperial,2020-04-24,235,9,NA,NA,minsal
 Ñuñoa,2020-04-22,1574.5,67.25,NA,NA,interpolación
 Ñuñoa,2020-04-23,1641.75,67.25,NA,NA,interpolación
 Ñuñoa,2020-04-24,1709,67.25,NA,NA,minsal
+Ñuñoa,2020-04-25,1806,97,NA,NA,interpolación
+Ñuñoa,2020-04-26,1903,97,NA,NA,interpolación
+Ñuñoa,2020-04-27,2000,97,NA,NA,minsal
 O'Higgins,2020-03-30,0,0,NA,NA,minsal
 O'Higgins,2020-03-31,0,0,NA,NA,interpolación
 O'Higgins,2020-04-01,0,0,NA,NA,minsal
@@ -4913,6 +5477,9 @@ O'Higgins,2020-04-21,0,0,NA,NA,interpolación
 O'Higgins,2020-04-22,0,0,NA,NA,interpolación
 O'Higgins,2020-04-23,0,0,NA,NA,interpolación
 O'Higgins,2020-04-24,0,0,NA,NA,minsal
+O'Higgins,2020-04-25,0,0,NA,NA,interpolación
+O'Higgins,2020-04-26,0,0,NA,NA,interpolación
+O'Higgins,2020-04-27,0,0,NA,NA,minsal
 Olivar,2020-03-30,0,0,NA,NA,minsal
 Olivar,2020-03-31,0.5,0.5,NA,NA,interpolación
 Olivar,2020-04-01,1,0.5,NA,NA,minsal
@@ -4939,6 +5506,9 @@ Olivar,2020-04-21,37.5,1.5,NA,NA,interpolación
 Olivar,2020-04-22,39,1.5,NA,NA,interpolación
 Olivar,2020-04-23,40.5,1.5,NA,NA,interpolación
 Olivar,2020-04-24,42,1.5,NA,NA,minsal
+Olivar,2020-04-25,44,2,NA,NA,interpolación
+Olivar,2020-04-26,46,2,NA,NA,interpolación
+Olivar,2020-04-27,48,2,NA,NA,minsal
 Ollagüe,2020-03-30,0,0,NA,NA,minsal
 Ollagüe,2020-03-31,0,0,NA,NA,interpolación
 Ollagüe,2020-04-01,0,0,NA,NA,minsal
@@ -4965,6 +5535,9 @@ Ollagüe,2020-04-21,0,0,NA,NA,interpolación
 Ollagüe,2020-04-22,0,0,NA,NA,interpolación
 Ollagüe,2020-04-23,0,0,NA,NA,interpolación
 Ollagüe,2020-04-24,0,0,NA,NA,minsal
+Ollagüe,2020-04-25,0,0,NA,NA,interpolación
+Ollagüe,2020-04-26,0,0,NA,NA,interpolación
+Ollagüe,2020-04-27,0,0,NA,NA,minsal
 Olmué,2020-03-30,0,0,NA,NA,minsal
 Olmué,2020-03-31,0,0,NA,NA,interpolación
 Olmué,2020-04-01,0,0,NA,NA,minsal
@@ -4991,6 +5564,9 @@ Olmué,2020-04-21,6.5,0.5,NA,NA,interpolación
 Olmué,2020-04-22,7,0.5,NA,NA,interpolación
 Olmué,2020-04-23,7.5,0.5,NA,NA,interpolación
 Olmué,2020-04-24,8,0.5,NA,NA,minsal
+Olmué,2020-04-25,8.666666666666666,0.6666666666666661,NA,NA,interpolación
+Olmué,2020-04-26,9.333333333333334,0.6666666666666679,NA,NA,interpolación
+Olmué,2020-04-27,10,0.6666666666666661,NA,NA,minsal
 Osorno,2020-03-30,66,0,NA,NA,minsal
 Osorno,2020-03-31,126,60,NA,NA,interpolación
 Osorno,2020-04-01,186,60,NA,NA,minsal
@@ -5017,6 +5593,9 @@ Osorno,2020-04-21,2022.5,69.5,NA,NA,interpolación
 Osorno,2020-04-22,2092,69.5,NA,NA,interpolación
 Osorno,2020-04-23,2161.5,69.5,NA,NA,interpolación
 Osorno,2020-04-24,2231,69.5,NA,NA,minsal
+Osorno,2020-04-25,2325,94,NA,NA,interpolación
+Osorno,2020-04-26,2419,94,NA,NA,interpolación
+Osorno,2020-04-27,2513,94,NA,NA,minsal
 Ovalle,2020-03-30,4,0,NA,NA,minsal
 Ovalle,2020-03-31,6,2,NA,NA,interpolación
 Ovalle,2020-04-01,8,2,NA,NA,minsal
@@ -5043,6 +5622,9 @@ Ovalle,2020-04-21,69.25,2.25,NA,NA,interpolación
 Ovalle,2020-04-22,71.5,2.25,NA,NA,interpolación
 Ovalle,2020-04-23,73.75,2.25,NA,NA,interpolación
 Ovalle,2020-04-24,76,2.25,NA,NA,minsal
+Ovalle,2020-04-25,79,3,NA,NA,interpolación
+Ovalle,2020-04-26,82,3,NA,NA,interpolación
+Ovalle,2020-04-27,85,3,NA,NA,minsal
 Padre Hurtado,2020-03-30,10,0,NA,NA,minsal
 Padre Hurtado,2020-03-31,15.5,5.5,NA,NA,interpolación
 Padre Hurtado,2020-04-01,21,5.5,NA,NA,minsal
@@ -5069,6 +5651,9 @@ Padre Hurtado,2020-04-21,210.75,8.75,NA,NA,interpolación
 Padre Hurtado,2020-04-22,219.5,8.75,NA,NA,interpolación
 Padre Hurtado,2020-04-23,228.25,8.75,NA,NA,interpolación
 Padre Hurtado,2020-04-24,237,8.75,NA,NA,minsal
+Padre Hurtado,2020-04-25,250.33333333333334,13.333333333333343,NA,NA,interpolación
+Padre Hurtado,2020-04-26,263.6666666666667,13.333333333333343,NA,NA,interpolación
+Padre Hurtado,2020-04-27,277,13.333333333333314,NA,NA,minsal
 Padre Las Casas,2020-03-30,9,0,NA,NA,minsal
 Padre Las Casas,2020-03-31,16,7,NA,NA,interpolación
 Padre Las Casas,2020-04-01,23,7,NA,NA,minsal
@@ -5095,6 +5680,9 @@ Padre Las Casas,2020-04-21,447.5,19.5,NA,NA,interpolación
 Padre Las Casas,2020-04-22,467,19.5,NA,NA,interpolación
 Padre Las Casas,2020-04-23,486.5,19.5,NA,NA,interpolación
 Padre Las Casas,2020-04-24,506,19.5,NA,NA,minsal
+Padre Las Casas,2020-04-25,535,29,NA,NA,interpolación
+Padre Las Casas,2020-04-26,564,29,NA,NA,interpolación
+Padre Las Casas,2020-04-27,593,29,NA,NA,minsal
 Paiguano,2020-03-30,0,0,NA,NA,minsal
 Paiguano,2020-03-31,0,0,NA,NA,interpolación
 Paiguano,2020-04-01,0,0,NA,NA,minsal
@@ -5121,6 +5709,9 @@ Paiguano,2020-04-21,0,0,NA,NA,interpolación
 Paiguano,2020-04-22,0,0,NA,NA,interpolación
 Paiguano,2020-04-23,0,0,NA,NA,interpolación
 Paiguano,2020-04-24,0,0,NA,NA,minsal
+Paiguano,2020-04-25,0,0,NA,NA,interpolación
+Paiguano,2020-04-26,0,0,NA,NA,interpolación
+Paiguano,2020-04-27,0,0,NA,NA,minsal
 Paillaco,2020-03-30,0,0,NA,NA,minsal
 Paillaco,2020-03-31,0.5,0.5,NA,NA,interpolación
 Paillaco,2020-04-01,1,0.5,NA,NA,minsal
@@ -5147,6 +5738,9 @@ Paillaco,2020-04-21,9.5,0.5,NA,NA,interpolación
 Paillaco,2020-04-22,10,0.5,NA,NA,interpolación
 Paillaco,2020-04-23,10.5,0.5,NA,NA,interpolación
 Paillaco,2020-04-24,11,0.5,NA,NA,minsal
+Paillaco,2020-04-25,11.666666666666666,0.6666666666666661,NA,NA,interpolación
+Paillaco,2020-04-26,12.333333333333334,0.6666666666666679,NA,NA,interpolación
+Paillaco,2020-04-27,13,0.6666666666666661,NA,NA,minsal
 Paine,2020-03-30,0,0,NA,NA,minsal
 Paine,2020-03-31,1.5,1.5,NA,NA,interpolación
 Paine,2020-04-01,3,1.5,NA,NA,minsal
@@ -5173,6 +5767,9 @@ Paine,2020-04-21,60.25,3.25,NA,NA,interpolación
 Paine,2020-04-22,63.5,3.25,NA,NA,interpolación
 Paine,2020-04-23,66.75,3.25,NA,NA,interpolación
 Paine,2020-04-24,70,3.25,NA,NA,minsal
+Paine,2020-04-25,75,5,NA,NA,interpolación
+Paine,2020-04-26,80,5,NA,NA,interpolación
+Paine,2020-04-27,85,5,NA,NA,minsal
 Palena,2020-03-30,0,0,NA,NA,minsal
 Palena,2020-03-31,0,0,NA,NA,interpolación
 Palena,2020-04-01,0,0,NA,NA,minsal
@@ -5199,6 +5796,9 @@ Palena,2020-04-21,0,0,NA,NA,interpolación
 Palena,2020-04-22,0,0,NA,NA,interpolación
 Palena,2020-04-23,0,0,NA,NA,interpolación
 Palena,2020-04-24,0,0,NA,NA,minsal
+Palena,2020-04-25,0,0,NA,NA,interpolación
+Palena,2020-04-26,0,0,NA,NA,interpolación
+Palena,2020-04-27,0,0,NA,NA,minsal
 Palmilla,2020-03-30,0,0,NA,NA,minsal
 Palmilla,2020-03-31,0,0,NA,NA,interpolación
 Palmilla,2020-04-01,0,0,NA,NA,minsal
@@ -5225,6 +5825,9 @@ Palmilla,2020-04-21,0,0,NA,NA,interpolación
 Palmilla,2020-04-22,0,0,NA,NA,interpolación
 Palmilla,2020-04-23,0,0,NA,NA,interpolación
 Palmilla,2020-04-24,0,0,NA,NA,minsal
+Palmilla,2020-04-25,0,0,NA,NA,interpolación
+Palmilla,2020-04-26,0,0,NA,NA,interpolación
+Palmilla,2020-04-27,0,0,NA,NA,minsal
 Panguipulli,2020-03-30,0,0,NA,NA,minsal
 Panguipulli,2020-03-31,0,0,NA,NA,interpolación
 Panguipulli,2020-04-01,0,0,NA,NA,minsal
@@ -5251,6 +5854,9 @@ Panguipulli,2020-04-21,3,0,NA,NA,interpolación
 Panguipulli,2020-04-22,3,0,NA,NA,interpolación
 Panguipulli,2020-04-23,3,0,NA,NA,interpolación
 Panguipulli,2020-04-24,3,0,NA,NA,minsal
+Panguipulli,2020-04-25,3,0,NA,NA,interpolación
+Panguipulli,2020-04-26,3,0,NA,NA,interpolación
+Panguipulli,2020-04-27,3,0,NA,NA,minsal
 Panquehue,2020-03-30,0,0,NA,NA,minsal
 Panquehue,2020-03-31,0,0,NA,NA,interpolación
 Panquehue,2020-04-01,0,0,NA,NA,minsal
@@ -5277,6 +5883,9 @@ Panquehue,2020-04-21,0,0,NA,NA,interpolación
 Panquehue,2020-04-22,0,0,NA,NA,interpolación
 Panquehue,2020-04-23,0,0,NA,NA,interpolación
 Panquehue,2020-04-24,0,0,NA,NA,minsal
+Panquehue,2020-04-25,0,0,NA,NA,interpolación
+Panquehue,2020-04-26,0,0,NA,NA,interpolación
+Panquehue,2020-04-27,0,0,NA,NA,minsal
 Papudo,2020-03-30,0,0,NA,NA,minsal
 Papudo,2020-03-31,0,0,NA,NA,interpolación
 Papudo,2020-04-01,0,0,NA,NA,minsal
@@ -5303,6 +5912,9 @@ Papudo,2020-04-21,2,0,NA,NA,interpolación
 Papudo,2020-04-22,2,0,NA,NA,interpolación
 Papudo,2020-04-23,2,0,NA,NA,interpolación
 Papudo,2020-04-24,2,0,NA,NA,minsal
+Papudo,2020-04-25,2,0,NA,NA,interpolación
+Papudo,2020-04-26,2,0,NA,NA,interpolación
+Papudo,2020-04-27,2,0,NA,NA,minsal
 Paredones,2020-03-30,0,0,NA,NA,minsal
 Paredones,2020-03-31,0,0,NA,NA,interpolación
 Paredones,2020-04-01,0,0,NA,NA,minsal
@@ -5329,6 +5941,9 @@ Paredones,2020-04-21,0,0,NA,NA,interpolación
 Paredones,2020-04-22,0,0,NA,NA,interpolación
 Paredones,2020-04-23,0,0,NA,NA,interpolación
 Paredones,2020-04-24,0,0,NA,NA,minsal
+Paredones,2020-04-25,0,0,NA,NA,interpolación
+Paredones,2020-04-26,0,0,NA,NA,interpolación
+Paredones,2020-04-27,0,0,NA,NA,minsal
 Parral,2020-03-30,4,0,NA,NA,minsal
 Parral,2020-03-31,5.5,1.5,NA,NA,interpolación
 Parral,2020-04-01,7,1.5,NA,NA,minsal
@@ -5355,6 +5970,9 @@ Parral,2020-04-21,48.25,2.25,NA,NA,interpolación
 Parral,2020-04-22,50.5,2.25,NA,NA,interpolación
 Parral,2020-04-23,52.75,2.25,NA,NA,interpolación
 Parral,2020-04-24,55,2.25,NA,NA,minsal
+Parral,2020-04-25,58,3,NA,NA,interpolación
+Parral,2020-04-26,61,3,NA,NA,interpolación
+Parral,2020-04-27,64,3,NA,NA,minsal
 Pedro Aguirre Cerda,2020-03-30,7,0,NA,NA,minsal
 Pedro Aguirre Cerda,2020-03-31,13.5,6.5,NA,NA,interpolación
 Pedro Aguirre Cerda,2020-04-01,20,6.5,NA,NA,minsal
@@ -5381,6 +5999,9 @@ Pedro Aguirre Cerda,2020-04-21,422.25,27.25,NA,NA,interpolación
 Pedro Aguirre Cerda,2020-04-22,449.5,27.25,NA,NA,interpolación
 Pedro Aguirre Cerda,2020-04-23,476.75,27.25,NA,NA,interpolación
 Pedro Aguirre Cerda,2020-04-24,504,27.25,NA,NA,minsal
+Pedro Aguirre Cerda,2020-04-25,547,43,NA,NA,interpolación
+Pedro Aguirre Cerda,2020-04-26,590,43,NA,NA,interpolación
+Pedro Aguirre Cerda,2020-04-27,633,43,NA,NA,minsal
 Pelarco,2020-03-30,0,0,NA,NA,minsal
 Pelarco,2020-03-31,0,0,NA,NA,interpolación
 Pelarco,2020-04-01,0,0,NA,NA,minsal
@@ -5407,6 +6028,9 @@ Pelarco,2020-04-21,17.25,1.25,NA,NA,interpolación
 Pelarco,2020-04-22,18.5,1.25,NA,NA,interpolación
 Pelarco,2020-04-23,19.75,1.25,NA,NA,interpolación
 Pelarco,2020-04-24,21,1.25,NA,NA,minsal
+Pelarco,2020-04-25,22.666666666666668,1.6666666666666679,NA,NA,interpolación
+Pelarco,2020-04-26,24.333333333333332,1.6666666666666643,NA,NA,interpolación
+Pelarco,2020-04-27,26,1.6666666666666679,NA,NA,minsal
 Pelluhue,2020-03-30,0,0,NA,NA,minsal
 Pelluhue,2020-03-31,0.5,0.5,NA,NA,interpolación
 Pelluhue,2020-04-01,1,0.5,NA,NA,minsal
@@ -5433,6 +6057,9 @@ Pelluhue,2020-04-21,9.5,0.5,NA,NA,interpolación
 Pelluhue,2020-04-22,10,0.5,NA,NA,interpolación
 Pelluhue,2020-04-23,10.5,0.5,NA,NA,interpolación
 Pelluhue,2020-04-24,11,0.5,NA,NA,minsal
+Pelluhue,2020-04-25,11.666666666666666,0.6666666666666661,NA,NA,interpolación
+Pelluhue,2020-04-26,12.333333333333334,0.6666666666666679,NA,NA,interpolación
+Pelluhue,2020-04-27,13,0.6666666666666661,NA,NA,minsal
 Pemuco,2020-03-30,0,0,NA,NA,minsal
 Pemuco,2020-03-31,0,0,NA,NA,interpolación
 Pemuco,2020-04-01,0,0,NA,NA,minsal
@@ -5459,6 +6086,9 @@ Pemuco,2020-04-21,26.25,1.25,NA,NA,interpolación
 Pemuco,2020-04-22,27.5,1.25,NA,NA,interpolación
 Pemuco,2020-04-23,28.75,1.25,NA,NA,interpolación
 Pemuco,2020-04-24,30,1.25,NA,NA,minsal
+Pemuco,2020-04-25,32,2,NA,NA,interpolación
+Pemuco,2020-04-26,34,2,NA,NA,interpolación
+Pemuco,2020-04-27,36,2,NA,NA,minsal
 Peñaflor,2020-03-30,10,0,NA,NA,minsal
 Peñaflor,2020-03-31,16.5,6.5,NA,NA,interpolación
 Peñaflor,2020-04-01,23,6.5,NA,NA,minsal
@@ -5485,6 +6115,9 @@ Peñaflor,2020-04-21,218,11,NA,NA,interpolación
 Peñaflor,2020-04-22,229,11,NA,NA,interpolación
 Peñaflor,2020-04-23,240,11,NA,NA,interpolación
 Peñaflor,2020-04-24,251,11,NA,NA,minsal
+Peñaflor,2020-04-25,268,17,NA,NA,interpolación
+Peñaflor,2020-04-26,285,17,NA,NA,interpolación
+Peñaflor,2020-04-27,302,17,NA,NA,minsal
 Peñalolén,2020-03-30,31,0,NA,NA,minsal
 Peñalolén,2020-03-31,54,23,NA,NA,interpolación
 Peñalolén,2020-04-01,77,23,NA,NA,minsal
@@ -5511,6 +6144,9 @@ Peñalolén,2020-04-21,1041.25,52.25,NA,NA,interpolación
 Peñalolén,2020-04-22,1093.5,52.25,NA,NA,interpolación
 Peñalolén,2020-04-23,1145.75,52.25,NA,NA,interpolación
 Peñalolén,2020-04-24,1198,52.25,NA,NA,minsal
+Peñalolén,2020-04-25,1282.6666666666667,84.66666666666674,NA,NA,interpolación
+Peñalolén,2020-04-26,1367.3333333333333,84.66666666666652,NA,NA,interpolación
+Peñalolén,2020-04-27,1452,84.66666666666674,NA,NA,minsal
 Pencahue,2020-03-30,0,0,NA,NA,minsal
 Pencahue,2020-03-31,0,0,NA,NA,interpolación
 Pencahue,2020-04-01,0,0,NA,NA,minsal
@@ -5537,6 +6173,9 @@ Pencahue,2020-04-21,3.75,0.75,NA,NA,interpolación
 Pencahue,2020-04-22,4.5,0.75,NA,NA,interpolación
 Pencahue,2020-04-23,5.25,0.75,NA,NA,interpolación
 Pencahue,2020-04-24,6,0.75,NA,NA,minsal
+Pencahue,2020-04-25,7,1,NA,NA,interpolación
+Pencahue,2020-04-26,8,1,NA,NA,interpolación
+Pencahue,2020-04-27,9,1,NA,NA,minsal
 Penco,2020-03-30,0,0,NA,NA,minsal
 Penco,2020-03-31,0.5,0.5,NA,NA,interpolación
 Penco,2020-04-01,1,0.5,NA,NA,minsal
@@ -5563,6 +6202,9 @@ Penco,2020-04-21,70.25,4.25,NA,NA,interpolación
 Penco,2020-04-22,74.5,4.25,NA,NA,interpolación
 Penco,2020-04-23,78.75,4.25,NA,NA,interpolación
 Penco,2020-04-24,83,4.25,NA,NA,minsal
+Penco,2020-04-25,89,6,NA,NA,interpolación
+Penco,2020-04-26,95,6,NA,NA,interpolación
+Penco,2020-04-27,101,6,NA,NA,minsal
 Peralillo,2020-03-30,0,0,NA,NA,minsal
 Peralillo,2020-03-31,0,0,NA,NA,interpolación
 Peralillo,2020-04-01,0,0,NA,NA,minsal
@@ -5589,6 +6231,9 @@ Peralillo,2020-04-21,0,0,NA,NA,interpolación
 Peralillo,2020-04-22,0,0,NA,NA,interpolación
 Peralillo,2020-04-23,0,0,NA,NA,interpolación
 Peralillo,2020-04-24,0,0,NA,NA,minsal
+Peralillo,2020-04-25,0,0,NA,NA,interpolación
+Peralillo,2020-04-26,0,0,NA,NA,interpolación
+Peralillo,2020-04-27,0,0,NA,NA,minsal
 Perquenco,2020-03-30,0,0,NA,NA,minsal
 Perquenco,2020-03-31,0.5,0.5,NA,NA,interpolación
 Perquenco,2020-04-01,1,0.5,NA,NA,minsal
@@ -5615,6 +6260,9 @@ Perquenco,2020-04-21,25.5,1.5,NA,NA,interpolación
 Perquenco,2020-04-22,27,1.5,NA,NA,interpolación
 Perquenco,2020-04-23,28.5,1.5,NA,NA,interpolación
 Perquenco,2020-04-24,30,1.5,NA,NA,minsal
+Perquenco,2020-04-25,32,2,NA,NA,interpolación
+Perquenco,2020-04-26,34,2,NA,NA,interpolación
+Perquenco,2020-04-27,36,2,NA,NA,minsal
 Petorca,2020-03-30,0,0,NA,NA,minsal
 Petorca,2020-03-31,0.5,0.5,NA,NA,interpolación
 Petorca,2020-04-01,1,0.5,NA,NA,minsal
@@ -5641,6 +6289,9 @@ Petorca,2020-04-21,41.5,1.5,NA,NA,interpolación
 Petorca,2020-04-22,43,1.5,NA,NA,interpolación
 Petorca,2020-04-23,44.5,1.5,NA,NA,interpolación
 Petorca,2020-04-24,46,1.5,NA,NA,minsal
+Petorca,2020-04-25,48,2,NA,NA,interpolación
+Petorca,2020-04-26,50,2,NA,NA,interpolación
+Petorca,2020-04-27,52,2,NA,NA,minsal
 Peumo,2020-03-30,0,0,NA,NA,minsal
 Peumo,2020-03-31,0,0,NA,NA,interpolación
 Peumo,2020-04-01,0,0,NA,NA,minsal
@@ -5667,6 +6318,9 @@ Peumo,2020-04-21,7.25,0.25,NA,NA,interpolación
 Peumo,2020-04-22,7.5,0.25,NA,NA,interpolación
 Peumo,2020-04-23,7.75,0.25,NA,NA,interpolación
 Peumo,2020-04-24,8,0.25,NA,NA,minsal
+Peumo,2020-04-25,8.333333333333334,0.3333333333333339,NA,NA,interpolación
+Peumo,2020-04-26,8.666666666666666,0.33333333333333215,NA,NA,interpolación
+Peumo,2020-04-27,9,0.3333333333333339,NA,NA,minsal
 Pica,2020-03-30,0,0,NA,NA,minsal
 Pica,2020-03-31,0,0,NA,NA,interpolación
 Pica,2020-04-01,0,0,NA,NA,minsal
@@ -5693,6 +6347,9 @@ Pica,2020-04-21,96.75,7.75,NA,NA,interpolación
 Pica,2020-04-22,104.5,7.75,NA,NA,interpolación
 Pica,2020-04-23,112.25,7.75,NA,NA,interpolación
 Pica,2020-04-24,120,7.75,NA,NA,minsal
+Pica,2020-04-25,130.33333333333334,10.333333333333343,NA,NA,interpolación
+Pica,2020-04-26,140.66666666666666,10.333333333333314,NA,NA,interpolación
+Pica,2020-04-27,151,10.333333333333343,NA,NA,minsal
 Pichidegua,2020-03-30,0,0,NA,NA,minsal
 Pichidegua,2020-03-31,0,0,NA,NA,interpolación
 Pichidegua,2020-04-01,0,0,NA,NA,minsal
@@ -5719,6 +6376,9 @@ Pichidegua,2020-04-21,0,0,NA,NA,interpolación
 Pichidegua,2020-04-22,0,0,NA,NA,interpolación
 Pichidegua,2020-04-23,0,0,NA,NA,interpolación
 Pichidegua,2020-04-24,0,0,NA,NA,minsal
+Pichidegua,2020-04-25,0,0,NA,NA,interpolación
+Pichidegua,2020-04-26,0,0,NA,NA,interpolación
+Pichidegua,2020-04-27,0,0,NA,NA,minsal
 Pichilemu,2020-03-30,0,0,NA,NA,minsal
 Pichilemu,2020-03-31,0,0,NA,NA,interpolación
 Pichilemu,2020-04-01,0,0,NA,NA,minsal
@@ -5745,6 +6405,9 @@ Pichilemu,2020-04-21,0,0,NA,NA,interpolación
 Pichilemu,2020-04-22,0,0,NA,NA,interpolación
 Pichilemu,2020-04-23,0,0,NA,NA,interpolación
 Pichilemu,2020-04-24,0,0,NA,NA,minsal
+Pichilemu,2020-04-25,0,0,NA,NA,interpolación
+Pichilemu,2020-04-26,0,0,NA,NA,interpolación
+Pichilemu,2020-04-27,0,0,NA,NA,minsal
 Pinto,2020-03-30,0,0,NA,NA,minsal
 Pinto,2020-03-31,1,1,NA,NA,interpolación
 Pinto,2020-04-01,2,1,NA,NA,minsal
@@ -5771,6 +6434,9 @@ Pinto,2020-04-21,80.75,2.75,NA,NA,interpolación
 Pinto,2020-04-22,83.5,2.75,NA,NA,interpolación
 Pinto,2020-04-23,86.25,2.75,NA,NA,interpolación
 Pinto,2020-04-24,89,2.75,NA,NA,minsal
+Pinto,2020-04-25,93,4,NA,NA,interpolación
+Pinto,2020-04-26,97,4,NA,NA,interpolación
+Pinto,2020-04-27,101,4,NA,NA,minsal
 Pirque,2020-03-30,0,0,NA,NA,minsal
 Pirque,2020-03-31,1,1,NA,NA,interpolación
 Pirque,2020-04-01,2,1,NA,NA,minsal
@@ -5797,6 +6463,9 @@ Pirque,2020-04-21,74,4,NA,NA,interpolación
 Pirque,2020-04-22,78,4,NA,NA,interpolación
 Pirque,2020-04-23,82,4,NA,NA,interpolación
 Pirque,2020-04-24,86,4,NA,NA,minsal
+Pirque,2020-04-25,92.33333333333333,6.333333333333329,NA,NA,interpolación
+Pirque,2020-04-26,98.66666666666667,6.333333333333343,NA,NA,interpolación
+Pirque,2020-04-27,105,6.333333333333329,NA,NA,minsal
 Pitrufquén,2020-03-30,4,0,NA,NA,minsal
 Pitrufquén,2020-03-31,7,3,NA,NA,interpolación
 Pitrufquén,2020-04-01,10,3,NA,NA,minsal
@@ -5823,6 +6492,9 @@ Pitrufquén,2020-04-21,126.75,4.75,NA,NA,interpolación
 Pitrufquén,2020-04-22,131.5,4.75,NA,NA,interpolación
 Pitrufquén,2020-04-23,136.25,4.75,NA,NA,interpolación
 Pitrufquén,2020-04-24,141,4.75,NA,NA,minsal
+Pitrufquén,2020-04-25,147.33333333333334,6.333333333333343,NA,NA,interpolación
+Pitrufquén,2020-04-26,153.66666666666666,6.333333333333314,NA,NA,interpolación
+Pitrufquén,2020-04-27,160,6.333333333333343,NA,NA,minsal
 Placilla,2020-03-30,0,0,NA,NA,minsal
 Placilla,2020-03-31,0.5,0.5,NA,NA,interpolación
 Placilla,2020-04-01,1,0.5,NA,NA,minsal
@@ -5849,6 +6521,9 @@ Placilla,2020-04-21,11.25,0.25,NA,NA,interpolación
 Placilla,2020-04-22,11.5,0.25,NA,NA,interpolación
 Placilla,2020-04-23,11.75,0.25,NA,NA,interpolación
 Placilla,2020-04-24,12,0.25,NA,NA,minsal
+Placilla,2020-04-25,12.333333333333334,0.3333333333333339,NA,NA,interpolación
+Placilla,2020-04-26,12.666666666666666,0.33333333333333215,NA,NA,interpolación
+Placilla,2020-04-27,13,0.3333333333333339,NA,NA,minsal
 Portezuelo,2020-03-30,0,0,NA,NA,minsal
 Portezuelo,2020-03-31,0,0,NA,NA,interpolación
 Portezuelo,2020-04-01,0,0,NA,NA,minsal
@@ -5875,6 +6550,9 @@ Portezuelo,2020-04-21,1,0,NA,NA,interpolación
 Portezuelo,2020-04-22,1,0,NA,NA,interpolación
 Portezuelo,2020-04-23,1,0,NA,NA,interpolación
 Portezuelo,2020-04-24,1,0,NA,NA,minsal
+Portezuelo,2020-04-25,1,0,NA,NA,interpolación
+Portezuelo,2020-04-26,1,0,NA,NA,interpolación
+Portezuelo,2020-04-27,1,0,NA,NA,minsal
 Porvenir,2020-03-30,0,0,NA,NA,minsal
 Porvenir,2020-03-31,1,1,NA,NA,interpolación
 Porvenir,2020-04-01,2,1,NA,NA,minsal
@@ -5901,6 +6579,9 @@ Porvenir,2020-04-21,36,2,NA,NA,interpolación
 Porvenir,2020-04-22,38,2,NA,NA,interpolación
 Porvenir,2020-04-23,40,2,NA,NA,interpolación
 Porvenir,2020-04-24,42,2,NA,NA,minsal
+Porvenir,2020-04-25,44.666666666666664,2.6666666666666643,NA,NA,interpolación
+Porvenir,2020-04-26,47.333333333333336,2.6666666666666714,NA,NA,interpolación
+Porvenir,2020-04-27,50,2.6666666666666643,NA,NA,minsal
 Pozo Almonte,2020-03-30,0,0,NA,NA,minsal
 Pozo Almonte,2020-03-31,0,0,NA,NA,interpolación
 Pozo Almonte,2020-04-01,0,0,NA,NA,minsal
@@ -5927,6 +6608,9 @@ Pozo Almonte,2020-04-21,14.5,0.5,NA,NA,interpolación
 Pozo Almonte,2020-04-22,15,0.5,NA,NA,interpolación
 Pozo Almonte,2020-04-23,15.5,0.5,NA,NA,interpolación
 Pozo Almonte,2020-04-24,16,0.5,NA,NA,minsal
+Pozo Almonte,2020-04-25,16.666666666666668,0.6666666666666679,NA,NA,interpolación
+Pozo Almonte,2020-04-26,17.333333333333332,0.6666666666666643,NA,NA,interpolación
+Pozo Almonte,2020-04-27,18,0.6666666666666679,NA,NA,minsal
 Primavera,2020-03-30,0,0,NA,NA,minsal
 Primavera,2020-03-31,0,0,NA,NA,interpolación
 Primavera,2020-04-01,0,0,NA,NA,minsal
@@ -5953,6 +6637,9 @@ Primavera,2020-04-21,2.25,0.25,NA,NA,interpolación
 Primavera,2020-04-22,2.5,0.25,NA,NA,interpolación
 Primavera,2020-04-23,2.75,0.25,NA,NA,interpolación
 Primavera,2020-04-24,3,0.25,NA,NA,minsal
+Primavera,2020-04-25,3.3333333333333335,0.3333333333333335,NA,NA,interpolación
+Primavera,2020-04-26,3.6666666666666665,0.33333333333333304,NA,NA,interpolación
+Primavera,2020-04-27,4,0.3333333333333335,NA,NA,minsal
 Providencia,2020-03-30,82,0,NA,NA,minsal
 Providencia,2020-03-31,125.5,43.5,NA,NA,interpolación
 Providencia,2020-04-01,169,43.5,NA,NA,minsal
@@ -5979,6 +6666,9 @@ Providencia,2020-04-21,1287,49,NA,NA,interpolación
 Providencia,2020-04-22,1336,49,NA,NA,interpolación
 Providencia,2020-04-23,1385,49,NA,NA,interpolación
 Providencia,2020-04-24,1434,49,NA,NA,minsal
+Providencia,2020-04-25,1500.6666666666667,66.66666666666674,NA,NA,interpolación
+Providencia,2020-04-26,1567.3333333333333,66.66666666666652,NA,NA,interpolación
+Providencia,2020-04-27,1634,66.66666666666674,NA,NA,minsal
 Puchuncaví,2020-03-30,0,0,NA,NA,minsal
 Puchuncaví,2020-03-31,0,0,NA,NA,interpolación
 Puchuncaví,2020-04-01,0,0,NA,NA,minsal
@@ -6005,6 +6695,9 @@ Puchuncaví,2020-04-21,0,0,NA,NA,interpolación
 Puchuncaví,2020-04-22,0,0,NA,NA,interpolación
 Puchuncaví,2020-04-23,0,0,NA,NA,interpolación
 Puchuncaví,2020-04-24,0,0,NA,NA,minsal
+Puchuncaví,2020-04-25,0,0,NA,NA,interpolación
+Puchuncaví,2020-04-26,0,0,NA,NA,interpolación
+Puchuncaví,2020-04-27,0,0,NA,NA,minsal
 Pucón,2020-03-30,0,0,NA,NA,minsal
 Pucón,2020-03-31,1.5,1.5,NA,NA,interpolación
 Pucón,2020-04-01,3,1.5,NA,NA,minsal
@@ -6031,6 +6724,9 @@ Pucón,2020-04-21,55,3,NA,NA,interpolación
 Pucón,2020-04-22,58,3,NA,NA,interpolación
 Pucón,2020-04-23,61,3,NA,NA,interpolación
 Pucón,2020-04-24,64,3,NA,NA,minsal
+Pucón,2020-04-25,68.66666666666667,4.666666666666671,NA,NA,interpolación
+Pucón,2020-04-26,73.33333333333333,4.666666666666657,NA,NA,interpolación
+Pucón,2020-04-27,78,4.666666666666671,NA,NA,minsal
 Pudahuel,2020-03-30,17,0,NA,NA,minsal
 Pudahuel,2020-03-31,29.5,12.5,NA,NA,interpolación
 Pudahuel,2020-04-01,42,12.5,NA,NA,minsal
@@ -6057,6 +6753,9 @@ Pudahuel,2020-04-21,658.25,34.25,NA,NA,interpolación
 Pudahuel,2020-04-22,692.5,34.25,NA,NA,interpolación
 Pudahuel,2020-04-23,726.75,34.25,NA,NA,interpolación
 Pudahuel,2020-04-24,761,34.25,NA,NA,minsal
+Pudahuel,2020-04-25,816.6666666666666,55.66666666666663,NA,NA,interpolación
+Pudahuel,2020-04-26,872.3333333333334,55.66666666666674,NA,NA,interpolación
+Pudahuel,2020-04-27,928,55.66666666666663,NA,NA,minsal
 Puente Alto,2020-03-30,45,0,NA,NA,minsal
 Puente Alto,2020-03-31,74,29,NA,NA,interpolación
 Puente Alto,2020-04-01,103,29,NA,NA,minsal
@@ -6083,6 +6782,9 @@ Puente Alto,2020-04-21,2605,172,NA,NA,interpolación
 Puente Alto,2020-04-22,2777,172,NA,NA,interpolación
 Puente Alto,2020-04-23,2949,172,NA,NA,interpolación
 Puente Alto,2020-04-24,3121,172,NA,NA,minsal
+Puente Alto,2020-04-25,3375.6666666666665,254.66666666666652,NA,NA,interpolación
+Puente Alto,2020-04-26,3630.3333333333335,254.66666666666697,NA,NA,interpolación
+Puente Alto,2020-04-27,3885,254.66666666666652,NA,NA,minsal
 Puerto Montt,2020-03-30,34,0,NA,NA,minsal
 Puerto Montt,2020-03-31,56,22,NA,NA,interpolación
 Puerto Montt,2020-04-01,78,22,NA,NA,minsal
@@ -6109,6 +6811,9 @@ Puerto Montt,2020-04-21,524.25,18.25,NA,NA,interpolación
 Puerto Montt,2020-04-22,542.5,18.25,NA,NA,interpolación
 Puerto Montt,2020-04-23,560.75,18.25,NA,NA,interpolación
 Puerto Montt,2020-04-24,579,18.25,NA,NA,minsal
+Puerto Montt,2020-04-25,603.3333333333334,24.33333333333337,NA,NA,interpolación
+Puerto Montt,2020-04-26,627.6666666666666,24.333333333333258,NA,NA,interpolación
+Puerto Montt,2020-04-27,652,24.33333333333337,NA,NA,minsal
 Puerto Octay,2020-03-30,0,0,NA,NA,minsal
 Puerto Octay,2020-03-31,0.5,0.5,NA,NA,interpolación
 Puerto Octay,2020-04-01,1,0.5,NA,NA,minsal
@@ -6135,6 +6840,9 @@ Puerto Octay,2020-04-21,9.5,0.5,NA,NA,interpolación
 Puerto Octay,2020-04-22,10,0.5,NA,NA,interpolación
 Puerto Octay,2020-04-23,10.5,0.5,NA,NA,interpolación
 Puerto Octay,2020-04-24,11,0.5,NA,NA,minsal
+Puerto Octay,2020-04-25,12.333333333333334,1.333333333333334,NA,NA,interpolación
+Puerto Octay,2020-04-26,13.666666666666666,1.3333333333333321,NA,NA,interpolación
+Puerto Octay,2020-04-27,15,1.333333333333334,NA,NA,minsal
 Puerto Varas,2020-03-30,0,0,NA,NA,minsal
 Puerto Varas,2020-03-31,0.5,0.5,NA,NA,interpolación
 Puerto Varas,2020-04-01,1,0.5,NA,NA,minsal
@@ -6161,6 +6869,9 @@ Puerto Varas,2020-04-21,44.25,2.25,NA,NA,interpolación
 Puerto Varas,2020-04-22,46.5,2.25,NA,NA,interpolación
 Puerto Varas,2020-04-23,48.75,2.25,NA,NA,interpolación
 Puerto Varas,2020-04-24,51,2.25,NA,NA,minsal
+Puerto Varas,2020-04-25,54,3,NA,NA,interpolación
+Puerto Varas,2020-04-26,57,3,NA,NA,interpolación
+Puerto Varas,2020-04-27,60,3,NA,NA,minsal
 Pumanque,2020-03-30,0,0,NA,NA,minsal
 Pumanque,2020-03-31,0,0,NA,NA,interpolación
 Pumanque,2020-04-01,0,0,NA,NA,minsal
@@ -6187,6 +6898,9 @@ Pumanque,2020-04-21,0,0,NA,NA,interpolación
 Pumanque,2020-04-22,0,0,NA,NA,interpolación
 Pumanque,2020-04-23,0,0,NA,NA,interpolación
 Pumanque,2020-04-24,0,0,NA,NA,minsal
+Pumanque,2020-04-25,0,0,NA,NA,interpolación
+Pumanque,2020-04-26,0,0,NA,NA,interpolación
+Pumanque,2020-04-27,0,0,NA,NA,minsal
 Punitaqui,2020-03-30,0,0,NA,NA,minsal
 Punitaqui,2020-03-31,0,0,NA,NA,interpolación
 Punitaqui,2020-04-01,0,0,NA,NA,minsal
@@ -6213,6 +6927,9 @@ Punitaqui,2020-04-21,0.25,0.25,NA,NA,interpolación
 Punitaqui,2020-04-22,0.5,0.25,NA,NA,interpolación
 Punitaqui,2020-04-23,0.75,0.25,NA,NA,interpolación
 Punitaqui,2020-04-24,1,0.25,NA,NA,minsal
+Punitaqui,2020-04-25,1.3333333333333333,0.33333333333333326,NA,NA,interpolación
+Punitaqui,2020-04-26,1.6666666666666665,0.33333333333333326,NA,NA,interpolación
+Punitaqui,2020-04-27,2,0.3333333333333335,NA,NA,minsal
 Punta Arenas,2020-03-30,29,0,NA,NA,minsal
 Punta Arenas,2020-03-31,72.5,43.5,NA,NA,interpolación
 Punta Arenas,2020-04-01,116,43.5,NA,NA,minsal
@@ -6239,6 +6956,9 @@ Punta Arenas,2020-04-21,2902.25,145.25,NA,NA,interpolación
 Punta Arenas,2020-04-22,3047.5,145.25,NA,NA,interpolación
 Punta Arenas,2020-04-23,3192.75,145.25,NA,NA,interpolación
 Punta Arenas,2020-04-24,3338,145.25,NA,NA,minsal
+Punta Arenas,2020-04-25,3545.6666666666665,207.66666666666652,NA,NA,interpolación
+Punta Arenas,2020-04-26,3753.3333333333335,207.66666666666697,NA,NA,interpolación
+Punta Arenas,2020-04-27,3961,207.66666666666652,NA,NA,minsal
 Puqueldón,2020-03-30,0,0,NA,NA,minsal
 Puqueldón,2020-03-31,0,0,NA,NA,interpolación
 Puqueldón,2020-04-01,0,0,NA,NA,minsal
@@ -6265,6 +6985,9 @@ Puqueldón,2020-04-21,0,0,NA,NA,interpolación
 Puqueldón,2020-04-22,0,0,NA,NA,interpolación
 Puqueldón,2020-04-23,0,0,NA,NA,interpolación
 Puqueldón,2020-04-24,0,0,NA,NA,minsal
+Puqueldón,2020-04-25,0,0,NA,NA,interpolación
+Puqueldón,2020-04-26,0,0,NA,NA,interpolación
+Puqueldón,2020-04-27,0,0,NA,NA,minsal
 Purén,2020-03-30,0,0,NA,NA,minsal
 Purén,2020-03-31,0.5,0.5,NA,NA,interpolación
 Purén,2020-04-01,1,0.5,NA,NA,minsal
@@ -6291,6 +7014,9 @@ Purén,2020-04-21,16.5,0.5,NA,NA,interpolación
 Purén,2020-04-22,17,0.5,NA,NA,interpolación
 Purén,2020-04-23,17.5,0.5,NA,NA,interpolación
 Purén,2020-04-24,18,0.5,NA,NA,minsal
+Purén,2020-04-25,18.666666666666668,0.6666666666666679,NA,NA,interpolación
+Purén,2020-04-26,19.333333333333332,0.6666666666666643,NA,NA,interpolación
+Purén,2020-04-27,20,0.6666666666666679,NA,NA,minsal
 Purranque,2020-03-30,0,0,NA,NA,minsal
 Purranque,2020-03-31,0.5,0.5,NA,NA,interpolación
 Purranque,2020-04-01,1,0.5,NA,NA,minsal
@@ -6317,6 +7043,9 @@ Purranque,2020-04-21,106.25,4.25,NA,NA,interpolación
 Purranque,2020-04-22,110.5,4.25,NA,NA,interpolación
 Purranque,2020-04-23,114.75,4.25,NA,NA,interpolación
 Purranque,2020-04-24,119,4.25,NA,NA,minsal
+Purranque,2020-04-25,124.66666666666667,5.666666666666671,NA,NA,interpolación
+Purranque,2020-04-26,130.33333333333334,5.666666666666671,NA,NA,interpolación
+Purranque,2020-04-27,136,5.666666666666657,NA,NA,minsal
 Putaendo,2020-03-30,0,0,NA,NA,minsal
 Putaendo,2020-03-31,0.5,0.5,NA,NA,interpolación
 Putaendo,2020-04-01,1,0.5,NA,NA,minsal
@@ -6343,6 +7072,9 @@ Putaendo,2020-04-21,16.25,1.25,NA,NA,interpolación
 Putaendo,2020-04-22,17.5,1.25,NA,NA,interpolación
 Putaendo,2020-04-23,18.75,1.25,NA,NA,interpolación
 Putaendo,2020-04-24,20,1.25,NA,NA,minsal
+Putaendo,2020-04-25,21.666666666666668,1.6666666666666679,NA,NA,interpolación
+Putaendo,2020-04-26,23.333333333333332,1.6666666666666643,NA,NA,interpolación
+Putaendo,2020-04-27,25,1.6666666666666679,NA,NA,minsal
 Putre,2020-03-30,0,0,NA,NA,minsal
 Putre,2020-03-31,0,0,NA,NA,interpolación
 Putre,2020-04-01,0,0,NA,NA,minsal
@@ -6369,6 +7101,9 @@ Putre,2020-04-21,0,0,NA,NA,interpolación
 Putre,2020-04-22,0,0,NA,NA,interpolación
 Putre,2020-04-23,0,0,NA,NA,interpolación
 Putre,2020-04-24,0,0,NA,NA,minsal
+Putre,2020-04-25,0,0,NA,NA,interpolación
+Putre,2020-04-26,0,0,NA,NA,interpolación
+Putre,2020-04-27,0,0,NA,NA,minsal
 Puyehue,2020-03-30,0,0,NA,NA,minsal
 Puyehue,2020-03-31,0.5,0.5,NA,NA,interpolación
 Puyehue,2020-04-01,1,0.5,NA,NA,minsal
@@ -6395,6 +7130,9 @@ Puyehue,2020-04-21,12.25,0.25,NA,NA,interpolación
 Puyehue,2020-04-22,12.5,0.25,NA,NA,interpolación
 Puyehue,2020-04-23,12.75,0.25,NA,NA,interpolación
 Puyehue,2020-04-24,13,0.25,NA,NA,minsal
+Puyehue,2020-04-25,13.666666666666666,0.6666666666666661,NA,NA,interpolación
+Puyehue,2020-04-26,14.333333333333334,0.6666666666666679,NA,NA,interpolación
+Puyehue,2020-04-27,15,0.6666666666666661,NA,NA,minsal
 Queilén,2020-03-30,0,0,NA,NA,minsal
 Queilén,2020-03-31,0,0,NA,NA,interpolación
 Queilén,2020-04-01,0,0,NA,NA,minsal
@@ -6421,6 +7159,9 @@ Queilén,2020-04-21,0,0,NA,NA,interpolación
 Queilén,2020-04-22,0,0,NA,NA,interpolación
 Queilén,2020-04-23,0,0,NA,NA,interpolación
 Queilén,2020-04-24,0,0,NA,NA,minsal
+Queilén,2020-04-25,0,0,NA,NA,interpolación
+Queilén,2020-04-26,0,0,NA,NA,interpolación
+Queilén,2020-04-27,0,0,NA,NA,minsal
 Quellón,2020-03-30,0,0,NA,NA,minsal
 Quellón,2020-03-31,0,0,NA,NA,interpolación
 Quellón,2020-04-01,0,0,NA,NA,minsal
@@ -6447,6 +7188,9 @@ Quellón,2020-04-21,0,0,NA,NA,interpolación
 Quellón,2020-04-22,0,0,NA,NA,interpolación
 Quellón,2020-04-23,0,0,NA,NA,interpolación
 Quellón,2020-04-24,0,0,NA,NA,minsal
+Quellón,2020-04-25,0,0,NA,NA,interpolación
+Quellón,2020-04-26,0,0,NA,NA,interpolación
+Quellón,2020-04-27,0,0,NA,NA,minsal
 Quemchi,2020-03-30,0,0,NA,NA,minsal
 Quemchi,2020-03-31,0,0,NA,NA,interpolación
 Quemchi,2020-04-01,0,0,NA,NA,minsal
@@ -6473,6 +7217,9 @@ Quemchi,2020-04-21,0,0,NA,NA,interpolación
 Quemchi,2020-04-22,0,0,NA,NA,interpolación
 Quemchi,2020-04-23,0,0,NA,NA,interpolación
 Quemchi,2020-04-24,0,0,NA,NA,minsal
+Quemchi,2020-04-25,0,0,NA,NA,interpolación
+Quemchi,2020-04-26,0,0,NA,NA,interpolación
+Quemchi,2020-04-27,0,0,NA,NA,minsal
 Quilaco,2020-03-30,0,0,NA,NA,minsal
 Quilaco,2020-03-31,0,0,NA,NA,interpolación
 Quilaco,2020-04-01,0,0,NA,NA,minsal
@@ -6499,6 +7246,9 @@ Quilaco,2020-04-21,0,0,NA,NA,interpolación
 Quilaco,2020-04-22,0,0,NA,NA,interpolación
 Quilaco,2020-04-23,0,0,NA,NA,interpolación
 Quilaco,2020-04-24,0,0,NA,NA,minsal
+Quilaco,2020-04-25,0,0,NA,NA,interpolación
+Quilaco,2020-04-26,0,0,NA,NA,interpolación
+Quilaco,2020-04-27,0,0,NA,NA,minsal
 Quilicura,2020-03-30,17,0,NA,NA,minsal
 Quilicura,2020-03-31,31.5,14.5,NA,NA,interpolación
 Quilicura,2020-04-01,46,14.5,NA,NA,minsal
@@ -6525,6 +7275,9 @@ Quilicura,2020-04-21,743,41,NA,NA,interpolación
 Quilicura,2020-04-22,784,41,NA,NA,interpolación
 Quilicura,2020-04-23,825,41,NA,NA,interpolación
 Quilicura,2020-04-24,866,41,NA,NA,minsal
+Quilicura,2020-04-25,944.6666666666666,78.66666666666663,NA,NA,interpolación
+Quilicura,2020-04-26,1023.3333333333333,78.66666666666663,NA,NA,interpolación
+Quilicura,2020-04-27,1102,78.66666666666674,NA,NA,minsal
 Quilleco,2020-03-30,0,0,NA,NA,minsal
 Quilleco,2020-03-31,0,0,NA,NA,interpolación
 Quilleco,2020-04-01,0,0,NA,NA,minsal
@@ -6551,6 +7304,9 @@ Quilleco,2020-04-21,1.25,0.25,NA,NA,interpolación
 Quilleco,2020-04-22,1.5,0.25,NA,NA,interpolación
 Quilleco,2020-04-23,1.75,0.25,NA,NA,interpolación
 Quilleco,2020-04-24,2,0.25,NA,NA,minsal
+Quilleco,2020-04-25,2,0,NA,NA,interpolación
+Quilleco,2020-04-26,2,0,NA,NA,interpolación
+Quilleco,2020-04-27,2,0,NA,NA,minsal
 Quillón,2020-03-30,4,0,NA,NA,minsal
 Quillón,2020-03-31,7.5,3.5,NA,NA,interpolación
 Quillón,2020-04-01,11,3.5,NA,NA,minsal
@@ -6577,6 +7333,9 @@ Quillón,2020-04-21,189.5,6.5,NA,NA,interpolación
 Quillón,2020-04-22,196,6.5,NA,NA,interpolación
 Quillón,2020-04-23,202.5,6.5,NA,NA,interpolación
 Quillón,2020-04-24,209,6.5,NA,NA,minsal
+Quillón,2020-04-25,218.33333333333334,9.333333333333343,NA,NA,interpolación
+Quillón,2020-04-26,227.66666666666666,9.333333333333314,NA,NA,interpolación
+Quillón,2020-04-27,237,9.333333333333343,NA,NA,minsal
 Quillota,2020-03-30,6,0,NA,NA,minsal
 Quillota,2020-03-31,9.5,3.5,NA,NA,interpolación
 Quillota,2020-04-01,13,3.5,NA,NA,minsal
@@ -6603,6 +7362,9 @@ Quillota,2020-04-21,135.5,5.5,NA,NA,interpolación
 Quillota,2020-04-22,141,5.5,NA,NA,interpolación
 Quillota,2020-04-23,146.5,5.5,NA,NA,interpolación
 Quillota,2020-04-24,152,5.5,NA,NA,minsal
+Quillota,2020-04-25,159.33333333333334,7.333333333333343,NA,NA,interpolación
+Quillota,2020-04-26,166.66666666666666,7.333333333333314,NA,NA,interpolación
+Quillota,2020-04-27,174,7.333333333333343,NA,NA,minsal
 Quilpué,2020-03-30,11,0,NA,NA,minsal
 Quilpué,2020-03-31,16,5,NA,NA,interpolación
 Quilpué,2020-04-01,21,5,NA,NA,minsal
@@ -6629,6 +7391,9 @@ Quilpué,2020-04-21,174.5,7.5,NA,NA,interpolación
 Quilpué,2020-04-22,182,7.5,NA,NA,interpolación
 Quilpué,2020-04-23,189.5,7.5,NA,NA,interpolación
 Quilpué,2020-04-24,197,7.5,NA,NA,minsal
+Quilpué,2020-04-25,207,10,NA,NA,interpolación
+Quilpué,2020-04-26,217,10,NA,NA,interpolación
+Quilpué,2020-04-27,227,10,NA,NA,minsal
 Quinchao,2020-03-30,0,0,NA,NA,minsal
 Quinchao,2020-03-31,0.5,0.5,NA,NA,interpolación
 Quinchao,2020-04-01,1,0.5,NA,NA,minsal
@@ -6655,6 +7420,9 @@ Quinchao,2020-04-21,9.25,0.25,NA,NA,interpolación
 Quinchao,2020-04-22,9.5,0.25,NA,NA,interpolación
 Quinchao,2020-04-23,9.75,0.25,NA,NA,interpolación
 Quinchao,2020-04-24,10,0.25,NA,NA,minsal
+Quinchao,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Quinchao,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Quinchao,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Quinta de Tilcoco,2020-03-30,0,0,NA,NA,minsal
 Quinta de Tilcoco,2020-03-31,1,1,NA,NA,interpolación
 Quinta de Tilcoco,2020-04-01,2,1,NA,NA,minsal
@@ -6681,6 +7449,9 @@ Quinta de Tilcoco,2020-04-21,20.25,0.25,NA,NA,interpolación
 Quinta de Tilcoco,2020-04-22,20.5,0.25,NA,NA,interpolación
 Quinta de Tilcoco,2020-04-23,20.75,0.25,NA,NA,interpolación
 Quinta de Tilcoco,2020-04-24,21,0.25,NA,NA,minsal
+Quinta de Tilcoco,2020-04-25,21.333333333333332,0.33333333333333215,NA,NA,interpolación
+Quinta de Tilcoco,2020-04-26,21.666666666666668,0.3333333333333357,NA,NA,interpolación
+Quinta de Tilcoco,2020-04-27,22,0.33333333333333215,NA,NA,minsal
 Quinta Normal,2020-03-30,21,0,NA,NA,minsal
 Quinta Normal,2020-03-31,33.5,12.5,NA,NA,interpolación
 Quinta Normal,2020-04-01,46,12.5,NA,NA,minsal
@@ -6707,6 +7478,9 @@ Quinta Normal,2020-04-21,754,43,NA,NA,interpolación
 Quinta Normal,2020-04-22,797,43,NA,NA,interpolación
 Quinta Normal,2020-04-23,840,43,NA,NA,interpolación
 Quinta Normal,2020-04-24,883,43,NA,NA,minsal
+Quinta Normal,2020-04-25,947.6666666666666,64.66666666666663,NA,NA,interpolación
+Quinta Normal,2020-04-26,1012.3333333333333,64.66666666666663,NA,NA,interpolación
+Quinta Normal,2020-04-27,1077,64.66666666666674,NA,NA,minsal
 Quintero,2020-03-30,0,0,NA,NA,minsal
 Quintero,2020-03-31,1.5,1.5,NA,NA,interpolación
 Quintero,2020-04-01,3,1.5,NA,NA,minsal
@@ -6733,6 +7507,9 @@ Quintero,2020-04-21,32.5,1.5,NA,NA,interpolación
 Quintero,2020-04-22,34,1.5,NA,NA,interpolación
 Quintero,2020-04-23,35.5,1.5,NA,NA,interpolación
 Quintero,2020-04-24,37,1.5,NA,NA,minsal
+Quintero,2020-04-25,40,3,NA,NA,interpolación
+Quintero,2020-04-26,43,3,NA,NA,interpolación
+Quintero,2020-04-27,46,3,NA,NA,minsal
 Quirihue,2020-03-30,0,0,NA,NA,minsal
 Quirihue,2020-03-31,0,0,NA,NA,interpolación
 Quirihue,2020-04-01,0,0,NA,NA,minsal
@@ -6759,6 +7536,9 @@ Quirihue,2020-04-21,22,1,NA,NA,interpolación
 Quirihue,2020-04-22,23,1,NA,NA,interpolación
 Quirihue,2020-04-23,24,1,NA,NA,interpolación
 Quirihue,2020-04-24,25,1,NA,NA,minsal
+Quirihue,2020-04-25,26.333333333333332,1.3333333333333321,NA,NA,interpolación
+Quirihue,2020-04-26,27.666666666666668,1.3333333333333357,NA,NA,interpolación
+Quirihue,2020-04-27,29,1.3333333333333321,NA,NA,minsal
 Rancagua,2020-03-30,7,0,NA,NA,minsal
 Rancagua,2020-03-31,10.5,3.5,NA,NA,interpolación
 Rancagua,2020-04-01,14,3.5,NA,NA,minsal
@@ -6785,6 +7565,9 @@ Rancagua,2020-04-21,142,7,NA,NA,interpolación
 Rancagua,2020-04-22,149,7,NA,NA,interpolación
 Rancagua,2020-04-23,156,7,NA,NA,interpolación
 Rancagua,2020-04-24,163,7,NA,NA,minsal
+Rancagua,2020-04-25,173.66666666666666,10.666666666666657,NA,NA,interpolación
+Rancagua,2020-04-26,184.33333333333334,10.666666666666686,NA,NA,interpolación
+Rancagua,2020-04-27,195,10.666666666666657,NA,NA,minsal
 Ránquil,2020-03-30,0,0,NA,NA,minsal
 Ránquil,2020-03-31,0.5,0.5,NA,NA,interpolación
 Ránquil,2020-04-01,1,0.5,NA,NA,minsal
@@ -6811,6 +7594,9 @@ Ránquil,2020-04-21,70.25,2.25,NA,NA,interpolación
 Ránquil,2020-04-22,72.5,2.25,NA,NA,interpolación
 Ránquil,2020-04-23,74.75,2.25,NA,NA,interpolación
 Ránquil,2020-04-24,77,2.25,NA,NA,minsal
+Ránquil,2020-04-25,80.33333333333333,3.3333333333333286,NA,NA,interpolación
+Ránquil,2020-04-26,83.66666666666667,3.333333333333343,NA,NA,interpolación
+Ránquil,2020-04-27,87,3.3333333333333286,NA,NA,minsal
 Rauco,2020-03-30,0,0,NA,NA,minsal
 Rauco,2020-03-31,0,0,NA,NA,interpolación
 Rauco,2020-04-01,0,0,NA,NA,minsal
@@ -6837,6 +7623,9 @@ Rauco,2020-04-21,13.5,0.5,NA,NA,interpolación
 Rauco,2020-04-22,14,0.5,NA,NA,interpolación
 Rauco,2020-04-23,14.5,0.5,NA,NA,interpolación
 Rauco,2020-04-24,15,0.5,NA,NA,minsal
+Rauco,2020-04-25,15.666666666666666,0.6666666666666661,NA,NA,interpolación
+Rauco,2020-04-26,16.333333333333332,0.6666666666666661,NA,NA,interpolación
+Rauco,2020-04-27,17,0.6666666666666679,NA,NA,minsal
 Recoleta,2020-03-30,17,0,NA,NA,minsal
 Recoleta,2020-03-31,28.5,11.5,NA,NA,interpolación
 Recoleta,2020-04-01,40,11.5,NA,NA,minsal
@@ -6863,6 +7652,9 @@ Recoleta,2020-04-21,659.5,43.5,NA,NA,interpolación
 Recoleta,2020-04-22,703,43.5,NA,NA,interpolación
 Recoleta,2020-04-23,746.5,43.5,NA,NA,interpolación
 Recoleta,2020-04-24,790,43.5,NA,NA,minsal
+Recoleta,2020-04-25,865.3333333333334,75.33333333333337,NA,NA,interpolación
+Recoleta,2020-04-26,940.6666666666666,75.33333333333326,NA,NA,interpolación
+Recoleta,2020-04-27,1016,75.33333333333337,NA,NA,minsal
 Renaico,2020-03-30,0,0,NA,NA,minsal
 Renaico,2020-03-31,0,0,NA,NA,interpolación
 Renaico,2020-04-01,0,0,NA,NA,minsal
@@ -6889,6 +7681,9 @@ Renaico,2020-04-21,12,1,NA,NA,interpolación
 Renaico,2020-04-22,13,1,NA,NA,interpolación
 Renaico,2020-04-23,14,1,NA,NA,interpolación
 Renaico,2020-04-24,15,1,NA,NA,minsal
+Renaico,2020-04-25,16.333333333333332,1.3333333333333321,NA,NA,interpolación
+Renaico,2020-04-26,17.666666666666668,1.3333333333333357,NA,NA,interpolación
+Renaico,2020-04-27,19,1.3333333333333321,NA,NA,minsal
 Renca,2020-03-30,9,0,NA,NA,minsal
 Renca,2020-03-31,16,7,NA,NA,interpolación
 Renca,2020-04-01,23,7,NA,NA,minsal
@@ -6915,6 +7710,9 @@ Renca,2020-04-21,380.75,26.75,NA,NA,interpolación
 Renca,2020-04-22,407.5,26.75,NA,NA,interpolación
 Renca,2020-04-23,434.25,26.75,NA,NA,interpolación
 Renca,2020-04-24,461,26.75,NA,NA,minsal
+Renca,2020-04-25,504.6666666666667,43.666666666666686,NA,NA,interpolación
+Renca,2020-04-26,548.3333333333334,43.666666666666686,NA,NA,interpolación
+Renca,2020-04-27,592,43.66666666666663,NA,NA,minsal
 Rengo,2020-03-30,0,0,NA,NA,minsal
 Rengo,2020-03-31,0.5,0.5,NA,NA,interpolación
 Rengo,2020-04-01,1,0.5,NA,NA,minsal
@@ -6941,6 +7739,9 @@ Rengo,2020-04-21,10.75,0.75,NA,NA,interpolación
 Rengo,2020-04-22,11.5,0.75,NA,NA,interpolación
 Rengo,2020-04-23,12.25,0.75,NA,NA,interpolación
 Rengo,2020-04-24,13,0.75,NA,NA,minsal
+Rengo,2020-04-25,15.333333333333332,2.333333333333332,NA,NA,interpolación
+Rengo,2020-04-26,17.666666666666664,2.333333333333332,NA,NA,interpolación
+Rengo,2020-04-27,20,2.3333333333333357,NA,NA,minsal
 Requínoa,2020-03-30,0,0,NA,NA,minsal
 Requínoa,2020-03-31,0.5,0.5,NA,NA,interpolación
 Requínoa,2020-04-01,1,0.5,NA,NA,minsal
@@ -6967,6 +7768,9 @@ Requínoa,2020-04-21,10.75,0.75,NA,NA,interpolación
 Requínoa,2020-04-22,11.5,0.75,NA,NA,interpolación
 Requínoa,2020-04-23,12.25,0.75,NA,NA,interpolación
 Requínoa,2020-04-24,13,0.75,NA,NA,minsal
+Requínoa,2020-04-25,14.333333333333334,1.333333333333334,NA,NA,interpolación
+Requínoa,2020-04-26,15.666666666666666,1.3333333333333321,NA,NA,interpolación
+Requínoa,2020-04-27,17,1.333333333333334,NA,NA,minsal
 Retiro,2020-03-30,0,0,NA,NA,minsal
 Retiro,2020-03-31,0,0,NA,NA,interpolación
 Retiro,2020-04-01,0,0,NA,NA,minsal
@@ -6993,6 +7797,9 @@ Retiro,2020-04-21,6.25,0.25,NA,NA,interpolación
 Retiro,2020-04-22,6.5,0.25,NA,NA,interpolación
 Retiro,2020-04-23,6.75,0.25,NA,NA,interpolación
 Retiro,2020-04-24,7,0.25,NA,NA,minsal
+Retiro,2020-04-25,7.333333333333333,0.33333333333333304,NA,NA,interpolación
+Retiro,2020-04-26,7.666666666666667,0.3333333333333339,NA,NA,interpolación
+Retiro,2020-04-27,8,0.33333333333333304,NA,NA,minsal
 Rinconada,2020-03-30,0,0,NA,NA,minsal
 Rinconada,2020-03-31,0,0,NA,NA,interpolación
 Rinconada,2020-04-01,0,0,NA,NA,minsal
@@ -7019,6 +7826,9 @@ Rinconada,2020-04-21,11.5,0.5,NA,NA,interpolación
 Rinconada,2020-04-22,12,0.5,NA,NA,interpolación
 Rinconada,2020-04-23,12.5,0.5,NA,NA,interpolación
 Rinconada,2020-04-24,13,0.5,NA,NA,minsal
+Rinconada,2020-04-25,13.666666666666666,0.6666666666666661,NA,NA,interpolación
+Rinconada,2020-04-26,14.333333333333334,0.6666666666666679,NA,NA,interpolación
+Rinconada,2020-04-27,15,0.6666666666666661,NA,NA,minsal
 Río Bueno,2020-03-30,0,0,NA,NA,minsal
 Río Bueno,2020-03-31,1,1,NA,NA,interpolación
 Río Bueno,2020-04-01,2,1,NA,NA,minsal
@@ -7045,6 +7855,9 @@ Río Bueno,2020-04-21,56.5,2.5,NA,NA,interpolación
 Río Bueno,2020-04-22,59,2.5,NA,NA,interpolación
 Río Bueno,2020-04-23,61.5,2.5,NA,NA,interpolación
 Río Bueno,2020-04-24,64,2.5,NA,NA,minsal
+Río Bueno,2020-04-25,67.66666666666667,3.6666666666666714,NA,NA,interpolación
+Río Bueno,2020-04-26,71.33333333333333,3.666666666666657,NA,NA,interpolación
+Río Bueno,2020-04-27,75,3.6666666666666714,NA,NA,minsal
 Río Claro,2020-03-30,0,0,NA,NA,minsal
 Río Claro,2020-03-31,0.5,0.5,NA,NA,interpolación
 Río Claro,2020-04-01,1,0.5,NA,NA,minsal
@@ -7071,6 +7884,9 @@ Río Claro,2020-04-21,27.75,1.75,NA,NA,interpolación
 Río Claro,2020-04-22,29.5,1.75,NA,NA,interpolación
 Río Claro,2020-04-23,31.25,1.75,NA,NA,interpolación
 Río Claro,2020-04-24,33,1.75,NA,NA,minsal
+Río Claro,2020-04-25,35.333333333333336,2.3333333333333357,NA,NA,interpolación
+Río Claro,2020-04-26,37.666666666666664,2.3333333333333286,NA,NA,interpolación
+Río Claro,2020-04-27,40,2.3333333333333357,NA,NA,minsal
 Río Hurtado,2020-03-30,0,0,NA,NA,minsal
 Río Hurtado,2020-03-31,0.5,0.5,NA,NA,interpolación
 Río Hurtado,2020-04-01,1,0.5,NA,NA,minsal
@@ -7097,6 +7913,9 @@ Río Hurtado,2020-04-21,9.25,0.25,NA,NA,interpolación
 Río Hurtado,2020-04-22,9.5,0.25,NA,NA,interpolación
 Río Hurtado,2020-04-23,9.75,0.25,NA,NA,interpolación
 Río Hurtado,2020-04-24,10,0.25,NA,NA,minsal
+Río Hurtado,2020-04-25,10.333333333333334,0.3333333333333339,NA,NA,interpolación
+Río Hurtado,2020-04-26,10.666666666666666,0.33333333333333215,NA,NA,interpolación
+Río Hurtado,2020-04-27,11,0.3333333333333339,NA,NA,minsal
 Río Ibáñez,2020-03-30,0,0,NA,NA,minsal
 Río Ibáñez,2020-03-31,0,0,NA,NA,interpolación
 Río Ibáñez,2020-04-01,0,0,NA,NA,minsal
@@ -7123,6 +7942,9 @@ Río Ibáñez,2020-04-21,0,0,NA,NA,interpolación
 Río Ibáñez,2020-04-22,0,0,NA,NA,interpolación
 Río Ibáñez,2020-04-23,0,0,NA,NA,interpolación
 Río Ibáñez,2020-04-24,0,0,NA,NA,minsal
+Río Ibáñez,2020-04-25,0,0,NA,NA,interpolación
+Río Ibáñez,2020-04-26,0,0,NA,NA,interpolación
+Río Ibáñez,2020-04-27,0,0,NA,NA,minsal
 Río Negro,2020-03-30,0,0,NA,NA,minsal
 Río Negro,2020-03-31,0,0,NA,NA,interpolación
 Río Negro,2020-04-01,0,0,NA,NA,minsal
@@ -7149,6 +7971,9 @@ Río Negro,2020-04-21,20.25,1.25,NA,NA,interpolación
 Río Negro,2020-04-22,21.5,1.25,NA,NA,interpolación
 Río Negro,2020-04-23,22.75,1.25,NA,NA,interpolación
 Río Negro,2020-04-24,24,1.25,NA,NA,minsal
+Río Negro,2020-04-25,25.666666666666668,1.6666666666666679,NA,NA,interpolación
+Río Negro,2020-04-26,27.333333333333332,1.6666666666666643,NA,NA,interpolación
+Río Negro,2020-04-27,29,1.6666666666666679,NA,NA,minsal
 Río Verde,2020-03-30,0,0,NA,NA,minsal
 Río Verde,2020-03-31,0,0,NA,NA,interpolación
 Río Verde,2020-04-01,0,0,NA,NA,minsal
@@ -7175,6 +8000,9 @@ Río Verde,2020-04-21,0,0,NA,NA,interpolación
 Río Verde,2020-04-22,0,0,NA,NA,interpolación
 Río Verde,2020-04-23,0,0,NA,NA,interpolación
 Río Verde,2020-04-24,0,0,NA,NA,minsal
+Río Verde,2020-04-25,0,0,NA,NA,interpolación
+Río Verde,2020-04-26,0,0,NA,NA,interpolación
+Río Verde,2020-04-27,0,0,NA,NA,minsal
 Romeral,2020-03-30,0,0,NA,NA,minsal
 Romeral,2020-03-31,1,1,NA,NA,interpolación
 Romeral,2020-04-01,2,1,NA,NA,minsal
@@ -7201,6 +8029,9 @@ Romeral,2020-04-21,38.25,3.25,NA,NA,interpolación
 Romeral,2020-04-22,41.5,3.25,NA,NA,interpolación
 Romeral,2020-04-23,44.75,3.25,NA,NA,interpolación
 Romeral,2020-04-24,48,3.25,NA,NA,minsal
+Romeral,2020-04-25,52.333333333333336,4.333333333333336,NA,NA,interpolación
+Romeral,2020-04-26,56.666666666666664,4.333333333333329,NA,NA,interpolación
+Romeral,2020-04-27,61,4.333333333333336,NA,NA,minsal
 Saavedra,2020-03-30,0,0,NA,NA,minsal
 Saavedra,2020-03-31,0,0,NA,NA,interpolación
 Saavedra,2020-04-01,0,0,NA,NA,minsal
@@ -7227,6 +8058,9 @@ Saavedra,2020-04-21,17.75,3.75,NA,NA,interpolación
 Saavedra,2020-04-22,21.5,3.75,NA,NA,interpolación
 Saavedra,2020-04-23,25.25,3.75,NA,NA,interpolación
 Saavedra,2020-04-24,29,3.75,NA,NA,minsal
+Saavedra,2020-04-25,34.333333333333336,5.333333333333336,NA,NA,interpolación
+Saavedra,2020-04-26,39.666666666666664,5.333333333333329,NA,NA,interpolación
+Saavedra,2020-04-27,45,5.333333333333336,NA,NA,minsal
 Sagrada Familia,2020-03-30,0,0,NA,NA,minsal
 Sagrada Familia,2020-03-31,0,0,NA,NA,interpolación
 Sagrada Familia,2020-04-01,0,0,NA,NA,minsal
@@ -7253,6 +8087,9 @@ Sagrada Familia,2020-04-21,7.5,0.5,NA,NA,interpolación
 Sagrada Familia,2020-04-22,8,0.5,NA,NA,interpolación
 Sagrada Familia,2020-04-23,8.5,0.5,NA,NA,interpolación
 Sagrada Familia,2020-04-24,9,0.5,NA,NA,minsal
+Sagrada Familia,2020-04-25,9.666666666666666,0.6666666666666661,NA,NA,interpolación
+Sagrada Familia,2020-04-26,10.333333333333334,0.6666666666666679,NA,NA,interpolación
+Sagrada Familia,2020-04-27,11,0.6666666666666661,NA,NA,minsal
 Salamanca,2020-03-30,0,0,NA,NA,minsal
 Salamanca,2020-03-31,1,1,NA,NA,interpolación
 Salamanca,2020-04-01,2,1,NA,NA,minsal
@@ -7279,6 +8116,9 @@ Salamanca,2020-04-21,44.75,1.75,NA,NA,interpolación
 Salamanca,2020-04-22,46.5,1.75,NA,NA,interpolación
 Salamanca,2020-04-23,48.25,1.75,NA,NA,interpolación
 Salamanca,2020-04-24,50,1.75,NA,NA,minsal
+Salamanca,2020-04-25,52.333333333333336,2.3333333333333357,NA,NA,interpolación
+Salamanca,2020-04-26,54.666666666666664,2.3333333333333286,NA,NA,interpolación
+Salamanca,2020-04-27,57,2.3333333333333357,NA,NA,minsal
 San Antonio,2020-03-30,0,0,NA,NA,minsal
 San Antonio,2020-03-31,2,2,NA,NA,interpolación
 San Antonio,2020-04-01,4,2,NA,NA,minsal
@@ -7305,6 +8145,9 @@ San Antonio,2020-04-21,152.5,11.5,NA,NA,interpolación
 San Antonio,2020-04-22,164,11.5,NA,NA,interpolación
 San Antonio,2020-04-23,175.5,11.5,NA,NA,interpolación
 San Antonio,2020-04-24,187,11.5,NA,NA,minsal
+San Antonio,2020-04-25,204.66666666666666,17.666666666666657,NA,NA,interpolación
+San Antonio,2020-04-26,222.33333333333331,17.666666666666657,NA,NA,interpolación
+San Antonio,2020-04-27,240,17.666666666666686,NA,NA,minsal
 San Bernardo,2020-03-30,32,0,NA,NA,minsal
 San Bernardo,2020-03-31,52.5,20.5,NA,NA,interpolación
 San Bernardo,2020-04-01,73,20.5,NA,NA,minsal
@@ -7331,6 +8174,9 @@ San Bernardo,2020-04-21,1206.5,79.5,NA,NA,interpolación
 San Bernardo,2020-04-22,1286,79.5,NA,NA,interpolación
 San Bernardo,2020-04-23,1365.5,79.5,NA,NA,interpolación
 San Bernardo,2020-04-24,1445,79.5,NA,NA,minsal
+San Bernardo,2020-04-25,1569,124,NA,NA,interpolación
+San Bernardo,2020-04-26,1693,124,NA,NA,interpolación
+San Bernardo,2020-04-27,1817,124,NA,NA,minsal
 San Carlos,2020-03-30,8,0,NA,NA,minsal
 San Carlos,2020-03-31,14.5,6.5,NA,NA,interpolación
 San Carlos,2020-04-01,21,6.5,NA,NA,minsal
@@ -7357,6 +8203,9 @@ San Carlos,2020-04-21,243.5,8.5,NA,NA,interpolación
 San Carlos,2020-04-22,252,8.5,NA,NA,interpolación
 San Carlos,2020-04-23,260.5,8.5,NA,NA,interpolación
 San Carlos,2020-04-24,269,8.5,NA,NA,minsal
+San Carlos,2020-04-25,280.3333333333333,11.333333333333314,NA,NA,interpolación
+San Carlos,2020-04-26,291.6666666666667,11.333333333333371,NA,NA,interpolación
+San Carlos,2020-04-27,303,11.333333333333314,NA,NA,minsal
 San Clemente,2020-03-30,0,0,NA,NA,minsal
 San Clemente,2020-03-31,0,0,NA,NA,interpolación
 San Clemente,2020-04-01,0,0,NA,NA,minsal
@@ -7383,6 +8232,9 @@ San Clemente,2020-04-21,13.25,2.25,NA,NA,interpolación
 San Clemente,2020-04-22,15.5,2.25,NA,NA,interpolación
 San Clemente,2020-04-23,17.75,2.25,NA,NA,interpolación
 San Clemente,2020-04-24,20,2.25,NA,NA,minsal
+San Clemente,2020-04-25,23,3,NA,NA,interpolación
+San Clemente,2020-04-26,26,3,NA,NA,interpolación
+San Clemente,2020-04-27,29,3,NA,NA,minsal
 San Esteban,2020-03-30,0,0,NA,NA,minsal
 San Esteban,2020-03-31,0,0,NA,NA,interpolación
 San Esteban,2020-04-01,0,0,NA,NA,minsal
@@ -7409,6 +8261,9 @@ San Esteban,2020-04-21,1.25,0.25,NA,NA,interpolación
 San Esteban,2020-04-22,1.5,0.25,NA,NA,interpolación
 San Esteban,2020-04-23,1.75,0.25,NA,NA,interpolación
 San Esteban,2020-04-24,2,0.25,NA,NA,minsal
+San Esteban,2020-04-25,3,1,NA,NA,interpolación
+San Esteban,2020-04-26,4,1,NA,NA,interpolación
+San Esteban,2020-04-27,5,1,NA,NA,minsal
 San Fabián,2020-03-30,0,0,NA,NA,minsal
 San Fabián,2020-03-31,2.5,2.5,NA,NA,interpolación
 San Fabián,2020-04-01,5,2.5,NA,NA,minsal
@@ -7435,6 +8290,9 @@ San Fabián,2020-04-21,54.75,1.75,NA,NA,interpolación
 San Fabián,2020-04-22,56.5,1.75,NA,NA,interpolación
 San Fabián,2020-04-23,58.25,1.75,NA,NA,interpolación
 San Fabián,2020-04-24,60,1.75,NA,NA,minsal
+San Fabián,2020-04-25,62.666666666666664,2.6666666666666643,NA,NA,interpolación
+San Fabián,2020-04-26,65.33333333333333,2.6666666666666643,NA,NA,interpolación
+San Fabián,2020-04-27,68,2.6666666666666714,NA,NA,minsal
 San Felipe,2020-03-30,0,0,NA,NA,minsal
 San Felipe,2020-03-31,1.5,1.5,NA,NA,interpolación
 San Felipe,2020-04-01,3,1.5,NA,NA,minsal
@@ -7461,6 +8319,9 @@ San Felipe,2020-04-21,50.5,1.5,NA,NA,interpolación
 San Felipe,2020-04-22,52,1.5,NA,NA,interpolación
 San Felipe,2020-04-23,53.5,1.5,NA,NA,interpolación
 San Felipe,2020-04-24,55,1.5,NA,NA,minsal
+San Felipe,2020-04-25,57,2,NA,NA,interpolación
+San Felipe,2020-04-26,59,2,NA,NA,interpolación
+San Felipe,2020-04-27,61,2,NA,NA,minsal
 San Fernando,2020-03-30,0,0,NA,NA,minsal
 San Fernando,2020-03-31,2,2,NA,NA,interpolación
 San Fernando,2020-04-01,4,2,NA,NA,minsal
@@ -7487,6 +8348,9 @@ San Fernando,2020-04-21,41.25,1.25,NA,NA,interpolación
 San Fernando,2020-04-22,42.5,1.25,NA,NA,interpolación
 San Fernando,2020-04-23,43.75,1.25,NA,NA,interpolación
 San Fernando,2020-04-24,45,1.25,NA,NA,minsal
+San Fernando,2020-04-25,46.666666666666664,1.6666666666666643,NA,NA,interpolación
+San Fernando,2020-04-26,48.333333333333336,1.6666666666666714,NA,NA,interpolación
+San Fernando,2020-04-27,50,1.6666666666666643,NA,NA,minsal
 San Gregorio,2020-03-30,0,0,NA,NA,minsal
 San Gregorio,2020-03-31,0,0,NA,NA,interpolación
 San Gregorio,2020-04-01,0,0,NA,NA,minsal
@@ -7513,6 +8377,9 @@ San Gregorio,2020-04-21,0,0,NA,NA,interpolación
 San Gregorio,2020-04-22,0,0,NA,NA,interpolación
 San Gregorio,2020-04-23,0,0,NA,NA,interpolación
 San Gregorio,2020-04-24,0,0,NA,NA,minsal
+San Gregorio,2020-04-25,0,0,NA,NA,interpolación
+San Gregorio,2020-04-26,0,0,NA,NA,interpolación
+San Gregorio,2020-04-27,0,0,NA,NA,minsal
 San Ignacio,2020-03-30,0,0,NA,NA,minsal
 San Ignacio,2020-03-31,0.5,0.5,NA,NA,interpolación
 San Ignacio,2020-04-01,1,0.5,NA,NA,minsal
@@ -7539,6 +8406,9 @@ San Ignacio,2020-04-21,41.25,1.25,NA,NA,interpolación
 San Ignacio,2020-04-22,42.5,1.25,NA,NA,interpolación
 San Ignacio,2020-04-23,43.75,1.25,NA,NA,interpolación
 San Ignacio,2020-04-24,45,1.25,NA,NA,minsal
+San Ignacio,2020-04-25,47,2,NA,NA,interpolación
+San Ignacio,2020-04-26,49,2,NA,NA,interpolación
+San Ignacio,2020-04-27,51,2,NA,NA,minsal
 San Javier,2020-03-30,0,0,NA,NA,minsal
 San Javier,2020-03-31,0.5,0.5,NA,NA,interpolación
 San Javier,2020-04-01,1,0.5,NA,NA,minsal
@@ -7565,6 +8435,9 @@ San Javier,2020-04-21,73,5,NA,NA,interpolación
 San Javier,2020-04-22,78,5,NA,NA,interpolación
 San Javier,2020-04-23,83,5,NA,NA,interpolación
 San Javier,2020-04-24,88,5,NA,NA,minsal
+San Javier,2020-04-25,94.66666666666667,6.666666666666671,NA,NA,interpolación
+San Javier,2020-04-26,101.33333333333333,6.666666666666657,NA,NA,interpolación
+San Javier,2020-04-27,108,6.666666666666671,NA,NA,minsal
 San Joaquín,2020-03-30,13,0,NA,NA,minsal
 San Joaquín,2020-03-31,25,12,NA,NA,interpolación
 San Joaquín,2020-04-01,37,12,NA,NA,minsal
@@ -7591,6 +8464,9 @@ San Joaquín,2020-04-21,535.5,29.5,NA,NA,interpolación
 San Joaquín,2020-04-22,565,29.5,NA,NA,interpolación
 San Joaquín,2020-04-23,594.5,29.5,NA,NA,interpolación
 San Joaquín,2020-04-24,624,29.5,NA,NA,minsal
+San Joaquín,2020-04-25,673.6666666666666,49.66666666666663,NA,NA,interpolación
+San Joaquín,2020-04-26,723.3333333333334,49.66666666666674,NA,NA,interpolación
+San Joaquín,2020-04-27,773,49.66666666666663,NA,NA,minsal
 San José de Maipo,2020-03-30,0,0,NA,NA,minsal
 San José de Maipo,2020-03-31,1,1,NA,NA,interpolación
 San José de Maipo,2020-04-01,2,1,NA,NA,minsal
@@ -7617,6 +8493,9 @@ San José de Maipo,2020-04-21,31.75,1.75,NA,NA,interpolación
 San José de Maipo,2020-04-22,33.5,1.75,NA,NA,interpolación
 San José de Maipo,2020-04-23,35.25,1.75,NA,NA,interpolación
 San José de Maipo,2020-04-24,37,1.75,NA,NA,minsal
+San José de Maipo,2020-04-25,39.666666666666664,2.6666666666666643,NA,NA,interpolación
+San José de Maipo,2020-04-26,42.333333333333336,2.6666666666666714,NA,NA,interpolación
+San José de Maipo,2020-04-27,45,2.6666666666666643,NA,NA,minsal
 San Juan de la Costa,2020-03-30,0,0,NA,NA,minsal
 San Juan de la Costa,2020-03-31,0,0,NA,NA,interpolación
 San Juan de la Costa,2020-04-01,0,0,NA,NA,minsal
@@ -7643,6 +8522,9 @@ San Juan de la Costa,2020-04-21,92.5,5.5,NA,NA,interpolación
 San Juan de la Costa,2020-04-22,98,5.5,NA,NA,interpolación
 San Juan de la Costa,2020-04-23,103.5,5.5,NA,NA,interpolación
 San Juan de la Costa,2020-04-24,109,5.5,NA,NA,minsal
+San Juan de la Costa,2020-04-25,117,8,NA,NA,interpolación
+San Juan de la Costa,2020-04-26,125,8,NA,NA,interpolación
+San Juan de la Costa,2020-04-27,133,8,NA,NA,minsal
 San Miguel,2020-03-30,25,0,NA,NA,minsal
 San Miguel,2020-03-31,41,16,NA,NA,interpolación
 San Miguel,2020-04-01,57,16,NA,NA,minsal
@@ -7669,6 +8551,9 @@ San Miguel,2020-04-21,733,38,NA,NA,interpolación
 San Miguel,2020-04-22,771,38,NA,NA,interpolación
 San Miguel,2020-04-23,809,38,NA,NA,interpolación
 San Miguel,2020-04-24,847,38,NA,NA,minsal
+San Miguel,2020-04-25,904.6666666666666,57.66666666666663,NA,NA,interpolación
+San Miguel,2020-04-26,962.3333333333334,57.66666666666674,NA,NA,interpolación
+San Miguel,2020-04-27,1020,57.66666666666663,NA,NA,minsal
 San Nicolás,2020-03-30,0,0,NA,NA,minsal
 San Nicolás,2020-03-31,1,1,NA,NA,interpolación
 San Nicolás,2020-04-01,2,1,NA,NA,minsal
@@ -7695,6 +8580,9 @@ San Nicolás,2020-04-21,96.5,3.5,NA,NA,interpolación
 San Nicolás,2020-04-22,100,3.5,NA,NA,interpolación
 San Nicolás,2020-04-23,103.5,3.5,NA,NA,interpolación
 San Nicolás,2020-04-24,107,3.5,NA,NA,minsal
+San Nicolás,2020-04-25,112.33333333333333,5.333333333333329,NA,NA,interpolación
+San Nicolás,2020-04-26,117.66666666666667,5.333333333333343,NA,NA,interpolación
+San Nicolás,2020-04-27,123,5.333333333333329,NA,NA,minsal
 San Pablo,2020-03-30,0,0,NA,NA,minsal
 San Pablo,2020-03-31,0.5,0.5,NA,NA,interpolación
 San Pablo,2020-04-01,1,0.5,NA,NA,minsal
@@ -7721,6 +8609,9 @@ San Pablo,2020-04-21,45,2,NA,NA,interpolación
 San Pablo,2020-04-22,47,2,NA,NA,interpolación
 San Pablo,2020-04-23,49,2,NA,NA,interpolación
 San Pablo,2020-04-24,51,2,NA,NA,minsal
+San Pablo,2020-04-25,53.666666666666664,2.6666666666666643,NA,NA,interpolación
+San Pablo,2020-04-26,56.333333333333336,2.6666666666666714,NA,NA,interpolación
+San Pablo,2020-04-27,59,2.6666666666666643,NA,NA,minsal
 San Pedro,2020-03-30,0,0,NA,NA,minsal
 San Pedro,2020-03-31,0,0,NA,NA,interpolación
 San Pedro,2020-04-01,0,0,NA,NA,minsal
@@ -7747,6 +8638,9 @@ San Pedro,2020-04-21,1.5,0.5,NA,NA,interpolación
 San Pedro,2020-04-22,2,0.5,NA,NA,interpolación
 San Pedro,2020-04-23,2.5,0.5,NA,NA,interpolación
 San Pedro,2020-04-24,3,0.5,NA,NA,minsal
+San Pedro,2020-04-25,3.6666666666666665,0.6666666666666665,NA,NA,interpolación
+San Pedro,2020-04-26,4.333333333333333,0.6666666666666665,NA,NA,interpolación
+San Pedro,2020-04-27,5,0.666666666666667,NA,NA,minsal
 San Pedro de Atacama,2020-03-30,0,0,NA,NA,minsal
 San Pedro de Atacama,2020-03-31,1,1,NA,NA,interpolación
 San Pedro de Atacama,2020-04-01,2,1,NA,NA,minsal
@@ -7773,6 +8667,9 @@ San Pedro de Atacama,2020-04-21,34,1,NA,NA,interpolación
 San Pedro de Atacama,2020-04-22,35,1,NA,NA,interpolación
 San Pedro de Atacama,2020-04-23,36,1,NA,NA,interpolación
 San Pedro de Atacama,2020-04-24,37,1,NA,NA,minsal
+San Pedro de Atacama,2020-04-25,38.333333333333336,1.3333333333333357,NA,NA,interpolación
+San Pedro de Atacama,2020-04-26,39.666666666666664,1.3333333333333286,NA,NA,interpolación
+San Pedro de Atacama,2020-04-27,41,1.3333333333333357,NA,NA,minsal
 San Pedro de la Paz,2020-03-30,18,0,NA,NA,minsal
 San Pedro de la Paz,2020-03-31,43,25,NA,NA,interpolación
 San Pedro de la Paz,2020-04-01,68,25,NA,NA,minsal
@@ -7799,6 +8696,9 @@ San Pedro de la Paz,2020-04-21,670.75,24.75,NA,NA,interpolación
 San Pedro de la Paz,2020-04-22,695.5,24.75,NA,NA,interpolación
 San Pedro de la Paz,2020-04-23,720.25,24.75,NA,NA,interpolación
 San Pedro de la Paz,2020-04-24,745,24.75,NA,NA,minsal
+San Pedro de la Paz,2020-04-25,778,33,NA,NA,interpolación
+San Pedro de la Paz,2020-04-26,811,33,NA,NA,interpolación
+San Pedro de la Paz,2020-04-27,844,33,NA,NA,minsal
 San Rafael,2020-03-30,0,0,NA,NA,minsal
 San Rafael,2020-03-31,0,0,NA,NA,interpolación
 San Rafael,2020-04-01,0,0,NA,NA,minsal
@@ -7825,6 +8725,9 @@ San Rafael,2020-04-21,12.75,0.75,NA,NA,interpolación
 San Rafael,2020-04-22,13.5,0.75,NA,NA,interpolación
 San Rafael,2020-04-23,14.25,0.75,NA,NA,interpolación
 San Rafael,2020-04-24,15,0.75,NA,NA,minsal
+San Rafael,2020-04-25,16,1,NA,NA,interpolación
+San Rafael,2020-04-26,17,1,NA,NA,interpolación
+San Rafael,2020-04-27,18,1,NA,NA,minsal
 San Ramón,2020-03-30,0,0,NA,NA,minsal
 San Ramón,2020-03-31,3,3,NA,NA,interpolación
 San Ramón,2020-04-01,6,3,NA,NA,minsal
@@ -7851,6 +8754,9 @@ San Ramón,2020-04-21,191.5,16.5,NA,NA,interpolación
 San Ramón,2020-04-22,208,16.5,NA,NA,interpolación
 San Ramón,2020-04-23,224.5,16.5,NA,NA,interpolación
 San Ramón,2020-04-24,241,16.5,NA,NA,minsal
+San Ramón,2020-04-25,271,30,NA,NA,interpolación
+San Ramón,2020-04-26,301,30,NA,NA,interpolación
+San Ramón,2020-04-27,331,30,NA,NA,minsal
 San Rosendo,2020-03-30,0,0,NA,NA,minsal
 San Rosendo,2020-03-31,0,0,NA,NA,interpolación
 San Rosendo,2020-04-01,0,0,NA,NA,minsal
@@ -7877,6 +8783,9 @@ San Rosendo,2020-04-21,0,0,NA,NA,interpolación
 San Rosendo,2020-04-22,0,0,NA,NA,interpolación
 San Rosendo,2020-04-23,0,0,NA,NA,interpolación
 San Rosendo,2020-04-24,0,0,NA,NA,minsal
+San Rosendo,2020-04-25,0,0,NA,NA,interpolación
+San Rosendo,2020-04-26,0,0,NA,NA,interpolación
+San Rosendo,2020-04-27,0,0,NA,NA,minsal
 San Vicente,2020-03-30,0,0,NA,NA,minsal
 San Vicente,2020-03-31,0.5,0.5,NA,NA,interpolación
 San Vicente,2020-04-01,1,0.5,NA,NA,minsal
@@ -7903,6 +8812,9 @@ San Vicente,2020-04-21,34,1,NA,NA,interpolación
 San Vicente,2020-04-22,35,1,NA,NA,interpolación
 San Vicente,2020-04-23,36,1,NA,NA,interpolación
 San Vicente,2020-04-24,37,1,NA,NA,minsal
+San Vicente,2020-04-25,38.333333333333336,1.3333333333333357,NA,NA,interpolación
+San Vicente,2020-04-26,39.666666666666664,1.3333333333333286,NA,NA,interpolación
+San Vicente,2020-04-27,41,1.3333333333333357,NA,NA,minsal
 Santa Bárbara,2020-03-30,0,0,NA,NA,minsal
 Santa Bárbara,2020-03-31,1,1,NA,NA,interpolación
 Santa Bárbara,2020-04-01,2,1,NA,NA,minsal
@@ -7929,6 +8841,9 @@ Santa Bárbara,2020-04-21,21.75,0.75,NA,NA,interpolación
 Santa Bárbara,2020-04-22,22.5,0.75,NA,NA,interpolación
 Santa Bárbara,2020-04-23,23.25,0.75,NA,NA,interpolación
 Santa Bárbara,2020-04-24,24,0.75,NA,NA,minsal
+Santa Bárbara,2020-04-25,24.666666666666668,0.6666666666666679,NA,NA,interpolación
+Santa Bárbara,2020-04-26,25.333333333333332,0.6666666666666643,NA,NA,interpolación
+Santa Bárbara,2020-04-27,26,0.6666666666666679,NA,NA,minsal
 Santa Cruz,2020-03-30,0,0,NA,NA,minsal
 Santa Cruz,2020-03-31,0,0,NA,NA,interpolación
 Santa Cruz,2020-04-01,0,0,NA,NA,minsal
@@ -7955,6 +8870,9 @@ Santa Cruz,2020-04-21,12.5,0.5,NA,NA,interpolación
 Santa Cruz,2020-04-22,13,0.5,NA,NA,interpolación
 Santa Cruz,2020-04-23,13.5,0.5,NA,NA,interpolación
 Santa Cruz,2020-04-24,14,0.5,NA,NA,minsal
+Santa Cruz,2020-04-25,14.666666666666666,0.6666666666666661,NA,NA,interpolación
+Santa Cruz,2020-04-26,15.333333333333334,0.6666666666666679,NA,NA,interpolación
+Santa Cruz,2020-04-27,16,0.6666666666666661,NA,NA,minsal
 Santa Juana,2020-03-30,0,0,NA,NA,minsal
 Santa Juana,2020-03-31,0,0,NA,NA,interpolación
 Santa Juana,2020-04-01,0,0,NA,NA,minsal
@@ -7981,6 +8899,9 @@ Santa Juana,2020-04-21,1.5,0.5,NA,NA,interpolación
 Santa Juana,2020-04-22,2,0.5,NA,NA,interpolación
 Santa Juana,2020-04-23,2.5,0.5,NA,NA,interpolación
 Santa Juana,2020-04-24,3,0.5,NA,NA,minsal
+Santa Juana,2020-04-25,3.6666666666666665,0.6666666666666665,NA,NA,interpolación
+Santa Juana,2020-04-26,4.333333333333333,0.6666666666666665,NA,NA,interpolación
+Santa Juana,2020-04-27,5,0.666666666666667,NA,NA,minsal
 Santa María,2020-03-30,0,0,NA,NA,minsal
 Santa María,2020-03-31,1,1,NA,NA,interpolación
 Santa María,2020-04-01,2,1,NA,NA,minsal
@@ -8007,6 +8928,9 @@ Santa María,2020-04-21,18.5,0.5,NA,NA,interpolación
 Santa María,2020-04-22,19,0.5,NA,NA,interpolación
 Santa María,2020-04-23,19.5,0.5,NA,NA,interpolación
 Santa María,2020-04-24,20,0.5,NA,NA,minsal
+Santa María,2020-04-25,20.666666666666668,0.6666666666666679,NA,NA,interpolación
+Santa María,2020-04-26,21.333333333333332,0.6666666666666643,NA,NA,interpolación
+Santa María,2020-04-27,22,0.6666666666666679,NA,NA,minsal
 Santiago,2020-03-30,127,0,NA,NA,minsal
 Santiago,2020-03-31,205,78,NA,NA,interpolación
 Santiago,2020-04-01,283,78,NA,NA,minsal
@@ -8033,6 +8957,9 @@ Santiago,2020-04-21,3176,152,NA,NA,interpolación
 Santiago,2020-04-22,3328,152,NA,NA,interpolación
 Santiago,2020-04-23,3480,152,NA,NA,interpolación
 Santiago,2020-04-24,3632,152,NA,NA,minsal
+Santiago,2020-04-25,3865.3333333333335,233.33333333333348,NA,NA,interpolación
+Santiago,2020-04-26,4098.666666666667,233.33333333333348,NA,NA,interpolación
+Santiago,2020-04-27,4332,233.33333333333303,NA,NA,minsal
 Santo Domingo,2020-03-30,0,0,NA,NA,minsal
 Santo Domingo,2020-03-31,1.5,1.5,NA,NA,interpolación
 Santo Domingo,2020-04-01,3,1.5,NA,NA,minsal
@@ -8059,6 +8986,9 @@ Santo Domingo,2020-04-21,58.25,4.25,NA,NA,interpolación
 Santo Domingo,2020-04-22,62.5,4.25,NA,NA,interpolación
 Santo Domingo,2020-04-23,66.75,4.25,NA,NA,interpolación
 Santo Domingo,2020-04-24,71,4.25,NA,NA,minsal
+Santo Domingo,2020-04-25,76.66666666666667,5.666666666666671,NA,NA,interpolación
+Santo Domingo,2020-04-26,82.33333333333333,5.666666666666657,NA,NA,interpolación
+Santo Domingo,2020-04-27,88,5.666666666666671,NA,NA,minsal
 Sierra Gorda,2020-03-30,0,0,NA,NA,minsal
 Sierra Gorda,2020-03-31,0,0,NA,NA,interpolación
 Sierra Gorda,2020-04-01,0,0,NA,NA,minsal
@@ -8085,6 +9015,9 @@ Sierra Gorda,2020-04-21,0,0,NA,NA,interpolación
 Sierra Gorda,2020-04-22,0,0,NA,NA,interpolación
 Sierra Gorda,2020-04-23,0,0,NA,NA,interpolación
 Sierra Gorda,2020-04-24,0,0,NA,NA,minsal
+Sierra Gorda,2020-04-25,0,0,NA,NA,interpolación
+Sierra Gorda,2020-04-26,0,0,NA,NA,interpolación
+Sierra Gorda,2020-04-27,0,0,NA,NA,minsal
 Talagante,2020-03-30,0,0,NA,NA,minsal
 Talagante,2020-03-31,2.5,2.5,NA,NA,interpolación
 Talagante,2020-04-01,5,2.5,NA,NA,minsal
@@ -8111,6 +9044,9 @@ Talagante,2020-04-21,159.5,7.5,NA,NA,interpolación
 Talagante,2020-04-22,167,7.5,NA,NA,interpolación
 Talagante,2020-04-23,174.5,7.5,NA,NA,interpolación
 Talagante,2020-04-24,182,7.5,NA,NA,minsal
+Talagante,2020-04-25,193,11,NA,NA,interpolación
+Talagante,2020-04-26,204,11,NA,NA,interpolación
+Talagante,2020-04-27,215,11,NA,NA,minsal
 Talca,2020-03-30,34,0,NA,NA,minsal
 Talca,2020-03-31,52.5,18.5,NA,NA,interpolación
 Talca,2020-04-01,71,18.5,NA,NA,minsal
@@ -8137,6 +9073,9 @@ Talca,2020-04-21,631.25,36.25,NA,NA,interpolación
 Talca,2020-04-22,667.5,36.25,NA,NA,interpolación
 Talca,2020-04-23,703.75,36.25,NA,NA,interpolación
 Talca,2020-04-24,740,36.25,NA,NA,minsal
+Talca,2020-04-25,789.6666666666666,49.66666666666663,NA,NA,interpolación
+Talca,2020-04-26,839.3333333333334,49.66666666666674,NA,NA,interpolación
+Talca,2020-04-27,889,49.66666666666663,NA,NA,minsal
 Talcahuano,2020-03-30,0,0,NA,NA,minsal
 Talcahuano,2020-03-31,11.5,11.5,NA,NA,interpolación
 Talcahuano,2020-04-01,23,11.5,NA,NA,minsal
@@ -8163,6 +9102,9 @@ Talcahuano,2020-04-21,521.5,22.5,NA,NA,interpolación
 Talcahuano,2020-04-22,544,22.5,NA,NA,interpolación
 Talcahuano,2020-04-23,566.5,22.5,NA,NA,interpolación
 Talcahuano,2020-04-24,589,22.5,NA,NA,minsal
+Talcahuano,2020-04-25,620.6666666666666,31.66666666666663,NA,NA,interpolación
+Talcahuano,2020-04-26,652.3333333333334,31.666666666666742,NA,NA,interpolación
+Talcahuano,2020-04-27,684,31.66666666666663,NA,NA,minsal
 Taltal,2020-03-30,0,0,NA,NA,minsal
 Taltal,2020-03-31,0,0,NA,NA,interpolación
 Taltal,2020-04-01,0,0,NA,NA,minsal
@@ -8189,6 +9131,9 @@ Taltal,2020-04-21,29.75,1.75,NA,NA,interpolación
 Taltal,2020-04-22,31.5,1.75,NA,NA,interpolación
 Taltal,2020-04-23,33.25,1.75,NA,NA,interpolación
 Taltal,2020-04-24,35,1.75,NA,NA,minsal
+Taltal,2020-04-25,37.333333333333336,2.3333333333333357,NA,NA,interpolación
+Taltal,2020-04-26,39.666666666666664,2.3333333333333286,NA,NA,interpolación
+Taltal,2020-04-27,42,2.3333333333333357,NA,NA,minsal
 Temuco,2020-03-30,154,0,NA,NA,minsal
 Temuco,2020-03-31,266.5,112.5,NA,NA,interpolación
 Temuco,2020-04-01,379,112.5,NA,NA,minsal
@@ -8215,6 +9160,9 @@ Temuco,2020-04-21,4177,161,NA,NA,interpolación
 Temuco,2020-04-22,4338,161,NA,NA,interpolación
 Temuco,2020-04-23,4499,161,NA,NA,interpolación
 Temuco,2020-04-24,4660,161,NA,NA,minsal
+Temuco,2020-04-25,4881.666666666667,221.66666666666697,NA,NA,interpolación
+Temuco,2020-04-26,5103.333333333333,221.66666666666606,NA,NA,interpolación
+Temuco,2020-04-27,5325,221.66666666666697,NA,NA,minsal
 Teno,2020-03-30,0,0,NA,NA,minsal
 Teno,2020-03-31,0,0,NA,NA,interpolación
 Teno,2020-04-01,0,0,NA,NA,minsal
@@ -8241,6 +9189,9 @@ Teno,2020-04-21,6.5,0.5,NA,NA,interpolación
 Teno,2020-04-22,7,0.5,NA,NA,interpolación
 Teno,2020-04-23,7.5,0.5,NA,NA,interpolación
 Teno,2020-04-24,8,0.5,NA,NA,minsal
+Teno,2020-04-25,8.666666666666666,0.6666666666666661,NA,NA,interpolación
+Teno,2020-04-26,9.333333333333334,0.6666666666666679,NA,NA,interpolación
+Teno,2020-04-27,10,0.6666666666666661,NA,NA,minsal
 Teodoro Schmidt,2020-03-30,0,0,NA,NA,minsal
 Teodoro Schmidt,2020-03-31,2,2,NA,NA,interpolación
 Teodoro Schmidt,2020-04-01,4,2,NA,NA,minsal
@@ -8267,6 +9218,9 @@ Teodoro Schmidt,2020-04-21,37.5,1.5,NA,NA,interpolación
 Teodoro Schmidt,2020-04-22,39,1.5,NA,NA,interpolación
 Teodoro Schmidt,2020-04-23,40.5,1.5,NA,NA,interpolación
 Teodoro Schmidt,2020-04-24,42,1.5,NA,NA,minsal
+Teodoro Schmidt,2020-04-25,44,2,NA,NA,interpolación
+Teodoro Schmidt,2020-04-26,46,2,NA,NA,interpolación
+Teodoro Schmidt,2020-04-27,48,2,NA,NA,minsal
 Tierra Amarilla,2020-03-30,0,0,NA,NA,minsal
 Tierra Amarilla,2020-03-31,0,0,NA,NA,interpolación
 Tierra Amarilla,2020-04-01,0,0,NA,NA,minsal
@@ -8293,6 +9247,9 @@ Tierra Amarilla,2020-04-21,23.25,1.25,NA,NA,interpolación
 Tierra Amarilla,2020-04-22,24.5,1.25,NA,NA,interpolación
 Tierra Amarilla,2020-04-23,25.75,1.25,NA,NA,interpolación
 Tierra Amarilla,2020-04-24,27,1.25,NA,NA,minsal
+Tierra Amarilla,2020-04-25,29,2,NA,NA,interpolación
+Tierra Amarilla,2020-04-26,31,2,NA,NA,interpolación
+Tierra Amarilla,2020-04-27,33,2,NA,NA,minsal
 Tiltil,2020-03-30,0,0,NA,NA,minsal
 Tiltil,2020-03-31,1,1,NA,NA,interpolación
 Tiltil,2020-04-01,2,1,NA,NA,minsal
@@ -8319,6 +9276,9 @@ Tiltil,2020-04-21,34.25,1.25,NA,NA,interpolación
 Tiltil,2020-04-22,35.5,1.25,NA,NA,interpolación
 Tiltil,2020-04-23,36.75,1.25,NA,NA,interpolación
 Tiltil,2020-04-24,38,1.25,NA,NA,minsal
+Tiltil,2020-04-25,39.666666666666664,1.6666666666666643,NA,NA,interpolación
+Tiltil,2020-04-26,41.333333333333336,1.6666666666666714,NA,NA,interpolación
+Tiltil,2020-04-27,43,1.6666666666666643,NA,NA,minsal
 Timaukel,2020-03-30,0,0,NA,NA,minsal
 Timaukel,2020-03-31,0,0,NA,NA,interpolación
 Timaukel,2020-04-01,0,0,NA,NA,minsal
@@ -8345,6 +9305,9 @@ Timaukel,2020-04-21,0,0,NA,NA,interpolación
 Timaukel,2020-04-22,0,0,NA,NA,interpolación
 Timaukel,2020-04-23,0,0,NA,NA,interpolación
 Timaukel,2020-04-24,0,0,NA,NA,minsal
+Timaukel,2020-04-25,0,0,NA,NA,interpolación
+Timaukel,2020-04-26,0,0,NA,NA,interpolación
+Timaukel,2020-04-27,0,0,NA,NA,minsal
 Tirúa,2020-03-30,0,0,NA,NA,minsal
 Tirúa,2020-03-31,0,0,NA,NA,interpolación
 Tirúa,2020-04-01,0,0,NA,NA,minsal
@@ -8371,6 +9334,9 @@ Tirúa,2020-04-21,31,1,NA,NA,interpolación
 Tirúa,2020-04-22,32,1,NA,NA,interpolación
 Tirúa,2020-04-23,33,1,NA,NA,interpolación
 Tirúa,2020-04-24,34,1,NA,NA,minsal
+Tirúa,2020-04-25,35.333333333333336,1.3333333333333357,NA,NA,interpolación
+Tirúa,2020-04-26,36.666666666666664,1.3333333333333286,NA,NA,interpolación
+Tirúa,2020-04-27,38,1.3333333333333357,NA,NA,minsal
 Tocopilla,2020-03-30,0,0,NA,NA,minsal
 Tocopilla,2020-03-31,1,1,NA,NA,interpolación
 Tocopilla,2020-04-01,2,1,NA,NA,minsal
@@ -8397,6 +9363,9 @@ Tocopilla,2020-04-21,43.75,2.75,NA,NA,interpolación
 Tocopilla,2020-04-22,46.5,2.75,NA,NA,interpolación
 Tocopilla,2020-04-23,49.25,2.75,NA,NA,interpolación
 Tocopilla,2020-04-24,52,2.75,NA,NA,minsal
+Tocopilla,2020-04-25,55.666666666666664,3.6666666666666643,NA,NA,interpolación
+Tocopilla,2020-04-26,59.333333333333336,3.6666666666666714,NA,NA,interpolación
+Tocopilla,2020-04-27,63,3.6666666666666643,NA,NA,minsal
 Toltén,2020-03-30,0,0,NA,NA,minsal
 Toltén,2020-03-31,1.5,1.5,NA,NA,interpolación
 Toltén,2020-04-01,3,1.5,NA,NA,minsal
@@ -8423,6 +9392,9 @@ Toltén,2020-04-21,52.5,1.5,NA,NA,interpolación
 Toltén,2020-04-22,54,1.5,NA,NA,interpolación
 Toltén,2020-04-23,55.5,1.5,NA,NA,interpolación
 Toltén,2020-04-24,57,1.5,NA,NA,minsal
+Toltén,2020-04-25,59,2,NA,NA,interpolación
+Toltén,2020-04-26,61,2,NA,NA,interpolación
+Toltén,2020-04-27,63,2,NA,NA,minsal
 Tomé,2020-03-30,4,0,NA,NA,minsal
 Tomé,2020-03-31,7,3,NA,NA,interpolación
 Tomé,2020-04-01,10,3,NA,NA,minsal
@@ -8449,6 +9421,9 @@ Tomé,2020-04-21,268.5,12.5,NA,NA,interpolación
 Tomé,2020-04-22,281,12.5,NA,NA,interpolación
 Tomé,2020-04-23,293.5,12.5,NA,NA,interpolación
 Tomé,2020-04-24,306,12.5,NA,NA,minsal
+Tomé,2020-04-25,322.6666666666667,16.666666666666686,NA,NA,interpolación
+Tomé,2020-04-26,339.3333333333333,16.66666666666663,NA,NA,interpolación
+Tomé,2020-04-27,356,16.666666666666686,NA,NA,minsal
 Torres del Paine,2020-03-30,0,0,NA,NA,minsal
 Torres del Paine,2020-03-31,0,0,NA,NA,interpolación
 Torres del Paine,2020-04-01,0,0,NA,NA,minsal
@@ -8475,6 +9450,9 @@ Torres del Paine,2020-04-21,0,0,NA,NA,interpolación
 Torres del Paine,2020-04-22,0,0,NA,NA,interpolación
 Torres del Paine,2020-04-23,0,0,NA,NA,interpolación
 Torres del Paine,2020-04-24,0,0,NA,NA,minsal
+Torres del Paine,2020-04-25,0,0,NA,NA,interpolación
+Torres del Paine,2020-04-26,0,0,NA,NA,interpolación
+Torres del Paine,2020-04-27,0,0,NA,NA,minsal
 Tortel,2020-03-30,0,0,NA,NA,minsal
 Tortel,2020-03-31,0,0,NA,NA,interpolación
 Tortel,2020-04-01,0,0,NA,NA,minsal
@@ -8501,6 +9479,9 @@ Tortel,2020-04-21,5,0,NA,NA,interpolación
 Tortel,2020-04-22,5,0,NA,NA,interpolación
 Tortel,2020-04-23,5,0,NA,NA,interpolación
 Tortel,2020-04-24,5,0,NA,NA,minsal
+Tortel,2020-04-25,5,0,NA,NA,interpolación
+Tortel,2020-04-26,5,0,NA,NA,interpolación
+Tortel,2020-04-27,5,0,NA,NA,minsal
 Traiguén,2020-03-30,0,0,NA,NA,minsal
 Traiguén,2020-03-31,0,0,NA,NA,interpolación
 Traiguén,2020-04-01,0,0,NA,NA,minsal
@@ -8527,6 +9508,9 @@ Traiguén,2020-04-21,10.75,0.75,NA,NA,interpolación
 Traiguén,2020-04-22,11.5,0.75,NA,NA,interpolación
 Traiguén,2020-04-23,12.25,0.75,NA,NA,interpolación
 Traiguén,2020-04-24,13,0.75,NA,NA,minsal
+Traiguén,2020-04-25,14,1,NA,NA,interpolación
+Traiguén,2020-04-26,15,1,NA,NA,interpolación
+Traiguén,2020-04-27,16,1,NA,NA,minsal
 Treguaco,2020-03-30,0,0,NA,NA,minsal
 Treguaco,2020-03-31,0,0,NA,NA,interpolación
 Treguaco,2020-04-01,0,0,NA,NA,minsal
@@ -8553,6 +9537,9 @@ Treguaco,2020-04-21,0,0,NA,NA,interpolación
 Treguaco,2020-04-22,0,0,NA,NA,interpolación
 Treguaco,2020-04-23,0,0,NA,NA,interpolación
 Treguaco,2020-04-24,0,0,NA,NA,minsal
+Treguaco,2020-04-25,0,0,NA,NA,interpolación
+Treguaco,2020-04-26,0,0,NA,NA,interpolación
+Treguaco,2020-04-27,0,0,NA,NA,minsal
 Tucapel,2020-03-30,0,0,NA,NA,minsal
 Tucapel,2020-03-31,0,0,NA,NA,interpolación
 Tucapel,2020-04-01,0,0,NA,NA,minsal
@@ -8579,6 +9566,9 @@ Tucapel,2020-04-21,5.25,0.25,NA,NA,interpolación
 Tucapel,2020-04-22,5.5,0.25,NA,NA,interpolación
 Tucapel,2020-04-23,5.75,0.25,NA,NA,interpolación
 Tucapel,2020-04-24,6,0.25,NA,NA,minsal
+Tucapel,2020-04-25,6.333333333333333,0.33333333333333304,NA,NA,interpolación
+Tucapel,2020-04-26,6.666666666666667,0.3333333333333339,NA,NA,interpolación
+Tucapel,2020-04-27,7,0.33333333333333304,NA,NA,minsal
 Valdivia,2020-03-30,12,0,NA,NA,minsal
 Valdivia,2020-03-31,34.5,22.5,NA,NA,interpolación
 Valdivia,2020-04-01,57,22.5,NA,NA,minsal
@@ -8605,6 +9595,9 @@ Valdivia,2020-04-21,736.25,26.25,NA,NA,interpolación
 Valdivia,2020-04-22,762.5,26.25,NA,NA,interpolación
 Valdivia,2020-04-23,788.75,26.25,NA,NA,interpolación
 Valdivia,2020-04-24,815,26.25,NA,NA,minsal
+Valdivia,2020-04-25,850.6666666666666,35.66666666666663,NA,NA,interpolación
+Valdivia,2020-04-26,886.3333333333334,35.66666666666674,NA,NA,interpolación
+Valdivia,2020-04-27,922,35.66666666666663,NA,NA,minsal
 Vallenar,2020-03-30,0,0,NA,NA,minsal
 Vallenar,2020-03-31,0,0,NA,NA,interpolación
 Vallenar,2020-04-01,0,0,NA,NA,minsal
@@ -8631,6 +9624,9 @@ Vallenar,2020-04-21,1.75,1.75,NA,NA,interpolación
 Vallenar,2020-04-22,3.5,1.75,NA,NA,interpolación
 Vallenar,2020-04-23,5.25,1.75,NA,NA,interpolación
 Vallenar,2020-04-24,7,1.75,NA,NA,minsal
+Vallenar,2020-04-25,11.333333333333332,4.333333333333332,NA,NA,interpolación
+Vallenar,2020-04-26,15.666666666666666,4.333333333333334,NA,NA,interpolación
+Vallenar,2020-04-27,20,4.333333333333334,NA,NA,minsal
 Valparaíso,2020-03-30,16,0,NA,NA,minsal
 Valparaíso,2020-03-31,29,13,NA,NA,interpolación
 Valparaíso,2020-04-01,42,13,NA,NA,minsal
@@ -8657,6 +9653,9 @@ Valparaíso,2020-04-21,381.75,16.75,NA,NA,interpolación
 Valparaíso,2020-04-22,398.5,16.75,NA,NA,interpolación
 Valparaíso,2020-04-23,415.25,16.75,NA,NA,interpolación
 Valparaíso,2020-04-24,432,16.75,NA,NA,minsal
+Valparaíso,2020-04-25,454.6666666666667,22.666666666666686,NA,NA,interpolación
+Valparaíso,2020-04-26,477.3333333333333,22.66666666666663,NA,NA,interpolación
+Valparaíso,2020-04-27,500,22.666666666666686,NA,NA,minsal
 Vichuquén,2020-03-30,0,0,NA,NA,minsal
 Vichuquén,2020-03-31,0,0,NA,NA,interpolación
 Vichuquén,2020-04-01,0,0,NA,NA,minsal
@@ -8683,6 +9682,9 @@ Vichuquén,2020-04-21,0,0,NA,NA,interpolación
 Vichuquén,2020-04-22,0,0,NA,NA,interpolación
 Vichuquén,2020-04-23,0,0,NA,NA,interpolación
 Vichuquén,2020-04-24,0,0,NA,NA,minsal
+Vichuquén,2020-04-25,0,0,NA,NA,interpolación
+Vichuquén,2020-04-26,0,0,NA,NA,interpolación
+Vichuquén,2020-04-27,0,0,NA,NA,minsal
 Victoria,2020-03-30,5,0,NA,NA,minsal
 Victoria,2020-03-31,8.5,3.5,NA,NA,interpolación
 Victoria,2020-04-01,12,3.5,NA,NA,minsal
@@ -8709,6 +9711,9 @@ Victoria,2020-04-21,147.75,13.75,NA,NA,interpolación
 Victoria,2020-04-22,161.5,13.75,NA,NA,interpolación
 Victoria,2020-04-23,175.25,13.75,NA,NA,interpolación
 Victoria,2020-04-24,189,13.75,NA,NA,minsal
+Victoria,2020-04-25,208.33333333333334,19.333333333333343,NA,NA,interpolación
+Victoria,2020-04-26,227.66666666666666,19.333333333333314,NA,NA,interpolación
+Victoria,2020-04-27,247,19.333333333333343,NA,NA,minsal
 Vicuña,2020-03-30,0,0,NA,NA,minsal
 Vicuña,2020-03-31,0,0,NA,NA,interpolación
 Vicuña,2020-04-01,0,0,NA,NA,minsal
@@ -8735,6 +9740,9 @@ Vicuña,2020-04-21,0,0,NA,NA,interpolación
 Vicuña,2020-04-22,0,0,NA,NA,interpolación
 Vicuña,2020-04-23,0,0,NA,NA,interpolación
 Vicuña,2020-04-24,0,0,NA,NA,minsal
+Vicuña,2020-04-25,0,0,NA,NA,interpolación
+Vicuña,2020-04-26,0,0,NA,NA,interpolación
+Vicuña,2020-04-27,0,0,NA,NA,minsal
 Vilcún,2020-03-30,4,0,NA,NA,minsal
 Vilcún,2020-03-31,6.5,2.5,NA,NA,interpolación
 Vilcún,2020-04-01,9,2.5,NA,NA,minsal
@@ -8761,6 +9769,9 @@ Vilcún,2020-04-21,204.75,9.75,NA,NA,interpolación
 Vilcún,2020-04-22,214.5,9.75,NA,NA,interpolación
 Vilcún,2020-04-23,224.25,9.75,NA,NA,interpolación
 Vilcún,2020-04-24,234,9.75,NA,NA,minsal
+Vilcún,2020-04-25,247,13,NA,NA,interpolación
+Vilcún,2020-04-26,260,13,NA,NA,interpolación
+Vilcún,2020-04-27,273,13,NA,NA,minsal
 Villa Alegre,2020-03-30,0,0,NA,NA,minsal
 Villa Alegre,2020-03-31,0,0,NA,NA,interpolación
 Villa Alegre,2020-04-01,0,0,NA,NA,minsal
@@ -8787,6 +9798,9 @@ Villa Alegre,2020-04-21,1.25,0.25,NA,NA,interpolación
 Villa Alegre,2020-04-22,1.5,0.25,NA,NA,interpolación
 Villa Alegre,2020-04-23,1.75,0.25,NA,NA,interpolación
 Villa Alegre,2020-04-24,2,0.25,NA,NA,minsal
+Villa Alegre,2020-04-25,2.6666666666666665,0.6666666666666665,NA,NA,interpolación
+Villa Alegre,2020-04-26,3.333333333333333,0.6666666666666665,NA,NA,interpolación
+Villa Alegre,2020-04-27,4,0.666666666666667,NA,NA,minsal
 Villa Alemana,2020-03-30,6,0,NA,NA,minsal
 Villa Alemana,2020-03-31,10,4,NA,NA,interpolación
 Villa Alemana,2020-04-01,14,4,NA,NA,minsal
@@ -8813,6 +9827,9 @@ Villa Alemana,2020-04-21,113.5,3.5,NA,NA,interpolación
 Villa Alemana,2020-04-22,117,3.5,NA,NA,interpolación
 Villa Alemana,2020-04-23,120.5,3.5,NA,NA,interpolación
 Villa Alemana,2020-04-24,124,3.5,NA,NA,minsal
+Villa Alemana,2020-04-25,129,5,NA,NA,interpolación
+Villa Alemana,2020-04-26,134,5,NA,NA,interpolación
+Villa Alemana,2020-04-27,139,5,NA,NA,minsal
 Villarrica,2020-03-30,0,0,NA,NA,minsal
 Villarrica,2020-03-31,2,2,NA,NA,interpolación
 Villarrica,2020-04-01,4,2,NA,NA,minsal
@@ -8839,6 +9856,9 @@ Villarrica,2020-04-21,127.75,4.75,NA,NA,interpolación
 Villarrica,2020-04-22,132.5,4.75,NA,NA,interpolación
 Villarrica,2020-04-23,137.25,4.75,NA,NA,interpolación
 Villarrica,2020-04-24,142,4.75,NA,NA,minsal
+Villarrica,2020-04-25,148.33333333333334,6.333333333333343,NA,NA,interpolación
+Villarrica,2020-04-26,154.66666666666666,6.333333333333314,NA,NA,interpolación
+Villarrica,2020-04-27,161,6.333333333333343,NA,NA,minsal
 Viña del Mar,2020-03-30,29,0,NA,NA,minsal
 Viña del Mar,2020-03-31,48,19,NA,NA,interpolación
 Viña del Mar,2020-04-01,67,19,NA,NA,minsal
@@ -8865,6 +9885,9 @@ Viña del Mar,2020-04-21,652.75,25.75,NA,NA,interpolación
 Viña del Mar,2020-04-22,678.5,25.75,NA,NA,interpolación
 Viña del Mar,2020-04-23,704.25,25.75,NA,NA,interpolación
 Viña del Mar,2020-04-24,730,25.75,NA,NA,minsal
+Viña del Mar,2020-04-25,766.3333333333334,36.33333333333337,NA,NA,interpolación
+Viña del Mar,2020-04-26,802.6666666666666,36.33333333333326,NA,NA,interpolación
+Viña del Mar,2020-04-27,839,36.33333333333337,NA,NA,minsal
 Vitacura,2020-03-30,83,0,NA,NA,minsal
 Vitacura,2020-03-31,128,45,NA,NA,interpolación
 Vitacura,2020-04-01,173,45,NA,NA,minsal
@@ -8891,6 +9914,9 @@ Vitacura,2020-04-21,1170.25,33.25,NA,NA,interpolación
 Vitacura,2020-04-22,1203.5,33.25,NA,NA,interpolación
 Vitacura,2020-04-23,1236.75,33.25,NA,NA,interpolación
 Vitacura,2020-04-24,1270,33.25,NA,NA,minsal
+Vitacura,2020-04-25,1316,46,NA,NA,interpolación
+Vitacura,2020-04-26,1362,46,NA,NA,interpolación
+Vitacura,2020-04-27,1408,46,NA,NA,minsal
 Yerbas Buenas,2020-03-30,0,0,NA,NA,minsal
 Yerbas Buenas,2020-03-31,0,0,NA,NA,interpolación
 Yerbas Buenas,2020-04-01,0,0,NA,NA,minsal
@@ -8917,6 +9943,9 @@ Yerbas Buenas,2020-04-21,1.25,0.25,NA,NA,interpolación
 Yerbas Buenas,2020-04-22,1.5,0.25,NA,NA,interpolación
 Yerbas Buenas,2020-04-23,1.75,0.25,NA,NA,interpolación
 Yerbas Buenas,2020-04-24,2,0.25,NA,NA,minsal
+Yerbas Buenas,2020-04-25,2.3333333333333335,0.3333333333333335,NA,NA,interpolación
+Yerbas Buenas,2020-04-26,2.6666666666666665,0.33333333333333304,NA,NA,interpolación
+Yerbas Buenas,2020-04-27,3,0.3333333333333335,NA,NA,minsal
 Yumbel,2020-03-30,5,0,NA,NA,minsal
 Yumbel,2020-03-31,7.5,2.5,NA,NA,interpolación
 Yumbel,2020-04-01,10,2.5,NA,NA,minsal
@@ -8943,6 +9972,9 @@ Yumbel,2020-04-21,52.5,1.5,NA,NA,interpolación
 Yumbel,2020-04-22,54,1.5,NA,NA,interpolación
 Yumbel,2020-04-23,55.5,1.5,NA,NA,interpolación
 Yumbel,2020-04-24,57,1.5,NA,NA,minsal
+Yumbel,2020-04-25,59,2,NA,NA,interpolación
+Yumbel,2020-04-26,61,2,NA,NA,interpolación
+Yumbel,2020-04-27,63,2,NA,NA,minsal
 Yungay,2020-03-30,0,0,NA,NA,minsal
 Yungay,2020-03-31,3.5,3.5,NA,NA,interpolación
 Yungay,2020-04-01,7,3.5,NA,NA,minsal
@@ -8969,6 +10001,9 @@ Yungay,2020-04-21,304.5,11.5,NA,NA,interpolación
 Yungay,2020-04-22,316,11.5,NA,NA,interpolación
 Yungay,2020-04-23,327.5,11.5,NA,NA,interpolación
 Yungay,2020-04-24,339,11.5,NA,NA,minsal
+Yungay,2020-04-25,355,16,NA,NA,interpolación
+Yungay,2020-04-26,371,16,NA,NA,interpolación
+Yungay,2020-04-27,387,16,NA,NA,minsal
 Zapallar,2020-03-30,0,0,NA,NA,minsal
 Zapallar,2020-03-31,0,0,NA,NA,interpolación
 Zapallar,2020-04-01,0,0,NA,NA,minsal
@@ -8995,3 +10030,6 @@ Zapallar,2020-04-21,0,0,NA,NA,interpolación
 Zapallar,2020-04-22,0,0,NA,NA,interpolación
 Zapallar,2020-04-23,0,0,NA,NA,interpolación
 Zapallar,2020-04-24,0,0,NA,NA,minsal
+Zapallar,2020-04-25,0,0,NA,NA,interpolación
+Zapallar,2020-04-26,0,0,NA,NA,interpolación
+Zapallar,2020-04-27,0,0,NA,NA,minsal

@@ -29,7 +29,7 @@ data_download <- function(cases_deaths = "cases") {
                       ))
   
   df_raw_interpolated = df_raw %>%
-    # filter(comuna == "Arica") %>% 
+    # filter(comuna == "Arica") %>%
     
     select(comuna, time, value) %>%  
     
@@ -67,10 +67,10 @@ data_download <- function(cases_deaths = "cases") {
     group_by(country) %>%
     mutate(cases_diff = cases_sum - lag(cases_sum)) %>% 
     mutate(cases_diff = replace_na(cases_diff, 0)) %>%
-    mutate(
-      # deaths_diff = deaths_sum - lag(deaths_sum),
-           cases_diff_pct = cases_diff / lag(cases_sum)) %>% 
-           # deaths_diff_pct = deaths_diff / lag(deaths_sum)) %>% 
+    # mutate(
+    #   # deaths_diff = deaths_sum - lag(deaths_sum),
+    #        cases_diff_pct = cases_diff / lag(cases_sum)) %>% 
+    #        # deaths_diff_pct = deaths_diff / lag(deaths_sum)) %>% 
     ungroup() %>%
     filter(!is.na(cases_diff)) %>%
     arrange(country, time) %>%

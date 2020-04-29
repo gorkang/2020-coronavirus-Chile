@@ -1,4 +1,4 @@
-data_preparation <- function(data_source = "JHU", cases_deaths = "cases", countries_plot = "", min_n = 1, relative = FALSE) {
+data_preparation <- function(data_source = "JHU", cases_deaths = "cases", countries_plot = "", min_n = 1, relative = FALSE, relative_to = 100000) {
 
   # data_source = "JHU"
   # cases_deaths = "cases"
@@ -50,12 +50,14 @@ data_preparation <- function(data_source = "JHU", cases_deaths = "cases", countr
   
   
   if (relative == TRUE) {
+    
+    # relative_to <<- 100000
     dta_raw = dta_raw %>% 
       left_join(raw_data, by = "country") %>% 
-      mutate(cases_sum = round((cases_sum / population) * 1000000, 0),
-             cases_diff = round((cases_diff / population) * 1000000, 0),
-             deaths_sum = round((deaths_sum / population) * 1000000, 0),
-             deaths_diff = round((deaths_diff / population) * 1000000, 0))
+      mutate(cases_sum = round((cases_sum / population) * relative_to, 0),
+             cases_diff = round((cases_diff / population) * relative_to, 0),
+             deaths_sum = round((deaths_sum / population) * relative_to, 0),
+             deaths_diff = round((deaths_diff / population) * relative_to, 0))
   } 
   
   
@@ -103,20 +105,11 @@ dta <<-
                is.na(days_after_100) ~ as.integer(lag(days_after_100) + 1),
                TRUE ~ days_after_100),
            diff = round(value - lag(value), 2),
-           diff_pct = diff / lag(value)
+           diff_pct = (diff / lag(diff)) * 100
            ) %>% 
-    ungroup() %>%   # Create labels for last instance for each country
-    group_by(country) %>% 
-    
-    # left_join(DF_lockdowns, by = c("country", "time")) %>% 
-    mutate(
-      name_end = 
-        case_when(
-          days_after_100 == max(days_after_100) ~ paste0(as.character(country), ": ", format(value, big.mark=","), " - ", days_after_100, " days"),
-          # what == "lockdown" ~ "*",
-          TRUE ~ "")) %>% 
-    select(country, time, value, diff, everything()) #%>% left_join(DF_population_countries, by = "country") 
+    ungroup() %>% 
   
+    select(country, time, value, diff, diff_pct, everything()) 
 
   }
 }
