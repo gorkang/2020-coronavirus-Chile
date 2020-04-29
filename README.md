@@ -9,6 +9,7 @@ Por favor, consulta siempre fuentes oficiales (e.g. [WHO](https://www.who.int/em
 ## Fuente de datos
 
 * COVID-19 Chile: https://docs.google.com/spreadsheets/d/1mLx2L8nMaRZu0Sy4lyFniDewl6jDcgnxB_d0lHG-boc/edit?ts=5ea7297f#gid=1828101674
+* Ver tambien: https://github.com/jorgeperezrojas/covid19-data
 
 
 ## Codigo inicial, ideas, inspiracion de:
@@ -23,3 +24,4 @@ Por favor, consulta siempre fuentes oficiales (e.g. [WHO](https://www.who.int/em
 ## Otros trackers para datos Chilenos:
 
 * https://coronavirus.mat.uc.cl/
+* https://covid19-chile.netlify.app/
