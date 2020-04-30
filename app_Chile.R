@@ -424,10 +424,13 @@ server <- function(input, output, session) {
         
         # LIMITS of DATA
         if (input$accumulated_daily_pct == "daily") {
+            MIN_y = min(final_df()$diff, na.rm = TRUE)
             MAX_y = max(final_df()$diff, na.rm = TRUE) * 1.1
         } else if (input$accumulated_daily_pct == "%") {
+            MIN_y = min(final_df()$diff_pct, na.rm = TRUE) * 100
             MAX_y = max(final_df()$diff_pct, na.rm = TRUE) * 100
         } else {
+            MIN_y = min(final_df()$value, na.rm = TRUE)
             MAX_y = max(final_df()$value, na.rm = TRUE) * 1.1
         }
         
@@ -447,7 +450,7 @@ server <- function(input, output, session) {
                 filter(value <= MAX_y)
         } else {
             tibble(
-                value = cumprod(c(VAR_min_n(), rep((100 + VAR_growth()) / 100, line_factor * max_finaldf_days_after_100))),
+                value = cumprod(c(MIN_y, rep((100 + VAR_growth()) / 100, line_factor * max_finaldf_days_after_100))),
                 days_after_100 = 0:(line_factor * max_finaldf_days_after_100)) %>% 
                 filter(value <= MAX_y)
         }
