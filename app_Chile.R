@@ -423,16 +423,16 @@ server <- function(input, output, session) {
     growth_line = reactive({
         
         # LIMITS of DATA
-        if (input$accumulated_daily_pct == "daily") {
-            MIN_y = min(final_df()$diff, na.rm = TRUE)
-            MAX_y = max(final_df()$diff, na.rm = TRUE) * 1.1
-        } else if (input$accumulated_daily_pct == "%") {
-            MIN_y = min(final_df()$diff_pct, na.rm = TRUE) * 100
-            MAX_y = max(final_df()$diff_pct, na.rm = TRUE) * 100
-        } else {
+        # if (input$accumulated_daily_pct == "daily") {
+        #     MIN_y = min(final_df()$diff, na.rm = TRUE)
+        #     MAX_y = max(final_df()$diff, na.rm = TRUE) * 1.1
+        # } else if (input$accumulated_daily_pct == "%") {
+        #     MIN_y = min(final_df()$diff_pct, na.rm = TRUE) * 100
+        #     MAX_y = max(final_df()$diff_pct, na.rm = TRUE) * 100
+        # } else {
             MIN_y = min(final_df()$value, na.rm = TRUE)
             MAX_y = max(final_df()$value, na.rm = TRUE) * 1.1
-        }
+        # }
         
         # To avoid error
         if (is.infinite(max(final_df()$days_after_100, na.rm = TRUE))) {
