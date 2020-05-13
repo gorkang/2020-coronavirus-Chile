@@ -387,7 +387,16 @@ server <- function(input, output, session) {
                 
                 dta_temp2 = dta_temp %>% 
                     rename(value_accumulated = value,
-                           value = diff)
+                           value = diff) %>% 
+                    
+                    group_by(country) %>%
+                    
+                    
+                    # Rolling mean of last 7 days --------------
+                    mutate(value = map_dbl(1:n(), ~ 
+                                           round(mean(value[(max(.x - 7, 1)):.x], na.rm = FALSE), 0) # Round to avoid values < 1
+                                           )) 
+                    
             } else if (input$accumulated_daily_pct == "%") {
                 
                 dta_temp2 = dta_temp %>% 
@@ -422,23 +431,21 @@ server <- function(input, output, session) {
 
     growth_line = reactive({
         
-        # LIMITS of DATA
-        # if (input$accumulated_daily_pct == "daily") {
-        #     MIN_y = min(final_df()$diff, na.rm = TRUE)
-        #     MAX_y = max(final_df()$diff, na.rm = TRUE) * 1.1
-        # } else if (input$accumulated_daily_pct == "%") {
-        #     MIN_y = min(final_df()$diff_pct, na.rm = TRUE) * 100
-        #     MAX_y = max(final_df()$diff_pct, na.rm = TRUE) * 100
-        # } else {
-            MIN_y = min(final_df()$value, na.rm = TRUE)
-            MAX_y = max(final_df()$value, na.rm = TRUE) * 1.1
-        # }
+        # browser()
+        DF_growth_line = final_df() %>% 
+            filter(country %in% input$countries_plot)
         
+        # LIMITS of DATA
+            MIN_y = min(DF_growth_line %>% drop_na(value) %>% pull(value), na.rm = TRUE)
+            MAX_y = max(DF_growth_line %>% drop_na(value) %>% pull(value), na.rm = TRUE) * 1.1
+            
+            MIN_x = min(DF_growth_line %>% drop_na(value) %>% pull(days_after_100), na.rm = TRUE)
+            
         # To avoid error
-        if (is.infinite(max(final_df()$days_after_100, na.rm = TRUE))) {
+        if (is.infinite(max(DF_growth_line$days_after_100, na.rm = TRUE))) {
             max_finaldf_days_after_100 = 10 
         } else {
-            max_finaldf_days_after_100 = max(final_df()$days_after_100, na.rm = TRUE)
+            max_finaldf_days_after_100 = max(DF_growth_line$days_after_100, na.rm = TRUE)
         }
         
         # If we use 1.1 * to avoid overlaping y axis goes up a lot
@@ -451,48 +458,12 @@ server <- function(input, output, session) {
         } else {
             tibble(
                 value = cumprod(c(MIN_y, rep((100 + VAR_growth()) / 100, line_factor * max_finaldf_days_after_100))),
-                days_after_100 = 0:(line_factor * max_finaldf_days_after_100)) %>% 
-                filter(value <= MAX_y)
+                days_after_100 = MIN_x:(MIN_x + (line_factor * max_finaldf_days_after_100))) %>% 
+                filter(value <= MAX_y)# & days_after_100 >= MIN_x
         }
         
     })
     
-    
-    # # DF_plot data
-    # DF_plot = reactive({
-    #     # Show accumulated or daily plot
-    #     if (input$accumulated_daily_pct == "daily") {
-    #         DF_plot = final_df() %>% 
-    #             rename(value_temp = value,
-    #                    value = diff)
-    #     } else if (input$accumulated_daily_pct == "%") {
-    #         
-    #         DF_plot = final_df() %>% 
-    #             rename(value_temp = value,
-    #                    value = diff_pct) %>% 
-    #             mutate(value = value * 100) %>% 
-    #             
-    #             # Given there are interpolated data, we divide the daily % growth between the days
-    #             filter(value != 100) %>% # Filter out interpolated data
-    #             group_by(country) %>% 
-    #             mutate(value = value / (days_after_100 - lag(days_after_100))) %>% 
-    #             ungroup()
-    #     } else {
-    #         DF_plot = final_df()
-    #     }
-    #     
-    #     
-    #     DF_plot %>% 
-    #         
-    #         # Create labels for last instance for each country
-    #         group_by(country) %>%
-    #         mutate(
-    #             name_end =
-    #                 case_when(
-    #                     days_after_100 == max(days_after_100, na.rm = TRUE) & time == max(time, na.rm = TRUE) ~ paste0(as.character(country), ": ", format(value, big.mark=",", digits = 0), " - ", days_after_100, " days"),
-    #                     # days_after_100 == max(days_after_100) ~ paste0(as.character(country), ": ", format(value, big.mark=","), " - ", days_after_100, " days"),
-    #                     TRUE ~ ""))
-    # })
     
 
     # Prepare plot
@@ -505,7 +476,7 @@ server <- function(input, output, session) {
             traduccion_accumulated_daily_pct = 
                 switch(input$accumulated_daily_pct,
                        accumulated = {"accumulados"},
-                       daily = {"diarios"},
+                       daily = {"diarios (media últimos 7 días)"},
                        `%` = {"- % crecimiento diario"},
                        stop("Opcion no encontrada!")
                 )
@@ -527,7 +498,7 @@ server <- function(input, output, session) {
 
             
             # Draw plot ---------------------------------------------
-            
+            # browser()
             p_temp = ggplot(data = final_df(), 
                             aes(x = days_after_100, y = value, group = as.factor(country), color = highlight)) +
                 scale_color_hue(l = 50) +
@@ -538,7 +509,9 @@ server <- function(input, output, session) {
                 # Country points (last one bigger)
                 geom_point(aes(size = 1 + as.integer(final_df()$name_end != "" & final_df()$name_end != "*") - .5), alpha = .7) +
                 
-                scale_x_continuous(breaks = seq(0, max(final_df()$days_after_100, na.rm = TRUE), 2)) +
+                scale_x_continuous(breaks = seq(min(final_df() %>% drop_na(value) %>% pull(days_after_100), na.rm = TRUE), max(final_df()$days_after_100, na.rm = TRUE), 2),
+                                   limits = c(min(final_df() %>% drop_na(value) %>% pull(days_after_100), na.rm = TRUE), max(final_df()$days_after_100, na.rm = TRUE))
+                                   ) +
                 labs(
                     title = paste0(stringr::str_to_sentence(traduccion_cases_deaths, locale = "es"), " confirmados de Coronavirus " , if (input$relative == TRUE) paste0(" / ", formatC(relative_to, format="f", big.mark = ",", digits=0))),
                     subtitle = paste0("Ordenado por el # de dias desde ",  VAR_min_n(), " o más ", traduccion_cases_deaths),
