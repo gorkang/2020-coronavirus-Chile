@@ -29,13 +29,14 @@ data_download <- function(cases_deaths = "cases") {
                       ))
   
   df_raw_interpolated = df_raw %>%
-    # filter(comuna == "Arica") %>%
+    # filter(comuna == "Santiago") %>%
     
-    select(comuna, time, value) %>%  
+    select(comuna, time, value) %>%
     
-    # Calculate cumulative sum
+    # Calculate cumulative sum (TABLE ALREADY HAS IT)
     group_by(comuna) %>% 
-    mutate(cases_sum = cumsum(value)) %>% 
+    # mutate(cases_sum = cumsum(value)) %>%
+    mutate(cases_sum = (value)) %>% 
     rename(country = comuna) %>% 
     select(country, time, cases_sum) %>% 
     
